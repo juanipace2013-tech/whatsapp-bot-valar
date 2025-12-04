@@ -4,17 +4,14 @@ const Anthropic = require('@anthropic-ai/sdk');
 const app = express();
 app.use(express.json());
 
-// Configuración desde variables de entorno
 const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 const WHATSAPP_PHONE_ID = process.env.WHATSAPP_PHONE_ID;
 const CLAUDE_API_KEY = process.env.CLAUDE_API_KEY;
 const WEBHOOK_VERIFY_TOKEN = process.env.WEBHOOK_VERIFY_TOKEN;
 const PORT = process.env.PORT || 3000;
 
-// Cliente de Claude
 const anthropic = new Anthropic({ apiKey: CLAUDE_API_KEY });
 
-// Prompt del sistema para el bot de VAL-AR
 const SYSTEM_PROMPT = `Sos el asistente virtual de VAL ARG S.R.L., una empresa argentina de válvulas e instrumentación industrial ubicada en 14 de Julio 175, Paternal, Capital Federal.
 
 INFORMACIÓN DE LA EMPRESA:
@@ -42,7 +39,13 @@ INSTRUCCIONES:
 6. No uses markdown ni formateo especial, solo texto plano
 7. Mantené las respuestas cortas (máximo 3-4 oraciones)`;
 
-// Verificación del webhook (GET)
+function normalizeArgentineNumber(phoneNumber) {
+    let cleaned = phoneNumber.replace(/\D/g, '');
+    console.log('Número original:', phoneNumber);
+    console.log('Número limpio:', cleaned);
+    return cleaned;
+}
+
 app.get('/webhook', (req, res) => {
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
@@ -52,12 +55,10 @@ app.get('/webhook', (req, res) => {
         console.log('Webhook verificado correctamente');
         res.status(200).send(challenge);
     } else {
-        console.log('Verificación fallida');
         res.sendStatus(403);
     }
 });
 
-// Recepción de mensajes (POST)
 app.post('/webhook', async (req, res) => {
     try {
         const body = req.body;
@@ -75,11 +76,8 @@ app.post('/webhook', async (req, res) => {
 
                 if (msgBody) {
                     console.log(`Mensaje de ${from}: ${msgBody}`);
-                    
-                    // Obtener respuesta de Claude
                     const respuesta = await obtenerRespuestaClaude(msgBody);
-                    
-                    // Enviar respuesta por WhatsApp
+                    console.log('Respuesta de Claude:', respuesta);
                     await enviarMensajeWhatsApp(from, respuesta);
                 }
             }
@@ -92,18 +90,14 @@ app.post('/webhook', async (req, res) => {
     }
 });
 
-// Función para obtener respuesta de Claude
 async function obtenerRespuestaClaude(mensajeUsuario) {
     try {
         const response = await anthropic.messages.create({
             model: 'claude-sonnet-4-20250514',
             max_tokens: 300,
             system: SYSTEM_PROMPT,
-            messages: [
-                { role: 'user', content: mensajeUsuario }
-            ]
+            messages: [{ role: 'user', content: mensajeUsuario }]
         });
-
         return response.content[0].text;
     } catch (error) {
         console.error('Error con Claude:', error);
@@ -111,8 +105,10 @@ async function obtenerRespuestaClaude(mensajeUsuario) {
     }
 }
 
-// Función para enviar mensaje por WhatsApp
 async function enviarMensajeWhatsApp(destinatario, mensaje) {
+    const numeroNormalizado = normalizeArgentineNumber(destinatario);
+    console.log('Intentando enviar a:', numeroNormalizado);
+    
     try {
         const response = await fetch(
             `https://graph.facebook.com/v18.0/${WHATSAPP_PHONE_ID}/messages`,
@@ -124,7 +120,7 @@ async function enviarMensajeWhatsApp(destinatario, mensaje) {
                 },
                 body: JSON.stringify({
                     messaging_product: 'whatsapp',
-                    to: destinatario,
+                    to: numeroNormalizado,
                     type: 'text',
                     text: { body: mensaje }
                 })
@@ -132,7 +128,34 @@ async function enviarMensajeWhatsApp(destinatario, mensaje) {
         );
 
         const data = await response.json();
-        console.log('Mensaje enviado:', data);
+        console.log('Respuesta envío:', JSON.stringify(data, null, 2));
+        
+        if (data.error && numeroNormalizado.startsWith('549')) {
+            console.log('Intentando sin el 9...');
+            const sinNueve = '54' + numeroNormalizado.substring(3);
+            
+            const response2 = await fetch(
+                `https://graph.facebook.com/v18.0/${WHATSAPP_PHONE_ID}/messages`,
+                {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${WHATSAPP_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        messaging_product: 'whatsapp',
+                        to: sinNueve,
+                        type: 'text',
+                        text: { body: mensaje }
+                    })
+                }
+            );
+            
+            const data2 = await response2.json();
+            console.log('Segundo intento:', JSON.stringify(data2, null, 2));
+            return data2;
+        }
+        
         return data;
     } catch (error) {
         console.error('Error enviando mensaje:', error);
@@ -140,12 +163,10 @@ async function enviarMensajeWhatsApp(destinatario, mensaje) {
     }
 }
 
-// Health check
 app.get('/', (req, res) => {
     res.send('Bot de VAL-AR funcionando correctamente');
 });
 
-// Iniciar servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en puerto ${PORT}`);
 });
