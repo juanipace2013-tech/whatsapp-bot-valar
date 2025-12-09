@@ -80,10 +80,10 @@ function buscarProductos(consulta, limite = 10) {
     const resultados = catalogo
         .map(producto => {
             let score = 0;
-            const descripcion = (producto.Descripcion || '').toLowerCase();
-            const marca = (producto.Marca || '').toLowerCase();
-            const tipo = (producto.Tipo || '').toLowerCase();
-            const codigo = (producto.Codigo || '').toLowerCase();
+            const descripcion = String(producto.Descripcion || '').toLowerCase();
+            const marca = String(producto.Marca || '').toLowerCase();
+            const tipo = String(producto.Tipo || '').toLowerCase();
+            const codigo = String(producto.Codigo || '').toLowerCase();
             
             for (const termino of terminos) {
                 if (descripcion.includes(termino)) score += 3;
