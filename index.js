@@ -43,6 +43,18 @@ function normalizeArgentineNumber(phoneNumber) {
     let cleaned = phoneNumber.replace(/\D/g, '');
     console.log('Número original:', phoneNumber);
     console.log('Número limpio:', cleaned);
+    
+    // Si viene con 549 (formato WhatsApp), convertir a formato Meta (con 15)
+    // 5491169499940 -> 54111569499940
+    if (cleaned.startsWith('5491')) {
+        // Extraer: 54 + 9 + código área + número
+        // Convertir a: 54 + código área + 15 + número
+        const codigoArea = cleaned.substring(4, 6); // ej: "11"
+        const numeroLocal = cleaned.substring(6);    // ej: "69499940"
+        cleaned = '54' + codigoArea + '15' + numeroLocal;
+        console.log('Número convertido a formato Meta:', cleaned);
+    }
+    
     return cleaned;
 }
 
