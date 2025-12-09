@@ -44,13 +44,13 @@ function normalizeArgentineNumber(phoneNumber) {
     console.log('Número original:', phoneNumber);
     console.log('Número limpio:', cleaned);
     
-    // Si viene con 549 (formato WhatsApp), convertir a formato Meta (con 15)
+    // Si viene con 549 (formato WhatsApp internacional argentino)
     // 5491169499940 -> 54111569499940
-    if (cleaned.startsWith('5491')) {
-        // Extraer: 54 + 9 + código área + número
-        // Convertir a: 54 + código área + 15 + número
-        const codigoArea = cleaned.substring(4, 6); // ej: "11"
-        const numeroLocal = cleaned.substring(6);    // ej: "69499940"
+    // Formato entrada: 54 + 9 + 11 + 69499940
+    // Formato salida:  54 + 11 + 15 + 69499940
+    if (cleaned.startsWith('549') && cleaned.length === 13) {
+        const codigoArea = cleaned.substring(3, 5); // "11" (posiciones 3-4)
+        const numeroLocal = cleaned.substring(5);    // "69499940" (desde posición 5)
         cleaned = '54' + codigoArea + '15' + numeroLocal;
         console.log('Número convertido a formato Meta:', cleaned);
     }
