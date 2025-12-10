@@ -123,8 +123,8 @@ function formatearProductos(productos) {
 const SYSTEM_PROMPT = `Sos el asistente virtual de VAL ARG S.R.L., una empresa argentina de válvulas e instrumentación industrial ubicada en 14 de Julio 175, Paternal, Capital Federal.
 
 INFORMACIÓN DE LA EMPRESA:
-- Horario: Lunes a Viernes de 9:00 a 18:00
-- Teléfono: +54 11 2592-8529
+- Horario: Lunes a Viernes de 9:00 a 16:30 Hs.
+- Teléfono: Office: + 54 (11) 4551-3343 | 4552-2874 | WhatsApp: (11) 6055 1683
 - Email: ventas@val-ar.com.ar
 - Web: www.val-ar.com.ar
 
