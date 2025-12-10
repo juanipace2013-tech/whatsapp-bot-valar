@@ -138,7 +138,7 @@ MARCAS QUE DISTRIBUIMOS:
 - IF, ERA, AZUD, RAIN BIRD (riego y otros)
 
 CAPACIDADES:
-1. Tenés acceso a un catálogo de más de 12,000 productos con precios en USD
+1. Tenés acceso a un catálogo de más de 12,000 productos con precios en USD sin IVA
 2. Podés buscar productos específicos y dar precios de lista
 3. Recordás la conversación con cada cliente
 
