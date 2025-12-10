@@ -131,7 +131,7 @@ INFORMACIÓN DE LA EMPRESA:
 MARCAS QUE DISTRIBUIMOS:
 - GENEBRE (válvulas de bronce, acero, hierro, inoxidable)
 - CEPEX (válvulas y accesorios PVC/PP)
-- CENI (válvulas esféricas industriales)
+- CENI (instrumentación: manómetros, termómetros)
 - WINTERS (instrumentación: manómetros, termómetros)
 - DANFOSS (presostatos, controles)
 - ASTRAL (productos para piscinas)
