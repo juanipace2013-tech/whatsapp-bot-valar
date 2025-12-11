@@ -5410,6 +5410,7 @@ INSTRUCCIONES:
 7. Para stock, disponibilidad o pedidos: indicá que un vendedor va a contactar
 8. Si preguntan algo que requiere cotización formal o pedido, marcá [ESCALAR]
 9. Si piden hablar con una persona o dicen "urgente", marcá [ESCALAR]
+10. NO podés recibir ni procesar audios ni imágenes. Si el cliente envía audio o imagen, pedile amablemente que te escriba en texto
 
 FUNCIONES DE BÚSQUEDA:
 Cuando el usuario busque productos, usá la información que te paso del catálogo.
@@ -5549,7 +5550,23 @@ app.post('/webhook', async (req, res) => {
           if (messages && messages.length > 0) {
             const msg = messages[0];
             const numero = normalizarNumero(msg.from);
+            const tipoMensaje = msg.type;
+            
+            // Detectar audios, imágenes, videos, documentos, stickers
+            if (['audio', 'image', 'video', 'document', 'sticker'].includes(tipoMensaje)) {
+              console.log(`Mensaje tipo ${tipoMensaje} de ${numero} - no soportado`);
+              await enviarMensaje(numero, 
+                'Disculpá, no puedo procesar audios ni imágenes. ¿Podrías escribirme tu consulta en texto? Así te puedo ayudar mejor 😊'
+              );
+              continue;
+            }
+            
             const texto = msg.text?.body || '';
+            
+            // Si no hay texto, ignorar
+            if (!texto.trim()) {
+              continue;
+            }
             
             console.log(`Mensaje de ${numero}: ${texto}`);
             
@@ -5590,8 +5607,10 @@ app.get('/', (req, res) => {
   const stats = {
     status: 'Bot VAL ARG activo',
     conversaciones: conversaciones.size,
-    productos_catalogo: CATALOGO_GENEBRE.length,
-    variantes_totales: CATALOGO_GENEBRE.reduce((acc, p) => acc + p.variantes.length, 0)
+    catalogo_genebre: CATALOGO_GENEBRE.length,
+    catalogo_todovalvulas: CATALOGO_TODOVALVULAS.length,
+    total_articulos: CATALOGO_COMPLETO.length,
+    variantes_totales: CATALOGO_COMPLETO.reduce((acc, p) => acc + p.variantes.length, 0)
   };
   res.json(stats);
 });
