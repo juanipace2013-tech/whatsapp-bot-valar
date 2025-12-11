@@ -4206,6 +4206,952 @@ const CATALOGO_GENEBRE = [
   }
 ];
 
+// ============ CATÁLOGO TODOVALVULAS ============
+// Incluye: TODOVALVULAS, CODITAL, BERMAD, VALLOY, ERA
+const CATALOGO_TODOVALVULAS = [
+  // ============ VÁLVULAS DE FUNDICIÓN ============
+  {
+    articulo: "930",
+    nombre: "VÁLVULA ESCLUSA TODOVALVULAS",
+    categoria: "Fundición",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo y Cuña GGG50 + Epoxy Azul, cierre EPDM",
+    descripcion: "Bridada ISO 7005 - PN 10/16. Entre Caras: DIN 3202 F4 o F5. Vástago no Ascendente.",
+    variantes: [
+      {codigo: 'ANC93050F4C10', medida: 'DN50 Corto', precio: 114.81},
+      {codigo: 'ANC93050F4V10', medida: 'DN50 Volante', precio: 114.81},
+      {codigo: 'ANC93065F4C10', medida: 'DN65 Corto', precio: 137.49},
+      {codigo: 'ANC93065F4V10', medida: 'DN65 Volante', precio: 137.49},
+      {codigo: 'ANC93065F5C10', medida: 'DN65 Largo', precio: 144.36},
+      {codigo: 'ANC93080F4C10', medida: 'DN80 Corto', precio: 159.70},
+      {codigo: 'ANC93080F4V10', medida: 'DN80 Volante', precio: 159.70},
+      {codigo: 'ANC93080F5C10', medida: 'DN80 Largo', precio: 173.21},
+      {codigo: 'ANC930100F4C10', medida: 'DN100 Corto', precio: 178.00},
+      {codigo: 'ANC930100F4V10', medida: 'DN100 Volante', precio: 178.00},
+      {codigo: 'ANC930100F5C10', medida: 'DN100 Largo', precio: 203.45},
+      {codigo: 'ANC930125F4C10', medida: 'DN125 Corto', precio: 271.57},
+      {codigo: 'ANC930150F4C10', medida: 'DN150 Corto', precio: 320.31},
+      {codigo: 'ANC930150F4V10', medida: 'DN150 Volante', precio: 320.31},
+      {codigo: 'ANC930150F5C10', medida: 'DN150 Largo', precio: 353.27},
+      {codigo: 'ANC930150F5V10', medida: 'DN150 Largo Volante', precio: 353.27},
+      {codigo: 'ANC930200F4C10', medida: 'DN200 Corto', precio: 492.19},
+      {codigo: 'ANC930200F4V10', medida: 'DN200 Volante', precio: 492.19},
+      {codigo: 'ANC930200F5C10', medida: 'DN200 Largo', precio: 555.34},
+      {codigo: 'ANC930250F4C10', medida: 'DN250 Corto', precio: 780.72},
+      {codigo: 'ANC930250F4V10', medida: 'DN250 Volante', precio: 780.72},
+      {codigo: 'ANC930250F5C10', medida: 'DN250 Largo', precio: 858.79},
+      {codigo: 'ANC930300F4C10', medida: 'DN300 Corto', precio: 1024.15},
+      {codigo: 'ANC930300F4V10', medida: 'DN300 Volante', precio: 1024.15},
+      {codigo: 'ANC930350F4C10', medida: 'DN350 Corto', precio: 1771.25},
+      {codigo: 'ANC930400F4C10', medida: 'DN400 Corto', precio: 3107.84},
+      {codigo: 'ANC930400F4V10', medida: 'DN400 Volante', precio: 3107.84},
+      {codigo: 'ANC930500F4C10', medida: 'DN500 Corto', precio: 3876.54}
+    ]
+  },
+  {
+    articulo: "930PVC",
+    nombre: "VÁLVULA ESCLUSA ENCHUFE A PVC",
+    categoria: "Fundición",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo y Cuña GGG50 + Epoxy Azul, Cierre EPDM",
+    descripcion: "Enchufe a PVC PN 16. Entre Caras: DIN 3202 F5.",
+    variantes: [
+      {codigo: 'ANCPVC50F5C', medida: '50/63', precio: 113.42},
+      {codigo: 'ANCPVC65F5C', medida: '65/75', precio: 130.76},
+      {codigo: 'ANCPVC80F5C', medida: '80/90', precio: 154.30},
+      {codigo: 'ANCPVC100F5C', medida: '100/110', precio: 184.00},
+      {codigo: 'ANCPVC150F5C', medida: '150/160', precio: 317.47},
+      {codigo: 'ANCPVC200F5C', medida: '200/200', precio: 516.12},
+      {codigo: 'ANCPVC250F5C', medida: '250/250', precio: 836.56}
+    ]
+  },
+  {
+    articulo: "SWINGCHECK",
+    nombre: "VÁLVULA RETENCIÓN BRIDADA A CLAPETA",
+    categoria: "Fundición",
+    marca: "TODOVALVULAS",
+    descripcion: "DIN 3202 Presión de trabajo PN10/16/25",
+    variantes: [
+      {codigo: 'ANCSCHV10010', medida: 'DN100', precio: 319.20},
+      {codigo: 'ANCSCHV15010', medida: 'DN150', precio: 589.40},
+      {codigo: 'ANCSCHV20010', medida: 'DN200', precio: 896.35},
+      {codigo: 'ANCSCHV25010', medida: 'DN250', precio: 1706.95},
+      {codigo: 'ANCSCHV30010', medida: 'DN300', precio: 2298.80}
+    ]
+  },
+  {
+    articulo: "398",
+    nombre: "VÁLVULA RETENCIÓN A BOLA ROSCADA",
+    categoria: "Fundición",
+    marca: "CODITAL",
+    material: "Cuerpo Fundición Gris GG-25/50 + Epoxy Azul",
+    descripcion: "Roscada HH BSP. Temp.max. 80°C.",
+    variantes: [
+      {codigo: 'COD2003980003300', medida: '1 1/4"', precio: 85.42},
+      {codigo: 'COD2003980004000', medida: '1 1/2"', precio: 100.31},
+      {codigo: 'COD2003980005000', medida: '2"', precio: 127.13}
+    ]
+  },
+  {
+    articulo: "399",
+    nombre: "VÁLVULA RETENCIÓN A BOLA BRIDADA",
+    categoria: "Fundición",
+    marca: "CODITAL",
+    material: "Cuerpo fundición gris GG-25/50 + epoxy azul",
+    descripcion: "Bridada PN 10/16. Entre caras: DIN 3202 F6.",
+    variantes: [
+      {codigo: 'COD2003990005000', medida: 'DN50', precio: 161.00},
+      {codigo: 'COD2003990006500', medida: 'DN65', precio: 196.69},
+      {codigo: 'COD2003990008000', medida: 'DN80', precio: 251.98},
+      {codigo: 'COD2003990010000', medida: 'DN100', precio: 337.29},
+      {codigo: 'COD2003990012500', medida: 'DN125', precio: 518.81},
+      {codigo: 'COD2003990015000', medida: 'DN150', precio: 673.62},
+      {codigo: 'COD2003990020000', medida: 'DN200', precio: 1240.42},
+      {codigo: 'COD2003990025000', medida: 'DN250', precio: 2015.90},
+      {codigo: 'COD2003990030000', medida: 'DN300', precio: 3855.80},
+      {codigo: 'COD2003990035010', medida: 'DN350', precio: 5913.88},
+      {codigo: 'COD2003990040010', medida: 'DN400', precio: 8914.33}
+    ]
+  },
+  // VÁLVULAS MARIPOSA
+  {
+    articulo: "710",
+    nombre: "VÁLVULA MARIPOSA WAFER",
+    categoria: "Mariposa",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo GGG50 - Disco AISI 304 - Asiento EPDM",
+    descripcion: "Wafer ISO PN 10/16 o ANSI #150. Entre Caras: ISO 5752 S.20",
+    variantes: [
+      {codigo: 'ANC71050G40CF8L10', medida: 'DN50 Palanca', precio: 50.64},
+      {codigo: 'ANC71065G40CF8L10', medida: 'DN65 Palanca', precio: 59.84},
+      {codigo: 'ANC71080G40CF8L10', medida: 'DN80 Palanca', precio: 66.98},
+      {codigo: 'ANC710100G40CF8L10', medida: 'DN100 Palanca', precio: 89.18},
+      {codigo: 'ANC710100G40CF8G10', medida: 'DN100 Reductor', precio: 123.75},
+      {codigo: 'ANC710150G40CF8L10', medida: 'DN150 Palanca', precio: 149.00},
+      {codigo: 'ANC710150G40CF8G10', medida: 'DN150 Reductor', precio: 194.47},
+      {codigo: 'ANC710200G40CF8L10', medida: 'DN200 Palanca', precio: 256.23},
+      {codigo: 'ANC710200G40CF8G10', medida: 'DN200 Reductor', precio: 312.87},
+      {codigo: 'ANC711250G40CF8G10', medida: 'DN250 Reductor', precio: 455.60},
+      {codigo: 'ANC710300G40CF8G10', medida: 'DN300 Reductor', precio: 625.77},
+      {codigo: 'ANC710350G40CF8G10', medida: 'DN350 Reductor', precio: 939.97},
+      {codigo: 'ANC710400G40CF8G10', medida: 'DN400 Reductor', precio: 1376.70},
+      {codigo: 'ANC710450G40CF8G10', medida: 'DN450 Reductor', precio: 1619.33},
+      {codigo: 'ANC710500G40CF8G10', medida: 'DN500 Reductor', precio: 2499.06},
+      {codigo: 'ANC710600G40CF8G10', medida: 'DN600 Reductor', precio: 3701.39},
+      {codigo: 'ANC710700G40CF8G10', medida: 'DN700 Reductor', precio: 6769.66}
+    ]
+  },
+  {
+    articulo: "711",
+    nombre: "VÁLVULA MARIPOSA TIPO LUG",
+    categoria: "Mariposa",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo GGG50 - Disco AISI 304 - Asiento EPDM",
+    descripcion: "ANSI #150",
+    variantes: [
+      {codigo: 'ANC71150G40CF8LA5', medida: 'DN50 Palanca', precio: 72.84},
+      {codigo: 'ANC71165G40CF8LA5', medida: 'DN65 Palanca', precio: 86.07},
+      {codigo: 'ANC71180G40CF8LA5', medida: 'DN80 Palanca', precio: 96.34},
+      {codigo: 'ANC711100G40CF8LA5', medida: 'DN100 Palanca', precio: 128.27},
+      {codigo: 'ANC711125G40CF8LA5', medida: 'DN125 Palanca', precio: 128.47},
+      {codigo: 'ANC711150G40CF8LA5', medida: 'DN150 Palanca', precio: 214.32},
+      {codigo: 'ANC711200G40CF8LA5', medida: 'DN200 Palanca', precio: 368.58},
+      {codigo: 'ANC711250G40CF8GA5', medida: 'DN250 Reductor', precio: 655.36},
+      {codigo: 'ANC711300G40CF8GA5', medida: 'DN300 Reductor', precio: 900.15}
+    ]
+  },
+  {
+    articulo: "740",
+    nombre: "VÁLVULA MARIPOSA PTFE",
+    categoria: "Mariposa",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo GGG50 - Disco AISI 304 - Asiento PTFE",
+    variantes: [
+      {codigo: 'ANC74050G40CF8LM', medida: 'DN50', precio: 229.42},
+      {codigo: 'ANC74065G40CF8LM', medida: 'DN65', precio: 273.29},
+      {codigo: 'ANC74080G40CF8LM', medida: 'DN80', precio: 310.73},
+      {codigo: 'ANC740100G40CF8LM', medida: 'DN100', precio: 439.53},
+      {codigo: 'ANC740125G40CF8LM', medida: 'DN125', precio: 615.42},
+      {codigo: 'ANC740150G40CF8LM', medida: 'DN150', precio: 786.48},
+      {codigo: 'ANC740200G40CF8LM', medida: 'DN200', precio: 1286.39}
+    ]
+  },
+  {
+    articulo: "810",
+    nombre: "VÁLVULA RETENCIÓN DUO CHECK WAFER",
+    categoria: "Retención",
+    marca: "TODOVALVULAS",
+    material: "Cuerpo GG25 - Disco CF8 (SS304) - Asiento EPDM",
+    variantes: [
+      {codigo: 'ANC81050G50CF8IA', medida: '2"', precio: 38.80},
+      {codigo: 'ANC81065G50CF8IA', medida: '2 1/2"', precio: 47.47},
+      {codigo: 'ANC81080G50CF8IA', medida: '3"', precio: 64.08},
+      {codigo: 'ANC810100G50CF8IA', medida: '4"', precio: 94.81},
+      {codigo: 'ANC810125G50CF8IA', medida: '5"', precio: 118.96},
+      {codigo: 'ANC810150G50CF8IA', medida: '6"', precio: 160.72},
+      {codigo: 'ANC810200G50CF8IA', medida: '8"', precio: 266.40},
+      {codigo: 'ANC810250G50CF8IA', medida: '10"', precio: 422.89},
+      {codigo: 'ANC810300G50CF8IA', medida: '12"', precio: 590.40},
+      {codigo: 'ANC810350G50CF8IA', medida: '14"', precio: 874.62},
+      {codigo: 'ANC810400G50CF8IA', medida: '16"', precio: 1224.89}
+    ]
+  },
+  {
+    articulo: "413",
+    nombre: "MANGUITO DE DILATACIÓN SIMPLE ONDA",
+    categoria: "Accesorios",
+    marca: "CODITAL",
+    material: "Cuerpo EPDM, Bridas Acero Galvanizado",
+    descripcion: "ISO PN 10 - Temp máx 90°C",
+    variantes: [
+      {codigo: 'COD3004130003200', medida: 'DN32', precio: 52.63},
+      {codigo: 'COD3004130004000', medida: 'DN40', precio: 54.06},
+      {codigo: 'COD3004130005000', medida: 'DN50', precio: 56.10},
+      {codigo: 'COD3004130006500', medida: 'DN65', precio: 77.91},
+      {codigo: 'COD3004130008000', medida: 'DN80', precio: 98.13},
+      {codigo: 'COD3004130010000', medida: 'DN100', precio: 124.35},
+      {codigo: 'COD3004130012500', medida: 'DN125', precio: 179.31},
+      {codigo: 'COD3004130015000', medida: 'DN150', precio: 207.29},
+      {codigo: 'COD3004130020000', medida: 'DN200', precio: 358.47},
+      {codigo: 'COD3004130025000', medida: 'DN250', precio: 476.63},
+      {codigo: 'COD3004130030000', medida: 'DN300', precio: 585.94}
+    ]
+  },
+  // VÁLVULAS LATÓN
+  {
+    articulo: "1501",
+    nombre: "VÁLVULA REDUCTORA DE PRESIÓN",
+    categoria: "Latón",
+    marca: "CODITAL",
+    material: "Latón CW617N niquelado",
+    descripcion: "Alto caudal PN 25. Asiento inox 304.",
+    variantes: [
+      {codigo: 'COD2015010001500', medida: '1/2"', precio: 52.05},
+      {codigo: 'COD2015010002000', medida: '3/4"', precio: 55.32},
+      {codigo: 'COD2015010002600', medida: '1"', precio: 101.89},
+      {codigo: 'COD2015010003300', medida: '1 1/4"', precio: 155.32},
+      {codigo: 'COD2015010004000', medida: '1 1/2"', precio: 186.62},
+      {codigo: 'COD2015010005000', medida: '2"', precio: 269.96},
+      {codigo: 'COD2015010006600', medida: '2 1/2"', precio: 537.39},
+      {codigo: 'COD2015010008000', medida: '3"', precio: 690.04},
+      {codigo: 'COD2015010010200', medida: '4"', precio: 1570.07}
+    ]
+  },
+  {
+    articulo: "233",
+    nombre: "VÁLVULA RETENCIÓN LATÓN",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Obturador latón F/F ISO 228-1. PN 16-10-8",
+    variantes: [
+      {codigo: 'COD2002330001500', medida: '1/2"', precio: 6.24},
+      {codigo: 'COD2002330002000', medida: '3/4"', precio: 11.37},
+      {codigo: 'COD2002330002600', medida: '1"', precio: 12.00},
+      {codigo: 'COD2002330003300', medida: '1 1/4"', precio: 20.33},
+      {codigo: 'COD2002330004000', medida: '1 1/2"', precio: 29.31},
+      {codigo: 'COD2002330005000', medida: '2"', precio: 44.15},
+      {codigo: 'COD2002330006600', medida: '2 1/2"', precio: 88.50},
+      {codigo: 'COD200233000800', medida: '3"', precio: 119.64},
+      {codigo: 'COD2002330010200', medida: '4"', precio: 208.12}
+    ]
+  },
+  {
+    articulo: "501",
+    nombre: "VÁLVULA DE PIE LATÓN",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "PN16, ISO 228-1",
+    variantes: [
+      {codigo: 'COD2005010001500', medida: '1/2"', precio: 11.92},
+      {codigo: 'COD2005010002000', medida: '3/4"', precio: 12.66},
+      {codigo: 'COD2005010002600', medida: '1"', precio: 16.37},
+      {codigo: 'COD2005010003300', medida: '1 1/4"', precio: 25.30},
+      {codigo: 'COD2005010004000', medida: '1 1/2"', precio: 33.48},
+      {codigo: 'COD2005010005000', medida: '2"', precio: 54.28},
+      {codigo: 'COD2005010006600', medida: '2 1/2"', precio: 69.90},
+      {codigo: 'COD2005010008000', medida: '3"', precio: 96.67},
+      {codigo: 'COD2005010010200', medida: '4"', precio: 175.33}
+    ]
+  },
+  {
+    articulo: "1203",
+    nombre: "VÁLVULA RETENCIÓN CLAPETA LATÓN",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Asiento NBR. PN 16/10. F/F ISO 228-1",
+    variantes: [
+      {codigo: 'COD2012030001500', medida: '1/2"', precio: 10.56},
+      {codigo: 'COD2012030002000', medida: '3/4"', precio: 14.52},
+      {codigo: 'COD2012030002600', medida: '1"', precio: 21.40},
+      {codigo: 'COD2012030003300', medida: '1 1/4"', precio: 32.84},
+      {codigo: 'COD2012030004000', medida: '1 1/2"', precio: 42.78},
+      {codigo: 'COD2012030005000', medida: '2"', precio: 66.36},
+      {codigo: 'COD2002030006600', medida: '2 1/2"', precio: 129.83},
+      {codigo: 'COD2002030008000', medida: '3"', precio: 201.54},
+      {codigo: 'COD2002030010200', medida: '4"', precio: 332.53}
+    ]
+  },
+  {
+    articulo: "913",
+    nombre: "VÁLVULA FLOTADOR",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Cuerpo latón, junta NBR, varilla inox",
+    variantes: [
+      {codigo: 'COD2009130001500', medida: '1/2"', precio: 24.95},
+      {codigo: 'COD2009130002000', medida: '3/4"', precio: 37.50},
+      {codigo: 'COD2009130002600', medida: '1"', precio: 48.00},
+      {codigo: 'COD2009130003300', medida: '1 1/4"', precio: 70.00}
+    ]
+  },
+  {
+    articulo: "417",
+    nombre: "VÁLVULA DE SEGURIDAD",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Metal/metal. PN 16. ISO 228-1",
+    variantes: [
+      {codigo: 'COD241734', medida: '3/4"', precio: 85.00},
+      {codigo: 'COD200417', medida: '1"', precio: 115.00}
+    ]
+  },
+  {
+    articulo: "416",
+    nombre: "FILTRO Y CON TAMIZ",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Tamiz inox 304 desmontable. PN 16",
+    variantes: [
+      {codigo: 'COD2004160001500', medida: '1/2"', precio: 7.91},
+      {codigo: 'COD2004160002000', medida: '3/4"', precio: 11.26},
+      {codigo: 'COD200416000260', medida: '1"', precio: 16.35},
+      {codigo: 'COD2004160003300', medida: '1 1/4"', precio: 33.36},
+      {codigo: 'COD2004160004000', medida: '1 1/2"', precio: 44.22},
+      {codigo: 'COD2004160005000', medida: '2"', precio: 77.02},
+      {codigo: 'COD2004160006600', medida: '2 1/2"', precio: 149.32},
+      {codigo: 'COD2004160008000', medida: '3"', precio: 187.60},
+      {codigo: 'COD2004160010200', medida: '4"', precio: 355.67}
+    ]
+  },
+  {
+    articulo: "1207",
+    nombre: "VÁLVULA COMPUERTA LATÓN PN10",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Cuerpo, tapa, eje y compuerta latón. Eje no ascendente.",
+    variantes: [
+      {codigo: 'COD2012070001500', medida: '1/2"', precio: 8.97},
+      {codigo: 'COD2012070002000', medida: '3/4"', precio: 11.26},
+      {codigo: 'COD2012070002600', medida: '1"', precio: 16.31},
+      {codigo: 'COD2012070003300', medida: '1 1/4"', precio: 24.29},
+      {codigo: 'COD2012070004000', medida: '1 1/2"', precio: 31.17},
+      {codigo: 'COD2012070005000', medida: '2"', precio: 55.17},
+      {codigo: 'COD2012070006600', medida: '2 1/2"', precio: 88.80},
+      {codigo: 'COD2012070008000', medida: '3"', precio: 126.19},
+      {codigo: 'COD2012070010200', medida: '4"', precio: 241.45}
+    ]
+  },
+  {
+    articulo: "205",
+    nombre: "VÁLVULA RETENCIÓN LATÓN NYLON",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Obturador y eje nylon (PA6). PN 16-10-8",
+    variantes: [
+      {codigo: 'COD2002050001500', medida: '1/2"', precio: 5.64},
+      {codigo: 'COD2002050002000', medida: '3/4"', precio: 7.04},
+      {codigo: 'COD2002050002600', medida: '1"', precio: 11.94},
+      {codigo: 'COD2002050003300', medida: '1 1/4"', precio: 17.28},
+      {codigo: 'COD2002050004000', medida: '1 1/2"', precio: 24.84},
+      {codigo: 'COD2002050005000', medida: '2"', precio: 36.20},
+      {codigo: 'COD2002050006600', medida: '2 1/2"', precio: 78.53},
+      {codigo: 'COD2002050008000', medida: '3"', precio: 95.35},
+      {codigo: 'COD2002050010200', medida: '4"', precio: 157.04}
+    ]
+  },
+  {
+    articulo: "201",
+    nombre: "FILTRO INOX",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Conector ABS. Conexión BSP",
+    variantes: [
+      {codigo: 'COD2002010001500', medida: '1/2"', precio: 1.55},
+      {codigo: 'COD2002010002000', medida: '3/4"', precio: 1.65},
+      {codigo: 'COD2002010002600', medida: '1"', precio: 2.00},
+      {codigo: 'COD2002010003300', medida: '1 1/4"', precio: 2.36},
+      {codigo: 'COD2002010004000', medida: '1 1/2"', precio: 3.08},
+      {codigo: 'COD2002010005000', medida: '2"', precio: 9.13},
+      {codigo: 'COD2002010006600', medida: '2 1/2"', precio: 20.27}
+    ]
+  },
+  // MANÓMETROS
+  {
+    articulo: "249",
+    nombre: "MANÓMETRO INOX CON GLICERINA",
+    categoria: "Instrumentación",
+    marca: "CODITAL",
+    descripcion: "Conexión radial",
+    variantes: [
+      {codigo: 'COD2002490063002', medida: '63x1/4" 0-2.5bar', precio: 20.09},
+      {codigo: 'COD2002490063004', medida: '63x1/4" 0-4bar', precio: 20.09},
+      {codigo: 'COD2002490063006', medida: '63x1/4" 0-6bar', precio: 20.09},
+      {codigo: 'COD2002490063010', medida: '63x1/4" 0-10bar', precio: 20.09},
+      {codigo: 'COD2002490100002', medida: '100x1/2" 0-2.5bar', precio: 44.03},
+      {codigo: 'COD2002490100004', medida: '100x1/2" 0-4bar', precio: 44.03},
+      {codigo: 'COD2002490100006', medida: '100x1/2" 0-6bar', precio: 44.03},
+      {codigo: 'COD2002490100010', medida: '100x1/2" 0-10bar', precio: 44.03},
+      {codigo: 'COD2002490100016', medida: '100x1/2" 0-16bar', precio: 44.03},
+      {codigo: 'COD2002490100025', medida: '100x1/2" 0-25bar', precio: 44.03},
+      {codigo: 'COD2002490100040', medida: '100x1/2" 0-40bar', precio: 44.03},
+      {codigo: 'COD2002490100100', medida: '100x1/2" 0-100bar', precio: 44.03}
+    ]
+  },
+  {
+    articulo: "250",
+    nombre: "MANÓMETRO ABS SECO RADIAL",
+    categoria: "Instrumentación",
+    marca: "CODITAL",
+    variantes: [
+      {codigo: 'COD2002500052002', medida: '50x1/4" 0-2.5bar', precio: 6.73},
+      {codigo: 'COD2002500052006', medida: '50x1/4" 0-6bar', precio: 6.73},
+      {codigo: 'COD2002500052010', medida: '50x1/4" 0-10bar', precio: 6.73},
+      {codigo: 'COD2002500052016', medida: '50x1/4" 0-16bar', precio: 6.73},
+      {codigo: 'COD2002500063002', medida: '63x1/4" 0-2.5bar', precio: 8.17},
+      {codigo: 'COD2002500063006', medida: '63x1/4" 0-6bar', precio: 8.17},
+      {codigo: 'COD2002500063010', medida: '63x1/4" 0-10bar', precio: 8.17},
+      {codigo: 'COD2002500063016', medida: '63x1/4" 0-16bar', precio: 8.17}
+    ]
+  },
+  {
+    articulo: "251M",
+    nombre: "MANÓMETRO ABS SECO AXIAL",
+    categoria: "Instrumentación",
+    marca: "CODITAL",
+    variantes: [
+      {codigo: 'COD2002510052006', medida: '50x1/4" 0-6bar', precio: 6.73},
+      {codigo: 'COD2002510052010', medida: '50x1/4" 0-10bar', precio: 6.73},
+      {codigo: 'COD2002510063002', medida: '63x1/4" 0-2.5bar', precio: 8.17},
+      {codigo: 'COD2002510063006', medida: '63x1/4" 0-6bar', precio: 8.17},
+      {codigo: 'COD2002510063010', medida: '63x1/4" 0-10bar', precio: 8.17},
+      {codigo: 'COD2002510063016', medida: '63x1/4" 0-16bar', precio: 8.17}
+    ]
+  },
+  // VÁLVULAS DE ESFERA LATÓN
+  {
+    articulo: "120",
+    nombre: "VÁLVULA ESFERA H/H PALANCA SMART",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón forjado niquelado. Paso estándar. BSPP ISO 228-1",
+    variantes: [
+      {codigo: 'COD19202Z', medida: '1/2"', precio: 5.71},
+      {codigo: 'COD19203Z', medida: '3/4"', precio: 8.16},
+      {codigo: 'COD19204Z', medida: '1"', precio: 14.00},
+      {codigo: 'COD19205Z', medida: '1 1/4"', precio: 24.28},
+      {codigo: 'COD19206Z', medida: '1 1/2"', precio: 32.20},
+      {codigo: 'COD19207Z', medida: '2"', precio: 45.37}
+    ]
+  },
+  {
+    articulo: "121",
+    nombre: "VÁLVULA ESFERA M/H PALANCA SMART",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón forjado niquelado. Paso estándar. BSPP ISO 228-1",
+    variantes: [
+      {codigo: 'COD19212Z', medida: '1/2"', precio: 7.37},
+      {codigo: 'COD19213Z', medida: '3/4"', precio: 11.73},
+      {codigo: 'COD19214Z', medida: '1"', precio: 17.63},
+      {codigo: 'COD19215Z', medida: '1 1/4"', precio: 26.83},
+      {codigo: 'COD19216Z', medida: '1 1/2"', precio: 39.90},
+      {codigo: 'COD19217Z', medida: '2"', precio: 59.69}
+    ]
+  },
+  {
+    articulo: "123",
+    nombre: "VÁLVULA ESFERA H/H MARIPOSA SMART",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón forjado niquelado. Palanca mariposa. Paso estándar.",
+    variantes: [
+      {codigo: 'COD19232Z', medida: '1/2"', precio: 6.97},
+      {codigo: 'COD19233Z', medida: '3/4"', precio: 11.26},
+      {codigo: 'COD19234Z', medida: '1"', precio: 17.08}
+    ]
+  },
+  {
+    articulo: "220",
+    nombre: "VÁLVULA ESFERA H/H PALANCA PASO TOTAL",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón forjado niquelado. Paso total. BSPP ISO 228-1",
+    variantes: [
+      {codigo: 'COD29201Z', medida: '3/8"', precio: 5.90},
+      {codigo: 'COD29202Z', medida: '1/2"', precio: 6.97},
+      {codigo: 'COD29203Z', medida: '3/4"', precio: 12.07},
+      {codigo: 'COD29204Z', medida: '1"', precio: 17.79},
+      {codigo: 'COD29205Z', medida: '1 1/4"', precio: 25.97},
+      {codigo: 'COD29206Z', medida: '1 1/2"', precio: 41.71},
+      {codigo: 'COD29207Z', medida: '2"', precio: 64.10},
+      {codigo: 'COD29208Z', medida: '2 1/2"', precio: 114.58},
+      {codigo: 'COD29209Z', medida: '3"', precio: 186.88},
+      {codigo: 'COD29210Z', medida: '4"', precio: 307.12}
+    ]
+  },
+  {
+    articulo: "251E",
+    nombre: "VÁLVULA ESFERA M/H CON UNIÓN MARIPOSA",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón forjado niquelado. Paso total.",
+    variantes: [
+      {codigo: 'COD29513Z', medida: '1/2"', precio: 12.88},
+      {codigo: 'COD29514Z', medida: '3/4"', precio: 23.98},
+      {codigo: 'COD29515Z', medida: '1"', precio: 31.00}
+    ]
+  },
+  {
+    articulo: "236",
+    nombre: "MINI VÁLVULA ESFERA H/H",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    variantes: [
+      {codigo: 'COD29362Z', medida: '3/8"', precio: 7.48},
+      {codigo: 'COD29363Z', medida: '1/2"', precio: 7.56}
+    ]
+  },
+  {
+    articulo: "237",
+    nombre: "MINI VÁLVULA ESFERA M/H",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    variantes: [
+      {codigo: 'COD29372Z', medida: '3/8"', precio: 5.88},
+      {codigo: 'COD29373Z', medida: '1/2"', precio: 7.22}
+    ]
+  },
+  {
+    articulo: "238",
+    nombre: "MINI VÁLVULA ESFERA M/M",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    variantes: [
+      {codigo: 'COD29381Z', medida: '1/4"', precio: 4.72},
+      {codigo: 'COD29382Z', medida: '3/8"', precio: 4.80}
+    ]
+  },
+  {
+    articulo: "227",
+    nombre: "VÁLVULA ESFERA MANGUERA PALANCA",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Temp máx 120°C",
+    variantes: [
+      {codigo: 'COD29273Z', medida: '1/2"x3/4"', precio: 7.59},
+      {codigo: 'COD29274Z', medida: '3/4"x1"', precio: 10.39}
+    ]
+  },
+  {
+    articulo: "248E",
+    nombre: "VÁLVULA ESFERA MANGUERA MARIPOSA",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Temp máx 120°C",
+    variantes: [
+      {codigo: 'COD29483Z', medida: '1/2"x3/4"', precio: 8.13},
+      {codigo: 'COD29484Z', medida: '3/4"x1"', precio: 11.13}
+    ]
+  },
+  {
+    articulo: "247",
+    nombre: "VÁLVULA ESFERA MANGUERA BLOQUEABLE",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Latón cromado. Palanca bloqueable.",
+    variantes: [
+      {codigo: 'COD29473Z', medida: '1/2"x3/4"', precio: 10.91}
+    ]
+  },
+  // VÁLVULAS DE ESFERA INOX
+  {
+    articulo: "3446",
+    nombre: "VÁLVULA ESFERA INOX H/H 2 PIEZAS",
+    categoria: "Esfera Inox",
+    marca: "CODITAL",
+    material: "Inox 316 CF8M",
+    descripcion: "Paso total. PN 64-50-40-25. Palanca bloqueable.",
+    variantes: [
+      {codigo: 'COD2034460000800', medida: '1/4"', precio: 20.38},
+      {codigo: 'COD2034460001200', medida: '3/8"', precio: 22.00},
+      {codigo: 'COD2034460001500', medida: '1/2"', precio: 24.45},
+      {codigo: 'COD2034460002000', medida: '3/4"', precio: 29.68},
+      {codigo: 'COD2034460002600', medida: '1"', precio: 44.33},
+      {codigo: 'COD2034460003300', medida: '1 1/4"', precio: 65.64},
+      {codigo: 'COD203446000400', medida: '1 1/2"', precio: 84.06},
+      {codigo: 'COD2034460005000', medida: '2"', precio: 152.62},
+      {codigo: 'COD2034460006600', medida: '2 1/2"', precio: 311.04},
+      {codigo: 'COD2034460008000', medida: '3"', precio: 449.30}
+    ]
+  },
+  {
+    articulo: "1405",
+    nombre: "VÁLVULA ESFERA INOX H/H 3 PIEZAS",
+    categoria: "Esfera Inox",
+    marca: "CODITAL",
+    material: "Inox 316 CF8M",
+    descripcion: "Paso total. PN 64-50-40-25. Palanca bloqueable.",
+    variantes: [
+      {codigo: 'COD2014050000800', medida: '1/4"', precio: 35.03},
+      {codigo: 'COD2014050001200', medida: '3/8"', precio: 33.52},
+      {codigo: 'COD2014050001500', medida: '1/2"', precio: 36.56},
+      {codigo: 'COD2014050002000', medida: '3/4"', precio: 51.35},
+      {codigo: 'COD2014050002600', medida: '1"', precio: 67.65},
+      {codigo: 'COD2014050003300', medida: '1 1/4"', precio: 110.48},
+      {codigo: 'COD2014050004000', medida: '1 1/2"', precio: 151.08},
+      {codigo: 'COD2014050005000', medida: '2"', precio: 208.17},
+      {codigo: 'COD2014050006600', medida: '2 1/2"', precio: 420.24},
+      {codigo: 'COD2014050008000', medida: '3"', precio: 617.52},
+      {codigo: 'COD2014050010200', medida: '4"', precio: 1307.72}
+    ]
+  },
+  // VÁLVULAS DE AIRE BERMAD
+  {
+    articulo: "C30-P",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN PLÁSTICO",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Potable",
+    variantes: [
+      {codigo: 'BERC30P1BSP', medida: '1" Roscada', precio: 157.56},
+      {codigo: 'BERC30P2BSP', medida: '2" Roscada', precio: 308.29},
+      {codigo: 'BERC30P216', medida: '2" Bridada', precio: 397.52},
+      {codigo: 'BERC30P316', medida: '3" Bridada', precio: 416.15}
+    ]
+  },
+  {
+    articulo: "C30-C",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN METÁLICA",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Potable",
+    variantes: [
+      {codigo: 'BERC30C1BSP', medida: '1" Roscada', precio: 405.76},
+      {codigo: 'BERC30C2BSP', medida: '2" Roscada', precio: 506.84},
+      {codigo: 'BERC30C216', medida: '2" Bridada', precio: 683.14}
+    ]
+  },
+  {
+    articulo: "A30-P",
+    nombre: "VÁLVULA AIRE AUTOMÁTICA PLÁSTICO",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Potable",
+    variantes: [
+      {codigo: 'BERA30P075BSP', medida: '3/4" Roscada', precio: 116.55},
+      {codigo: 'BERA30P1BSP', medida: '1" Roscada', precio: 116.55}
+    ]
+  },
+  {
+    articulo: "C70-C",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN NOMINAL AYSA",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Potable. APROBADA AYSA",
+    variantes: [
+      {codigo: 'BERC702BSP', medida: '2" Roscada', precio: 787.68},
+      {codigo: 'BERC702', medida: '2" Bridada', precio: 849.20},
+      {codigo: 'BERC703', medida: '3" Bridada', precio: 1200.20},
+      {codigo: 'BERC704', medida: '4" Bridada', precio: 1635.10},
+      {codigo: 'BERC706', medida: '6" Bridada', precio: 2917.44},
+      {codigo: 'BERC708', medida: '8" Bridada', precio: 5156.80}
+    ]
+  },
+  {
+    articulo: "C75-C",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN REDUCIDA",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Potable",
+    variantes: [
+      {codigo: 'BERC75C316', medida: '3" Bridada', precio: 964.00},
+      {codigo: 'BERC75C416', medida: '4" Bridada', precio: 1337.24},
+      {codigo: 'BERC75C616', medida: '6" Bridada', precio: 2335.28},
+      {codigo: 'BERC75C816', medida: '8" Bridada', precio: 4150.07},
+      {codigo: 'BERC75C1016', medida: '10" Bridada', precio: 6615.44},
+      {codigo: 'BERC75C1216', medida: '12" Bridada', precio: 12800.00}
+    ]
+  },
+  {
+    articulo: "C50-P",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN AGUA SERVIDA PLÁSTICO",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 10. Agua Servida",
+    variantes: [
+      {codigo: 'BERC50P210', medida: '2" Bridada', precio: 1300.22},
+      {codigo: 'BERC50P310', medida: '3" Bridada', precio: 1369.14},
+      {codigo: 'BERC50P2BSP', medida: '2" Roscada', precio: 1126.89},
+      {codigo: 'BERC50P3BSP', medida: '3" Roscada', precio: 1165.38}
+    ]
+  },
+  {
+    articulo: "C50-C",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN AGUA SERVIDA METÁLICA",
+    categoria: "Válvulas de Aire",
+    marca: "BERMAD",
+    descripcion: "PN 16. Agua Servida",
+    variantes: [
+      {codigo: 'BERC50C2BSP', medida: '2" Roscada', precio: 2780.41},
+      {codigo: 'BERC50C216', medida: '2" Bridada', precio: 2860.86},
+      {codigo: 'BERC50C316', medida: '3" Bridada', precio: 2973.92}
+    ]
+  },
+  // VÁLVULAS DE AIRE VALLOY
+  {
+    articulo: "VAC313",
+    nombre: "VÁLVULA AIRE VALLOY NOMINAL",
+    categoria: "Válvulas de Aire",
+    marca: "VALLOY",
+    descripcion: "PN 16. Agua Servida. OPCIONAL AISI",
+    variantes: [
+      {codigo: 'VALVEC313FD50', medida: '2" Bridada', precio: 1191.91},
+      {codigo: 'VALVEC313FD80', medida: '3" Bridada', precio: 1332.58},
+      {codigo: 'VALVEC313FD100', medida: '4" Bridada', precio: 2099.63},
+      {codigo: 'VALVEC313FD150', medida: '6" Bridada', precio: 3205.05},
+      {codigo: 'VALVEC313FD200', medida: '8" Bridada', precio: 6149.23}
+    ]
+  },
+  {
+    articulo: "VA306",
+    nombre: "VÁLVULA AIRE VALLOY AYSA",
+    categoria: "Válvulas de Aire",
+    marca: "VALLOY",
+    descripcion: "PN 16. Agua Servida. Aprobada AYSA",
+    variantes: [
+      {codigo: 'VALVA306ACD50', medida: '2" Bridada', precio: 2493.77},
+      {codigo: 'VALVA306ACD80', medida: '3" Bridada', precio: 2605.57},
+      {codigo: 'VALVA306ACD100', medida: '4" Bridada', precio: 2749.32},
+      {codigo: 'VALVA306ACD150', medida: '6" Bridada', precio: 2934.60},
+      {codigo: 'VALVA306ACD200', medida: '8" Bridada', precio: 3303.02}
+    ]
+  },
+  // ACCESORIOS PVC ERA
+  {
+    articulo: "GP005",
+    nombre: "RAMAL T NORMAL PVC",
+    categoria: "Accesorios PVC",
+    marca: "ERA",
+    descripcion: "Inyectado CL 10 JE",
+    variantes: [
+      {codigo: 'ERATEJG75', medida: 'DN75', precio: 23.86},
+      {codigo: 'ERATEJG90', medida: 'DN90', precio: 39.68},
+      {codigo: 'ERATEJG110', medida: 'DN110', precio: 42.30},
+      {codigo: 'ERATEJG125', medida: 'DN125', precio: 63.79},
+      {codigo: 'ERATEJG160', medida: 'DN160', precio: 87.48},
+      {codigo: 'ERATEJG200', medida: 'DN200', precio: 145.00},
+      {codigo: 'ERATEJG250', medida: 'DN250', precio: 221.69},
+      {codigo: 'ERATEJG315', medida: 'DN315', precio: 421.87},
+      {codigo: 'ERATEJG355', medida: 'DN355', precio: 669.54}
+    ]
+  },
+  {
+    articulo: "GP016",
+    nombre: "CUPLA PVC",
+    categoria: "Accesorios PVC",
+    marca: "ERA",
+    descripcion: "Inyectada CL 10 JE",
+    variantes: [
+      {codigo: 'ERACUPJG63', medida: 'DN63', precio: 6.42},
+      {codigo: 'ERACUPJG75', medida: 'DN75', precio: 17.02},
+      {codigo: 'ERACUPJG90', medida: 'DN90', precio: 18.61},
+      {codigo: 'ERACUPJG110', medida: 'DN110', precio: 19.63},
+      {codigo: 'ERACUPJG125', medida: 'DN125', precio: 33.87},
+      {codigo: 'ERACUPJG160', medida: 'DN160', precio: 44.33},
+      {codigo: 'ERACUPJG200', medida: 'DN200', precio: 81.08},
+      {codigo: 'ERACUPJG225', medida: 'DN225', precio: 86.16},
+      {codigo: 'ERACUPJG250', medida: 'DN250', precio: 100.25},
+      {codigo: 'ERACUPJG315', medida: 'DN315', precio: 182.78},
+      {codigo: 'ERACUPJG355', medida: 'DN355', precio: 281.25}
+    ]
+  },
+  {
+    articulo: "GP017",
+    nombre: "ADAPTADOR DE BRIDA PVC",
+    categoria: "Accesorios PVC",
+    marca: "ERA",
+    descripcion: "Inyectado CL 10 JE",
+    variantes: [
+      {codigo: 'ERAABRJG63', medida: 'DN63', precio: 15.28},
+      {codigo: 'ERAABRJG75', medida: 'DN75', precio: 15.87},
+      {codigo: 'ERAABRJG90', medida: 'DN90', precio: 18.18},
+      {codigo: 'ERAABRJG110', medida: 'DN110', precio: 22.26},
+      {codigo: 'ERAABRJG160', medida: 'DN160', precio: 41.42},
+      {codigo: 'ERAABRJG200', medida: 'DN200', precio: 71.64},
+      {codigo: 'ERAABRJG250', medida: 'DN250', precio: 128.15},
+      {codigo: 'ERAABRJG315', medida: 'DN315', precio: 157.64},
+      {codigo: 'ERAABRJG355', medida: 'DN355', precio: 211.97}
+    ]
+  },
+  // ELECTROFUSIÓN PEAD
+  {
+    articulo: "EF-CUPLA",
+    nombre: "CUPLA ELECTROFUSIÓN PEAD",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT9020040502', medida: 'DN50', precio: 7.16},
+      {codigo: 'PMT9020040632', medida: 'DN63', precio: 7.72},
+      {codigo: 'PMT9020040752', medida: 'DN75', precio: 10.24},
+      {codigo: 'PMT9020040902', medida: 'DN90', precio: 11.92},
+      {codigo: 'PMT9020041102', medida: 'DN110', precio: 20.16},
+      {codigo: 'PMT9020041602', medida: 'DN160', precio: 37.84},
+      {codigo: 'PMT9020042002', medida: 'DN200', precio: 87.36},
+      {codigo: 'PMT9020042502', medida: 'DN250', precio: 133.72},
+      {codigo: 'PMT9020043152', medida: 'DN315', precio: 240.24},
+      {codigo: 'PMT9020043552', medida: 'DN355', precio: 332.48},
+      {codigo: 'PMT9020044002', medida: 'DN400', precio: 531.88}
+    ]
+  },
+  {
+    articulo: "EF-CODO90",
+    nombre: "CODO 90° ELECTROFUSIÓN PEAD",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT9020060502', medida: 'DN50', precio: 10.55},
+      {codigo: 'PMT9020060632', medida: 'DN63', precio: 11.77},
+      {codigo: 'PMT9020060752', medida: 'DN75', precio: 20.16},
+      {codigo: 'PMT9020060902', medida: 'DN90', precio: 28.80},
+      {codigo: 'PMT9020061102', medida: 'DN110', precio: 36.32},
+      {codigo: 'PMT9020061602', medida: 'DN160', precio: 112.56},
+      {codigo: 'PMT9020062002', medida: 'DN200', precio: 199.92}
+    ]
+  },
+  {
+    articulo: "EF-TE",
+    nombre: "TE ELECTROFUSIÓN PEAD",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT9020070502', medida: 'DN50', precio: 16.80},
+      {codigo: 'PMT9020070632', medida: 'DN63', precio: 17.48},
+      {codigo: 'PMT9020070752', medida: 'DN75', precio: 35.28},
+      {codigo: 'PMT9020070902', medida: 'DN90', precio: 38.80},
+      {codigo: 'PMT9020071102', medida: 'DN110', precio: 41.56},
+      {codigo: 'PMT9020071602', medida: 'DN160', precio: 171.88},
+      {codigo: 'PMT9020072002', medida: 'DN200', precio: 246.96}
+    ]
+  },
+  // CAUDALÍMETROS
+  {
+    articulo: "TURBO-IR-M",
+    nombre: "CAUDALÍMETRO TURBO-IR-M",
+    categoria: "Caudalímetros",
+    marca: "BERMAD",
+    descripcion: "Con registro magnético y pulso",
+    variantes: [
+      {codigo: 'BERTIRM50', medida: '2" (35m³/h)', precio: 446.75},
+      {codigo: 'BERTIRM80', medida: '3" (75m³/h)', precio: 483.68},
+      {codigo: 'BERTIRM100', medida: '4" (125m³/h)', precio: 537.93},
+      {codigo: 'BERTIRM150', medida: '6" (250m³/h)', precio: 848.45},
+      {codigo: 'BERTIRM200', medida: '8" (450m³/h)', precio: 938.49},
+      {codigo: 'BERTIRM250', medida: '10" (600m³/h)', precio: 1542.21},
+      {codigo: 'BERTIRM300', medida: '12" (800m³/h)', precio: 1927.76}
+    ]
+  },
+  {
+    articulo: "TURBO-BAR-M",
+    nombre: "CAUDALÍMETRO WOLTMAN",
+    categoria: "Caudalímetros",
+    marca: "BERMAD",
+    descripcion: "Tipo Woltman",
+    variantes: [
+      {codigo: 'WPH50', medida: '2" (40m³/h)', precio: 527.55},
+      {codigo: 'WPH80', medida: '3" (63m³/h)', precio: 672.99},
+      {codigo: 'WPH100', medida: '4" (100m³/h)', precio: 881.93},
+      {codigo: 'WPH150', medida: '6" (250m³/h)', precio: 1304.41},
+      {codigo: 'WPH200', medida: '8" (400m³/h)', precio: 1639.17},
+      {codigo: 'WPH250', medida: '10" (630m³/h)', precio: 2365.26},
+      {codigo: 'WPH300', medida: '12" (1000m³/h)', precio: 3947.63},
+      {codigo: 'WPH350', medida: '14" (1200m³/h)', precio: 5442.72}
+    ]
+  },
+  // ACCESORIOS VARIOS
+  {
+    articulo: "JUNTAMAS",
+    nombre: "REPARACIÓN PARA CAÑOS PVC",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    variantes: [
+      {codigo: 'JUNTAMAS1212', medida: 'Ø40', precio: 13.10},
+      {codigo: 'JUNTAMAS1201', medida: 'Ø50', precio: 16.64},
+      {codigo: 'JUNTAMAS1202', medida: 'Ø63', precio: 18.67},
+      {codigo: 'JUNTAMAS1203', medida: 'Ø75', precio: 21.42},
+      {codigo: 'JUNTAMAS1204', medida: 'Ø90', precio: 25.25},
+      {codigo: 'JUNTAMAS1205', medida: 'Ø110', precio: 27.62},
+      {codigo: 'JUNTAMAS1206', medida: 'Ø160', precio: 42.69}
+    ]
+  },
+  {
+    articulo: "JUNTAS-PLANA",
+    nombre: "ARO DE GOMA PLANA",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "Con tela",
+    variantes: [
+      {codigo: 'PEJPDN50', medida: 'DN50', precio: 5.91},
+      {codigo: 'PEJPDN65', medida: 'DN65', precio: 6.52},
+      {codigo: 'PEJPDN80', medida: 'DN80', precio: 6.29},
+      {codigo: 'PEJPDN100', medida: 'DN100', precio: 10.24},
+      {codigo: 'PEJPDN150', medida: 'DN150', precio: 12.29},
+      {codigo: 'PEJPDN200', medida: 'DN200', precio: 15.72},
+      {codigo: 'PEJPDN250', medida: 'DN250', precio: 22.60},
+      {codigo: 'PEJPDN300', medida: 'DN300', precio: 27.50},
+      {codigo: 'PEJPDN350', medida: 'DN350', precio: 37.81},
+      {codigo: 'PEJPDN400', medida: 'DN400', precio: 48.61}
+    ]
+  },
+  {
+    articulo: "BULONES",
+    nombre: "BULONES GALVANIZADOS",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "Bulón + 2 Arandelas + Tuerca",
+    variantes: [
+      {codigo: 'PEBUL58X3Z', medida: '5/8x3" Brida50-65', precio: 6.69},
+      {codigo: 'PEBUL58X312Z', medida: '5/8x3.5" Brida80-100', precio: 7.24},
+      {codigo: 'PEBUL58X4Z', medida: '5/8x4" Brida150', precio: 7.83},
+      {codigo: 'PEBUL34X312Z', medida: '3/4x3.5" Brida200', precio: 10.81},
+      {codigo: 'PEBUL34X4Z', medida: '3/4x4" Brida250-300', precio: 11.66},
+      {codigo: 'PEBUL1X412Z', medida: '1x4.5" Brida400-500', precio: 32.22}
+    ]
+  },
+  {
+    articulo: "HIDRANTES",
+    nombre: "HIDRANTE A BOLA",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "Con conexión a PVC. Pintura epoxi.",
+    variantes: [
+      {codigo: 'PEHIDRBOINT65PVC', medida: 'DN63 PVC', precio: 354.32},
+      {codigo: 'PEHIDRBOINT75PVC', medida: 'DN75 PVC', precio: 354.80},
+      {codigo: 'PEHIDRBOINT6510', medida: 'DN65 Bridado', precio: 397.17},
+      {codigo: 'PEHIDRBOINT8010', medida: 'DN80 Bridado', precio: 393.00}
+    ]
+  }
+];
+
+// ============ CATÁLOGO COMBINADO ============
+const CATALOGO_COMPLETO = [...CATALOGO_GENEBRE, ...CATALOGO_TODOVALVULAS];
+
+
 // ========================================
 // FUNCIONES DE BÚSQUEDA INTELIGENTE
 // ========================================
@@ -4254,7 +5200,7 @@ function decodificarCodigo(codigo) {
  */
 function buscarPorArticulo(articulo) {
   articulo = articulo.replace(/\s/g, '').toUpperCase();
-  return CATALOGO_GENEBRE.filter(p => p.articulo === articulo || p.articulo.includes(articulo));
+  return CATALOGO_COMPLETO.filter(p => p.articulo === articulo || p.articulo.toUpperCase().includes(articulo));
 }
 
 /**
@@ -4268,8 +5214,8 @@ function buscarPorKeywords(texto) {
   
   if (keywords.length === 0) return [];
   
-  return CATALOGO_GENEBRE.filter(producto => {
-    const searchText = `${producto.nombre} ${producto.categoria} ${producto.material || ''} ${producto.tipo || ''} ${producto.descripcion || ''}`
+  return CATALOGO_COMPLETO.filter(producto => {
+    const searchText = `${producto.nombre} ${producto.categoria} ${producto.material || ''} ${producto.tipo || ''} ${producto.descripcion || ''} ${producto.marca || 'GENEBRE'}`
       .toLowerCase()
       .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     
@@ -4281,7 +5227,7 @@ function buscarPorKeywords(texto) {
 /**
  * Busca productos por medida específica
  */
-function buscarPorMedida(medida, productos = CATALOGO_GENEBRE) {
+function buscarPorMedida(medida, productos = CATALOGO_COMPLETO) {
   // Normalizar medida
   medida = medida.replace(/\s/g, '').toLowerCase()
     .replace('pulgadas', '"').replace('pulgada', '"')
@@ -4385,14 +5331,16 @@ function formatearResultados(resultados) {
   
   if (resultados.tipo === 'codigo_exacto') {
     const p = resultados.productos[0];
-    respuesta += `*Art. ${p.articulo}* - ${p.nombre}\n`;
+    const marca = p.marca || 'GENEBRE';
+    respuesta += `*${marca} - Art. ${p.articulo}* - ${p.nombre}\n`;
     respuesta += `Medida: ${p.medida}\n`;
     respuesta += `Material: ${p.material}\n`;
     respuesta += `Precio lista: USD ${p.precio.toFixed(2)}\n`;
     respuesta += `Código: ${p.codigoCompleto}`;
   } else {
     for (const producto of resultados.productos.slice(0, 5)) {
-      respuesta += `*Art. ${producto.articulo}* - ${producto.nombre}\n`;
+      const marca = producto.marca || 'GENEBRE';
+      respuesta += `*${marca} - Art. ${producto.articulo}* - ${producto.nombre}\n`;
       if (producto.material) respuesta += `${producto.material}\n`;
       
       // Mostrar hasta 6 variantes
@@ -4428,15 +5376,24 @@ DATOS DE LA EMPRESA:
 - Web: www.val-ar.com.ar
 
 MARCAS QUE DISTRIBUIMOS:
-- GENEBRE: Válvulas esfera, mariposa, retención, filtros (inox, latón, hierro)
+- GENEBRE: Válvulas esfera, mariposa, retención, filtros, electroválvulas (inox, latón, hierro, PVC)
+- TODOVALVULAS: Esclusas, mariposas, retención fundición
+- CODITAL: Válvulas latón, reductoras presión, filtros, esfera inox
+- BERMAD: Válvulas de aire, caudalímetros
+- VALLOY: Válvulas de aire agua servida
+- ERA: Accesorios PVC (tees, cuplas, adaptadores brida)
 - CEPEX: Válvulas PVC/PP para industria química
 - KITO: Válvulas mariposa industriales
 - AERRE: Actuadores neumáticos
 - WINTERS: Manómetros y termómetros
 - CENI: Válvulas esfera industriales
-- BERMAD: Válvulas hidráulicas
-- CODITAL: Accesorios de bronce y latón
 - DANFOSS: Presostatos
+
+CONDICIONES COMERCIALES:
+- Precios en USD (dólares americanos) cotización BNA billete vendedor
+- Los precios NO incluyen IVA (21%)
+- Validez de la oferta: 5 días
+- Si hay diferencia de cambio ±3% entre acreditación de fondos y fecha de factura, se emite nota de débito/crédito
 
 SISTEMA DE CÓDIGOS GENEBRE:
 Los códigos tienen formato: 001 + ARTÍCULO + MEDIDA
@@ -4449,9 +5406,10 @@ INSTRUCCIONES:
 3. NO uses markdown ni asteriscos, texto plano
 4. Respuestas cortas (3-4 oraciones máximo)
 5. Los precios son de LISTA en USD, pueden tener descuentos por volumen
-6. Para stock, disponibilidad o pedidos: indicá que un vendedor va a contactar
-7. Si preguntan algo que requiere cotización formal o pedido, marcá [ESCALAR]
-8. Si piden hablar con una persona o dicen "urgente", marcá [ESCALAR]
+6. Si preguntan condiciones comerciales, IVA o forma de pago, mencioná las condiciones
+7. Para stock, disponibilidad o pedidos: indicá que un vendedor va a contactar
+8. Si preguntan algo que requiere cotización formal o pedido, marcá [ESCALAR]
+9. Si piden hablar con una persona o dicen "urgente", marcá [ESCALAR]
 
 FUNCIONES DE BÚSQUEDA:
 Cuando el usuario busque productos, usá la información que te paso del catálogo.
@@ -4664,6 +5622,8 @@ setInterval(() => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Bot VAL ARG corriendo en puerto ${PORT}`);
-  console.log(`Catálogo: ${CATALOGO_GENEBRE.length} artículos`);
-  console.log(`Variantes totales: ${CATALOGO_GENEBRE.reduce((acc, p) => acc + p.variantes.length, 0)}`);
+  console.log(`Catálogo GENEBRE: ${CATALOGO_GENEBRE.length} artículos`);
+  console.log(`Catálogo TODOVALVULAS: ${CATALOGO_TODOVALVULAS.length} artículos`);
+  console.log(`Total artículos: ${CATALOGO_GENEBRE.length + CATALOGO_TODOVALVULAS.length}`);
+  console.log(`Total variantes: ${CATALOGO_GENEBRE.reduce((acc, p) => acc + p.variantes.length, 0) + CATALOGO_TODOVALVULAS.reduce((acc, p) => acc + p.variantes.length, 0)}`);
 });
