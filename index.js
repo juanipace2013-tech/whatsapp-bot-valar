@@ -4207,7 +4207,8 @@ const CATALOGO_GENEBRE = [
 ];
 
 // ============ CATÁLOGO TODOVALVULAS ============
-// Incluye: TODOVALVULAS, CODITAL, BERMAD, VALLOY, ERA
+// CATÁLOGO TODOVALVULAS - Extraído del PDF Lista N°16 2025
+
 const CATALOGO_TODOVALVULAS = [
   // ============ VÁLVULAS DE FUNDICIÓN ============
   {
@@ -4216,36 +4217,42 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Fundición",
     marca: "TODOVALVULAS",
     material: "Cuerpo y Cuña GGG50 + Epoxy Azul, cierre EPDM",
-    descripcion: "Bridada ISO 7005 - PN 10/16. Entre Caras: DIN 3202 F4 o F5. Vástago no Ascendente.",
+    descripcion: "Bridada ISO 7005 - PN 10/16. Entre Caras: DIN 3202 F4 o F5. Vástago no Ascendente. Accionamiento con CAP (C) y Volante (V).",
     variantes: [
       {codigo: 'ANC93050F4C10', medida: 'DN50 Corto', precio: 114.81},
-      {codigo: 'ANC93050F4V10', medida: 'DN50 Volante', precio: 114.81},
+      {codigo: 'ANC93050F4V10', medida: 'DN50 Corto Volante', precio: 114.81},
       {codigo: 'ANC93065F4C10', medida: 'DN65 Corto', precio: 137.49},
-      {codigo: 'ANC93065F4V10', medida: 'DN65 Volante', precio: 137.49},
+      {codigo: 'ANC93065F4V10', medida: 'DN65 Corto Volante', precio: 137.49},
       {codigo: 'ANC93065F5C10', medida: 'DN65 Largo', precio: 144.36},
       {codigo: 'ANC93080F4C10', medida: 'DN80 Corto', precio: 159.70},
-      {codigo: 'ANC93080F4V10', medida: 'DN80 Volante', precio: 159.70},
+      {codigo: 'ANC93080F4V10', medida: 'DN80 Corto Volante', precio: 159.70},
       {codigo: 'ANC93080F5C10', medida: 'DN80 Largo', precio: 173.21},
       {codigo: 'ANC930100F4C10', medida: 'DN100 Corto', precio: 178.00},
-      {codigo: 'ANC930100F4V10', medida: 'DN100 Volante', precio: 178.00},
+      {codigo: 'ANC930100F4V10', medida: 'DN100 Corto Volante', precio: 178.00},
       {codigo: 'ANC930100F5C10', medida: 'DN100 Largo', precio: 203.45},
       {codigo: 'ANC930125F4C10', medida: 'DN125 Corto', precio: 271.57},
       {codigo: 'ANC930150F4C10', medida: 'DN150 Corto', precio: 320.31},
-      {codigo: 'ANC930150F4V10', medida: 'DN150 Volante', precio: 320.31},
+      {codigo: 'ANC930150F4V10', medida: 'DN150 Corto Volante', precio: 320.31},
       {codigo: 'ANC930150F5C10', medida: 'DN150 Largo', precio: 353.27},
       {codigo: 'ANC930150F5V10', medida: 'DN150 Largo Volante', precio: 353.27},
       {codigo: 'ANC930200F4C10', medida: 'DN200 Corto', precio: 492.19},
-      {codigo: 'ANC930200F4V10', medida: 'DN200 Volante', precio: 492.19},
+      {codigo: 'ANC930200F4V10', medida: 'DN200 Corto Volante', precio: 492.19},
+      {codigo: 'ANC930200F4V16', medida: 'DN200 Corto PN16', precio: 492.19},
       {codigo: 'ANC930200F5C10', medida: 'DN200 Largo', precio: 555.34},
+      {codigo: 'ANC930200F5C16', medida: 'DN200 Largo PN16', precio: 555.34},
+      {codigo: 'ANC930200F5V16', medida: 'DN200 Largo Volante PN16', precio: 555.34},
       {codigo: 'ANC930250F4C10', medida: 'DN250 Corto', precio: 780.72},
-      {codigo: 'ANC930250F4V10', medida: 'DN250 Volante', precio: 780.72},
+      {codigo: 'ANC930250F4V10', medida: 'DN250 Corto Volante', precio: 780.72},
+      {codigo: 'ANC930250F4V16', medida: 'DN250 Corto PN16', precio: 780.72},
       {codigo: 'ANC930250F5C10', medida: 'DN250 Largo', precio: 858.79},
       {codigo: 'ANC930300F4C10', medida: 'DN300 Corto', precio: 1024.15},
-      {codigo: 'ANC930300F4V10', medida: 'DN300 Volante', precio: 1024.15},
+      {codigo: 'ANC930300F4V10', medida: 'DN300 Corto Volante', precio: 1024.15},
+      {codigo: 'ANC930300F4V16', medida: 'DN300 Corto PN16', precio: 1024.15},
       {codigo: 'ANC930350F4C10', medida: 'DN350 Corto', precio: 1771.25},
       {codigo: 'ANC930400F4C10', medida: 'DN400 Corto', precio: 3107.84},
-      {codigo: 'ANC930400F4V10', medida: 'DN400 Volante', precio: 3107.84},
-      {codigo: 'ANC930500F4C10', medida: 'DN500 Corto', precio: 3876.54}
+      {codigo: 'ANC930400F4V10', medida: 'DN400 Corto Volante', precio: 3107.84},
+      {codigo: 'ANC930500F4C10', medida: 'DN500 Corto', precio: 3876.54},
+      {codigo: 'ANC930500F4H10', medida: 'DN500 Corto', precio: 3876.54}
     ]
   },
   {
@@ -4254,7 +4261,7 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Fundición",
     marca: "TODOVALVULAS",
     material: "Cuerpo y Cuña GGG50 + Epoxy Azul, Cierre EPDM",
-    descripcion: "Enchufe a PVC PN 16. Entre Caras: DIN 3202 F5.",
+    descripcion: "Enchufe a PVC PN 16. Entre Caras: DIN 3202 F5. Vástago no Ascendente, Accionamiento a CAP.",
     variantes: [
       {codigo: 'ANCPVC50F5C', medida: '50/63', precio: 113.42},
       {codigo: 'ANCPVC65F5C', medida: '65/75', precio: 130.76},
@@ -4270,13 +4277,13 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA RETENCIÓN BRIDADA A CLAPETA",
     categoria: "Fundición",
     marca: "TODOVALVULAS",
-    descripcion: "DIN 3202 Presión de trabajo PN10/16/25",
+    descripcion: "DIN 3202 Presión de trabajo PN10 PN16 PN25",
     variantes: [
-      {codigo: 'ANCSCHV10010', medida: 'DN100', precio: 319.20},
-      {codigo: 'ANCSCHV15010', medida: 'DN150', precio: 589.40},
-      {codigo: 'ANCSCHV20010', medida: 'DN200', precio: 896.35},
-      {codigo: 'ANCSCHV25010', medida: 'DN250', precio: 1706.95},
-      {codigo: 'ANCSCHV30010', medida: 'DN300', precio: 2298.80}
+      {codigo: 'ANCSCHV10010', medida: 'DN100 ISO10', precio: 319.20},
+      {codigo: 'ANCSCHV15010', medida: 'DN150 ISO10', precio: 589.40},
+      {codigo: 'ANCSCHV20010', medida: 'DN200 ISO10', precio: 896.35},
+      {codigo: 'ANCSCHV25010', medida: 'DN250 ISO10', precio: 1706.95},
+      {codigo: 'ANCSCHV30010', medida: 'DN300 ISO10', precio: 2298.80}
     ]
   },
   {
@@ -4285,7 +4292,7 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Fundición",
     marca: "CODITAL",
     material: "Cuerpo Fundición Gris GG-25/50 + Epoxy Azul",
-    descripcion: "Roscada HH BSP. Temp.max. 80°C.",
+    descripcion: "Roscada HH BSP. Temp.max. 80°C. Bola de Acero + EPDM. Juntas EPDM.",
     variantes: [
       {codigo: 'COD2003980003300', medida: '1 1/4"', precio: 85.42},
       {codigo: 'COD2003980004000', medida: '1 1/2"', precio: 100.31},
@@ -4298,7 +4305,7 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Fundición",
     marca: "CODITAL",
     material: "Cuerpo fundición gris GG-25/50 + epoxy azul",
-    descripcion: "Bridada PN 10/16. Entre caras: DIN 3202 F6.",
+    descripcion: "Bridada PN 10/16 (EN 1092-2). Entre caras: DIN 3202 F6. Temp.max. 80°C. Bola de acero + EPDM y juntas de EPDM.",
     variantes: [
       {codigo: 'COD2003990005000', medida: 'DN50', precio: 161.00},
       {codigo: 'COD2003990006500', medida: 'DN65', precio: 196.69},
@@ -4313,14 +4320,14 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'COD2003990040010', medida: 'DN400', precio: 8914.33}
     ]
   },
-  // VÁLVULAS MARIPOSA
+  // ============ VÁLVULAS MARIPOSA ============
   {
     articulo: "710",
     nombre: "VÁLVULA MARIPOSA WAFER",
     categoria: "Mariposa",
     marca: "TODOVALVULAS",
     material: "Cuerpo GGG50 - Disco AISI 304 - Asiento EPDM",
-    descripcion: "Wafer ISO PN 10/16 o ANSI #150. Entre Caras: ISO 5752 S.20",
+    descripcion: "Wafer para colocar entre ISO PN 10/16 o ANSI 16.5 (#150). Entre Caras: ISO 5752 S.20. Accionamiento a Palanca DN 50 a 200, con Reductor DN 100 en adelante.",
     variantes: [
       {codigo: 'ANC71050G40CF8L10', medida: 'DN50 Palanca', precio: 50.64},
       {codigo: 'ANC71065G40CF8L10', medida: 'DN65 Palanca', precio: 59.84},
@@ -4347,17 +4354,17 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Mariposa",
     marca: "TODOVALVULAS",
     material: "Cuerpo GGG50 - Disco AISI 304 - Asiento EPDM",
-    descripcion: "ANSI #150",
+    descripcion: "Accionamiento a palanca 50 a 200 y con reductor desde DN 250 hasta DN 300. ANSI #150.",
     variantes: [
-      {codigo: 'ANC71150G40CF8LA5', medida: 'DN50 Palanca', precio: 72.84},
-      {codigo: 'ANC71165G40CF8LA5', medida: 'DN65 Palanca', precio: 86.07},
-      {codigo: 'ANC71180G40CF8LA5', medida: 'DN80 Palanca', precio: 96.34},
-      {codigo: 'ANC711100G40CF8LA5', medida: 'DN100 Palanca', precio: 128.27},
-      {codigo: 'ANC711125G40CF8LA5', medida: 'DN125 Palanca', precio: 128.47},
-      {codigo: 'ANC711150G40CF8LA5', medida: 'DN150 Palanca', precio: 214.32},
-      {codigo: 'ANC711200G40CF8LA5', medida: 'DN200 Palanca', precio: 368.58},
-      {codigo: 'ANC711250G40CF8GA5', medida: 'DN250 Reductor', precio: 655.36},
-      {codigo: 'ANC711300G40CF8GA5', medida: 'DN300 Reductor', precio: 900.15}
+      {codigo: 'ANC71150G40CF8LA5', medida: 'DN50 ANSI#150 Palanca', precio: 72.84},
+      {codigo: 'ANC71165G40CF8LA5', medida: 'DN65 ANSI#150 Palanca', precio: 86.07},
+      {codigo: 'ANC71180G40CF8LA5', medida: 'DN80 ANSI#150 Palanca', precio: 96.34},
+      {codigo: 'ANC711100G40CF8LA5', medida: 'DN100 ANSI#150 Palanca', precio: 128.27},
+      {codigo: 'ANC711125G40CF8LA5', medida: 'DN125 ANSI#150 Palanca', precio: 128.47},
+      {codigo: 'ANC711150G40CF8LA5', medida: 'DN150 ANSI#150 Palanca', precio: 214.32},
+      {codigo: 'ANC711200G40CF8LA5', medida: 'DN200 ANSI#150 Palanca', precio: 368.58},
+      {codigo: 'ANC711250G40CF8GA5', medida: 'DN250 ANSI#150 Reductor', precio: 655.36},
+      {codigo: 'ANC711300G40CF8GA5', medida: 'DN300 ANSI#150 Reductor', precio: 900.15}
     ]
   },
   {
@@ -4366,14 +4373,15 @@ const CATALOGO_TODOVALVULAS = [
     categoria: "Mariposa",
     marca: "TODOVALVULAS",
     material: "Cuerpo GGG50 - Disco AISI 304 - Asiento PTFE",
+    descripcion: "Accionamiento a palanca. Multiposición.",
     variantes: [
-      {codigo: 'ANC74050G40CF8LM', medida: 'DN50', precio: 229.42},
-      {codigo: 'ANC74065G40CF8LM', medida: 'DN65', precio: 273.29},
-      {codigo: 'ANC74080G40CF8LM', medida: 'DN80', precio: 310.73},
-      {codigo: 'ANC740100G40CF8LM', medida: 'DN100', precio: 439.53},
-      {codigo: 'ANC740125G40CF8LM', medida: 'DN125', precio: 615.42},
-      {codigo: 'ANC740150G40CF8LM', medida: 'DN150', precio: 786.48},
-      {codigo: 'ANC740200G40CF8LM', medida: 'DN200', precio: 1286.39}
+      {codigo: 'ANC74050G40CF8LM', medida: 'DN50 Palanca', precio: 229.42},
+      {codigo: 'ANC74065G40CF8LM', medida: 'DN65 Palanca', precio: 273.29},
+      {codigo: 'ANC74080G40CF8LM', medida: 'DN80 Palanca', precio: 310.73},
+      {codigo: 'ANC740100G40CF8LM', medida: 'DN100 Palanca', precio: 439.53},
+      {codigo: 'ANC740125G40CF8LM', medida: 'DN125 Palanca', precio: 615.42},
+      {codigo: 'ANC740150G40CF8LM', medida: 'DN150 Palanca', precio: 786.48},
+      {codigo: 'ANC740200G40CF8LM', medida: 'DN200 Palanca', precio: 1286.39}
     ]
   },
   {
@@ -4381,7 +4389,8 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA RETENCIÓN DUO CHECK WAFER",
     categoria: "Retención",
     marca: "TODOVALVULAS",
-    material: "Cuerpo GG25 - Disco CF8 (SS304) - Asiento EPDM",
+    material: "Cuerpo: GG25/A126 Class B - Disco: CF8 (SS304) - Asiento: EPDM",
+    descripcion: "Pin y Resorte: SS304",
     variantes: [
       {codigo: 'ANC81050G50CF8IA', medida: '2"', precio: 38.80},
       {codigo: 'ANC81065G50CF8IA', medida: '2 1/2"', precio: 47.47},
@@ -4401,8 +4410,8 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "MANGUITO DE DILATACIÓN SIMPLE ONDA",
     categoria: "Accesorios",
     marca: "CODITAL",
-    material: "Cuerpo EPDM, Bridas Acero Galvanizado",
-    descripcion: "ISO PN 10 - Temp máx 90°C",
+    material: "Cuerpo EPDM, Bridas de Acero Galvanizado",
+    descripcion: "Perforado ISO PN 10 - Temperatura máxima 90 grados",
     variantes: [
       {codigo: 'COD3004130003200', medida: 'DN32', precio: 52.63},
       {codigo: 'COD3004130004000', medida: 'DN40', precio: 54.06},
@@ -4417,14 +4426,14 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'COD3004130030000', medida: 'DN300', precio: 585.94}
     ]
   },
-  // VÁLVULAS LATÓN
+  // ============ VÁLVULAS Y ACCESORIOS LATÓN ============
   {
     articulo: "1501",
     nombre: "VÁLVULA REDUCTORA DE PRESIÓN",
     categoria: "Latón",
     marca: "CODITAL",
-    material: "Latón CW617N niquelado",
-    descripcion: "Alto caudal PN 25. Asiento inox 304.",
+    material: "Cuerpo latón CW617N niquelado",
+    descripcion: "Alto caudal PN 25. Pistón de latón (inox a partir de 1 1/4\"). Asiento de inox 304, juntas de EPDM. 2 tomas de 1/4\" para manómetro.",
     variantes: [
       {codigo: 'COD2015010001500', medida: '1/2"', precio: 52.05},
       {codigo: 'COD2015010002000', medida: '3/4"', precio: 55.32},
@@ -4442,7 +4451,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA RETENCIÓN LATÓN",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Obturador latón F/F ISO 228-1. PN 16-10-8",
+    descripcion: "Cualquier posición, obturador de latón F/F ISO 228-1. TEMP -10°C + 90°C. PN 16-10-8 BAR",
     variantes: [
       {codigo: 'COD2002330001500', medida: '1/2"', precio: 6.24},
       {codigo: 'COD2002330002000', medida: '3/4"', precio: 11.37},
@@ -4460,7 +4469,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA DE PIE LATÓN",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "PN16, ISO 228-1",
+    descripcion: "PN16, ISO 228-1. TEMP -10°C + 90°C",
     variantes: [
       {codigo: 'COD2005010001500', medida: '1/2"', precio: 11.92},
       {codigo: 'COD2005010002000', medida: '3/4"', precio: 12.66},
@@ -4478,7 +4487,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA RETENCIÓN CLAPETA LATÓN",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Asiento NBR. PN 16/10. F/F ISO 228-1",
+    descripcion: "Asiento de NBR. PN 16/10 TEMP -10°C + 90°C. F/F ISO 228-1",
     variantes: [
       {codigo: 'COD2012030001500', medida: '1/2"', precio: 10.56},
       {codigo: 'COD2012030002000', medida: '3/4"', precio: 14.52},
@@ -4496,7 +4505,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA FLOTADOR",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Cuerpo latón, junta NBR, varilla inox",
+    descripcion: "Cuerpo de latón, junta de NBR, varilla roscada 1/4\" de inox, barra plana de inox",
     variantes: [
       {codigo: 'COD2009130001500', medida: '1/2"', precio: 24.95},
       {codigo: 'COD2009130002000', medida: '3/4"', precio: 37.50},
@@ -4509,7 +4518,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA DE SEGURIDAD",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Metal/metal. PN 16. ISO 228-1",
+    descripcion: "Estanqueidad metal/metal. Cuerpo de latón y bronce, eje latón, muelle inox. PN 16. ISO 228-1",
     variantes: [
       {codigo: 'COD241734', medida: '3/4"', precio: 85.00},
       {codigo: 'COD200417', medida: '1"', precio: 115.00}
@@ -4520,7 +4529,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "FILTRO Y CON TAMIZ",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Tamiz inox 304 desmontable. PN 16",
+    descripcion: "Cuerpo y tapa de latón, junta de fibra, tamiz de inox 304 desmontable. PN 16 BAR.",
     variantes: [
       {codigo: 'COD2004160001500', medida: '1/2"', precio: 7.91},
       {codigo: 'COD2004160002000', medida: '3/4"', precio: 11.26},
@@ -4538,7 +4547,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA COMPUERTA LATÓN PN10",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Cuerpo, tapa, eje y compuerta latón. Eje no ascendente.",
+    descripcion: "Cuerpo, tapa, eje y compuerta de latón. Junta de PTFE y juntas elásticas de NBR. Volante de fundición. Eje no ascendente. TEMP -10°C + 80°C.",
     variantes: [
       {codigo: 'COD2012070001500', medida: '1/2"', precio: 8.97},
       {codigo: 'COD2012070002000', medida: '3/4"', precio: 11.26},
@@ -4556,7 +4565,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA RETENCIÓN LATÓN NYLON",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Obturador y eje nylon (PA6). PN 16-10-8",
+    descripcion: "Cualquier posición, obturador y eje nylon (PA6), junta plana NBR, muelle inox. PN 16-10-8 BAR",
     variantes: [
       {codigo: 'COD2002050001500', medida: '1/2"', precio: 5.64},
       {codigo: 'COD2002050002000', medida: '3/4"', precio: 7.04},
@@ -4574,7 +4583,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "FILTRO INOX",
     categoria: "Latón",
     marca: "CODITAL",
-    descripcion: "Conector ABS. Conexión BSP",
+    descripcion: "Conector ABS. Apto para todas las válvulas con conexión BSP",
     variantes: [
       {codigo: 'COD2002010001500', medida: '1/2"', precio: 1.55},
       {codigo: 'COD2002010002000', medida: '3/4"', precio: 1.65},
@@ -4585,13 +4594,13 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'COD2002010006600', medida: '2 1/2"', precio: 20.27}
     ]
   },
-  // MANÓMETROS
+  // ============ MANÓMETROS ============
   {
     articulo: "249",
     nombre: "MANÓMETRO INOX CON GLICERINA",
     categoria: "Instrumentación",
     marca: "CODITAL",
-    descripcion: "Conexión radial",
+    descripcion: "Con relleno de silicona, conexión radial",
     variantes: [
       {codigo: 'COD2002490063002', medida: '63x1/4" 0-2.5bar', precio: 20.09},
       {codigo: 'COD2002490063004', medida: '63x1/4" 0-4bar', precio: 20.09},
@@ -4612,6 +4621,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "MANÓMETRO ABS SECO RADIAL",
     categoria: "Instrumentación",
     marca: "CODITAL",
+    descripcion: "Dial seco, conexión radial",
     variantes: [
       {codigo: 'COD2002500052002', medida: '50x1/4" 0-2.5bar', precio: 6.73},
       {codigo: 'COD2002500052006', medida: '50x1/4" 0-6bar', precio: 6.73},
@@ -4624,10 +4634,11 @@ const CATALOGO_TODOVALVULAS = [
     ]
   },
   {
-    articulo: "251M",
+    articulo: "251",
     nombre: "MANÓMETRO ABS SECO AXIAL",
     categoria: "Instrumentación",
     marca: "CODITAL",
+    descripcion: "Dial seco, conexión axial",
     variantes: [
       {codigo: 'COD2002510052006', medida: '50x1/4" 0-6bar', precio: 6.73},
       {codigo: 'COD2002510052010', medida: '50x1/4" 0-10bar', precio: 6.73},
@@ -4637,13 +4648,13 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'COD2002510063016', medida: '63x1/4" 0-16bar', precio: 8.17}
     ]
   },
-  // VÁLVULAS DE ESFERA LATÓN
+  // ============ VÁLVULAS DE ESFERA LATÓN ============
   {
     articulo: "120",
-    nombre: "VÁLVULA ESFERA H/H PALANCA SMART",
+    nombre: "VÁLVULA ESFERA H/H PALANCA PLANA SMART",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón forjado niquelado. Paso estándar. BSPP ISO 228-1",
+    descripcion: "Latón forjado niquelado. Paso estándar. Vástago inexpulsable. BSPP ISO 228-1. Temp: -10°C/+120°C",
     variantes: [
       {codigo: 'COD19202Z', medida: '1/2"', precio: 5.71},
       {codigo: 'COD19203Z', medida: '3/4"', precio: 8.16},
@@ -4655,10 +4666,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "121",
-    nombre: "VÁLVULA ESFERA M/H PALANCA SMART",
+    nombre: "VÁLVULA ESFERA M/H PALANCA PLANA SMART",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón forjado niquelado. Paso estándar. BSPP ISO 228-1",
+    descripcion: "Latón forjado niquelado. Paso estándar. Vástago inexpulsable. BSPP ISO 228-1. Temp: -10°C/+120°C",
     variantes: [
       {codigo: 'COD19212Z', medida: '1/2"', precio: 7.37},
       {codigo: 'COD19213Z', medida: '3/4"', precio: 11.73},
@@ -4673,7 +4684,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA ESFERA H/H MARIPOSA SMART",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón forjado niquelado. Palanca mariposa. Paso estándar.",
+    descripcion: "Latón forjado niquelado. Palanca mariposa. Paso estándar. BSPP ISO 228-1. Temp: -10°C/+120°C",
     variantes: [
       {codigo: 'COD19232Z', medida: '1/2"', precio: 6.97},
       {codigo: 'COD19233Z', medida: '3/4"', precio: 11.26},
@@ -4682,10 +4693,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "220",
-    nombre: "VÁLVULA ESFERA H/H PALANCA PASO TOTAL",
+    nombre: "VÁLVULA ESFERA H/H PALANCA PLANA PASO TOTAL",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón forjado niquelado. Paso total. BSPP ISO 228-1",
+    descripcion: "Latón forjado niquelado. Paso total. Vástago inexpulsable. BSPP ISO 228-1. Temp: -10°C/+120°C",
     variantes: [
       {codigo: 'COD29201Z', medida: '3/8"', precio: 5.90},
       {codigo: 'COD29202Z', medida: '1/2"', precio: 6.97},
@@ -4700,11 +4711,11 @@ const CATALOGO_TODOVALVULAS = [
     ]
   },
   {
-    articulo: "251E",
+    articulo: "251MH",
     nombre: "VÁLVULA ESFERA M/H CON UNIÓN MARIPOSA",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón forjado niquelado. Paso total.",
+    descripcion: "Latón forjado niquelado. Palanca mariposa. Paso total. BSPP ISO 228-1. Temp: -10°C/+120°C",
     variantes: [
       {codigo: 'COD29513Z', medida: '1/2"', precio: 12.88},
       {codigo: 'COD29514Z', medida: '3/4"', precio: 23.98},
@@ -4713,10 +4724,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "236",
-    nombre: "MINI VÁLVULA ESFERA H/H",
+    nombre: "MINI VÁLVULA ESFERA CROMADA H/H",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    descripcion: "Cuerpo y esfera latón cromado. Junta esfera PTFE, o-ring EPDM",
     variantes: [
       {codigo: 'COD29362Z', medida: '3/8"', precio: 7.48},
       {codigo: 'COD29363Z', medida: '1/2"', precio: 7.56}
@@ -4724,10 +4735,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "237",
-    nombre: "MINI VÁLVULA ESFERA M/H",
+    nombre: "MINI VÁLVULA ESFERA CROMADA M/H",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    descripcion: "Cuerpo y esfera latón cromado. Junta esfera PTFE, o-ring EPDM",
     variantes: [
       {codigo: 'COD29372Z', medida: '3/8"', precio: 5.88},
       {codigo: 'COD29373Z', medida: '1/2"', precio: 7.22}
@@ -4735,10 +4746,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "238",
-    nombre: "MINI VÁLVULA ESFERA M/M",
+    nombre: "MINI VÁLVULA ESFERA CROMADA M/M",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Junta PTFE, o-ring EPDM",
+    descripcion: "Cuerpo y esfera latón cromado. Junta esfera PTFE, o-ring EPDM",
     variantes: [
       {codigo: 'COD29381Z', medida: '1/4"', precio: 4.72},
       {codigo: 'COD29382Z', medida: '3/8"', precio: 4.80}
@@ -4746,44 +4757,44 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "227",
-    nombre: "VÁLVULA ESFERA MANGUERA PALANCA",
+    nombre: "VÁLVULA ESFERA PARA MANGUERA PALANCA",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Temp máx 120°C",
+    descripcion: "Cuerpo, esfera, manguito latón cromado. Temp máx 120°C",
     variantes: [
-      {codigo: 'COD29273Z', medida: '1/2"x3/4"', precio: 7.59},
-      {codigo: 'COD29274Z', medida: '3/4"x1"', precio: 10.39}
+      {codigo: 'COD29273Z', medida: '1/2" x 3/4"', precio: 7.59},
+      {codigo: 'COD29274Z', medida: '3/4" x 1"', precio: 10.39}
     ]
   },
   {
-    articulo: "248E",
-    nombre: "VÁLVULA ESFERA MANGUERA MARIPOSA",
+    articulo: "248",
+    nombre: "VÁLVULA ESFERA PARA MANGUERA MARIPOSA",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Temp máx 120°C",
+    descripcion: "Cuerpo, esfera, manguito latón cromado. Temp máx 120°C",
     variantes: [
-      {codigo: 'COD29483Z', medida: '1/2"x3/4"', precio: 8.13},
-      {codigo: 'COD29484Z', medida: '3/4"x1"', precio: 11.13}
+      {codigo: 'COD29483Z', medida: '1/2" x 3/4"', precio: 8.13},
+      {codigo: 'COD29484Z', medida: '3/4" x 1"', precio: 11.13}
     ]
   },
   {
     articulo: "247",
-    nombre: "VÁLVULA ESFERA MANGUERA BLOQUEABLE",
+    nombre: "VÁLVULA ESFERA PARA MANGUERA BLOQUEABLE",
     categoria: "Esfera Latón",
     marca: "CODITAL",
-    descripcion: "Latón cromado. Palanca bloqueable.",
+    descripcion: "Cuerpo, esfera, manguito latón cromado. Temp máx 120°C. Palanca bloqueable.",
     variantes: [
-      {codigo: 'COD29473Z', medida: '1/2"x3/4"', precio: 10.91}
+      {codigo: 'COD29473Z', medida: '1/2" x 3/4"', precio: 10.91}
     ]
   },
-  // VÁLVULAS DE ESFERA INOX
+  // ============ VÁLVULAS DE ESFERA INOX ============
   {
     articulo: "3446",
-    nombre: "VÁLVULA ESFERA INOX H/H 2 PIEZAS",
+    nombre: "VÁLVULA ESFERA INOX H/H 2 PIEZAS BLOQUEABLE",
     categoria: "Esfera Inox",
     marca: "CODITAL",
     material: "Inox 316 CF8M",
-    descripcion: "Paso total. PN 64-50-40-25. Palanca bloqueable.",
+    descripcion: "Dos cuerpos, paso total roscada H/H. TEMP -20°C + 180°C. PN 64-50-40-25 BAR. Palanca bloqueable.",
     variantes: [
       {codigo: 'COD2034460000800', medida: '1/4"', precio: 20.38},
       {codigo: 'COD2034460001200', medida: '3/8"', precio: 22.00},
@@ -4799,11 +4810,11 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "1405",
-    nombre: "VÁLVULA ESFERA INOX H/H 3 PIEZAS",
+    nombre: "VÁLVULA ESFERA INOX H/H 3 PIEZAS BLOQUEABLE",
     categoria: "Esfera Inox",
     marca: "CODITAL",
     material: "Inox 316 CF8M",
-    descripcion: "Paso total. PN 64-50-40-25. Palanca bloqueable.",
+    descripcion: "Tres cuerpos, paso total roscada H/H, sin brida ISO. TEMP -20°C + 180°C. PN 64-50-40-25 BAR. Palanca bloqueable.",
     variantes: [
       {codigo: 'COD2014050000800', medida: '1/4"', precio: 35.03},
       {codigo: 'COD2014050001200', medida: '3/8"', precio: 33.52},
@@ -4818,13 +4829,13 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'COD2014050010200', medida: '4"', precio: 1307.72}
     ]
   },
-  // VÁLVULAS DE AIRE BERMAD
+  // ============ VÁLVULAS DE AIRE BERMAD ============
   {
     articulo: "C30-P",
     nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN PLÁSTICO",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Potable",
+    descripcion: "Cuerpo Plástico. PN 16. Para Agua Potable",
     variantes: [
       {codigo: 'BERC30P1BSP', medida: '1" Roscada', precio: 157.56},
       {codigo: 'BERC30P2BSP', medida: '2" Roscada', precio: 308.29},
@@ -4837,7 +4848,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN METÁLICA",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Potable",
+    descripcion: "Cuerpo Metálico. PN 16. Para Agua Potable",
     variantes: [
       {codigo: 'BERC30C1BSP', medida: '1" Roscada', precio: 405.76},
       {codigo: 'BERC30C2BSP', medida: '2" Roscada', precio: 506.84},
@@ -4849,7 +4860,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA AIRE AUTOMÁTICA PLÁSTICO",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Potable",
+    descripcion: "Cuerpo Plástico. PN 16. Para Agua Potable",
     variantes: [
       {codigo: 'BERA30P075BSP', medida: '3/4" Roscada', precio: 116.55},
       {codigo: 'BERA30P1BSP', medida: '1" Roscada', precio: 116.55}
@@ -4857,17 +4868,17 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "C70-C",
-    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN NOMINAL AYSA",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN NOMINAL",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Potable. APROBADA AYSA",
+    descripcion: "Cuerpo Metálico. PN 16. Para Agua Potable, NOMINAL. APROBADA AYSA",
     variantes: [
       {codigo: 'BERC702BSP', medida: '2" Roscada', precio: 787.68},
-      {codigo: 'BERC702', medida: '2" Bridada', precio: 849.20},
-      {codigo: 'BERC703', medida: '3" Bridada', precio: 1200.20},
-      {codigo: 'BERC704', medida: '4" Bridada', precio: 1635.10},
-      {codigo: 'BERC706', medida: '6" Bridada', precio: 2917.44},
-      {codigo: 'BERC708', medida: '8" Bridada', precio: 5156.80}
+      {codigo: 'BERC702"', medida: '2" Bridada', precio: 849.20},
+      {codigo: 'BERC703"', medida: '3" Bridada', precio: 1200.20},
+      {codigo: 'BERC704"', medida: '4" Bridada', precio: 1635.10},
+      {codigo: 'BERC706"', medida: '6" Bridada', precio: 2917.44},
+      {codigo: 'BERC708"', medida: '8" Bridada', precio: 5156.80}
     ]
   },
   {
@@ -4875,7 +4886,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN REDUCIDA",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Potable",
+    descripcion: "Cuerpo Metálico. PN 16. Para Agua Potable, REDUCIDA",
     variantes: [
       {codigo: 'BERC75C316', medida: '3" Bridada', precio: 964.00},
       {codigo: 'BERC75C416', medida: '4" Bridada', precio: 1337.24},
@@ -4890,7 +4901,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN AGUA SERVIDA PLÁSTICO",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 10. Agua Servida",
+    descripcion: "Cuerpo Plástico. PN 10. Para Agua Servida",
     variantes: [
       {codigo: 'BERC50P210', medida: '2" Bridada', precio: 1300.22},
       {codigo: 'BERC50P310', medida: '3" Bridada', precio: 1369.14},
@@ -4903,20 +4914,20 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN AGUA SERVIDA METÁLICA",
     categoria: "Válvulas de Aire",
     marca: "BERMAD",
-    descripcion: "PN 16. Agua Servida",
+    descripcion: "Cuerpo Metálico. PN 16. Para Agua Servida",
     variantes: [
       {codigo: 'BERC50C2BSP', medida: '2" Roscada', precio: 2780.41},
       {codigo: 'BERC50C216', medida: '2" Bridada', precio: 2860.86},
       {codigo: 'BERC50C316', medida: '3" Bridada', precio: 2973.92}
     ]
   },
-  // VÁLVULAS DE AIRE VALLOY
+  // ============ VÁLVULAS DE AIRE VALLOY ============
   {
     articulo: "VAC313",
-    nombre: "VÁLVULA AIRE VALLOY NOMINAL",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN VALLOY NOMINAL",
     categoria: "Válvulas de Aire",
     marca: "VALLOY",
-    descripcion: "PN 16. Agua Servida. OPCIONAL AISI",
+    descripcion: "Cuerpo Metálico. PN 16. Para Agua Servida, NOMINAL. TOTAL OPCIONAL AISI",
     variantes: [
       {codigo: 'VALVEC313FD50', medida: '2" Bridada', precio: 1191.91},
       {codigo: 'VALVEC313FD80', medida: '3" Bridada', precio: 1332.58},
@@ -4927,10 +4938,10 @@ const CATALOGO_TODOVALVULAS = [
   },
   {
     articulo: "VA306",
-    nombre: "VÁLVULA AIRE VALLOY AYSA",
+    nombre: "VÁLVULA AIRE TRIPLE FUNCIÓN VALLOY AGUA SERVIDA",
     categoria: "Válvulas de Aire",
     marca: "VALLOY",
-    descripcion: "PN 16. Agua Servida. Aprobada AYSA",
+    descripcion: "Cuerpo Metálico PN 16. Para Agua Servida. Aprobada por Aysa",
     variantes: [
       {codigo: 'VALVA306ACD50', medida: '2" Bridada', precio: 2493.77},
       {codigo: 'VALVA306ACD80', medida: '3" Bridada', precio: 2605.57},
@@ -4939,7 +4950,7 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'VALVA306ACD200', medida: '8" Bridada', precio: 3303.02}
     ]
   },
-  // ACCESORIOS PVC ERA
+  // ============ ACCESORIOS PVC ERA ============
   {
     articulo: "GP005",
     nombre: "RAMAL T NORMAL PVC",
@@ -4947,15 +4958,60 @@ const CATALOGO_TODOVALVULAS = [
     marca: "ERA",
     descripcion: "Inyectado CL 10 JE",
     variantes: [
-      {codigo: 'ERATEJG75', medida: 'DN75', precio: 23.86},
-      {codigo: 'ERATEJG90', medida: 'DN90', precio: 39.68},
-      {codigo: 'ERATEJG110', medida: 'DN110', precio: 42.30},
-      {codigo: 'ERATEJG125', medida: 'DN125', precio: 63.79},
-      {codigo: 'ERATEJG160', medida: 'DN160', precio: 87.48},
-      {codigo: 'ERATEJG200', medida: 'DN200', precio: 145.00},
-      {codigo: 'ERATEJG250', medida: 'DN250', precio: 221.69},
-      {codigo: 'ERATEJG315', medida: 'DN315', precio: 421.87},
-      {codigo: 'ERATEJG355', medida: 'DN355', precio: 669.54}
+      {codigo: 'ERA TE JG 75', medida: 'DN75', precio: 23.86},
+      {codigo: 'ERA TE JG 90', medida: 'DN90', precio: 39.68},
+      {codigo: 'ERA TE JG 110', medida: 'DN110', precio: 42.30},
+      {codigo: 'ERA TE JG 125', medida: 'DN125', precio: 63.79},
+      {codigo: 'ERA TE JG 160', medida: 'DN160', precio: 87.48},
+      {codigo: 'ERA TE JG 200', medida: 'DN200', precio: 145.00},
+      {codigo: 'ERA TE JG 250', medida: 'DN250', precio: 221.69},
+      {codigo: 'ERA TE JG 315', medida: 'DN315', precio: 421.87},
+      {codigo: 'ERA TE JG 355', medida: 'DN355', precio: 669.54}
+    ]
+  },
+  {
+    articulo: "GP013",
+    nombre: "RAMAL T REDUCIDO PVC",
+    categoria: "Accesorios PVC",
+    marca: "ERA",
+    descripcion: "Inyectado CL 10 JE",
+    variantes: [
+      {codigo: 'ERA TER JG 75x63', medida: '75x63', precio: 22.26},
+      {codigo: 'ERA TER JG 90x63', medida: '90x63', precio: 35.91},
+      {codigo: 'ERA TER JG 90x75', medida: '90x75', precio: 38.09},
+      {codigo: 'ERA TER JG 110x63', medida: '110x63', precio: 40.12},
+      {codigo: 'ERA TER JG 110x75', medida: '110x75', precio: 40.69},
+      {codigo: 'ERA TER JG 110x90', medida: '110x90', precio: 41.42},
+      {codigo: 'ERA TER JG 160x63', medida: '160x63', precio: 71.64},
+      {codigo: 'ERA TER JG 160x75', medida: '160x75', precio: 73.52},
+      {codigo: 'ERA TER JG 160x90', medida: '160x90', precio: 75.86},
+      {codigo: 'ERA TER JG 160x110', medida: '160x110', precio: 80.36},
+      {codigo: 'ERA TER JG 200x75', medida: '200x75', precio: 100.83},
+      {codigo: 'ERA TER JG 200x90', medida: '200x90', precio: 107.37},
+      {codigo: 'ERA TER JG 200x110', medida: '200x110', precio: 112.89},
+      {codigo: 'ERA TER JG 200x160', medida: '200x160', precio: 129.45},
+      {codigo: 'ERA TER JG 250x110', medida: '250x110', precio: 157.06},
+      {codigo: 'ERA TER JG 250x160', medida: '250x160', precio: 188.58},
+      {codigo: 'ERA TER JG 250x200', medida: '250x200', precio: 204.56}
+    ]
+  },
+  {
+    articulo: "GP015",
+    nombre: "REDUCCIÓN HH PVC",
+    categoria: "Accesorios PVC",
+    marca: "ERA",
+    descripcion: "Inyectada CL 10 JE",
+    variantes: [
+      {codigo: 'ERA RED JG 90x75', medida: '90x75', precio: 16.73},
+      {codigo: 'ERA RED JG 110x63', medida: '110x63', precio: 17.61},
+      {codigo: 'ERA RED JG 110x90', medida: '110x90', precio: 18.90},
+      {codigo: 'ERA RED JG 160x110', medida: '160x110', precio: 41.73},
+      {codigo: 'ERA RED JG 200x110', medida: '200x110', precio: 48.84},
+      {codigo: 'ERA RED JG 200x160', medida: '200x160', precio: 52.04},
+      {codigo: 'ERA RED JG 250x200', medida: '250x200', precio: 81.37},
+      {codigo: 'ERA RED JG 315x200', medida: '315x200', precio: 178.85},
+      {codigo: 'ERA RED JG 315x250', medida: '315x250', precio: 195.11},
+      {codigo: 'ERA RED JG 355x315', medida: '355x315', precio: 266.57}
     ]
   },
   {
@@ -4965,17 +5021,17 @@ const CATALOGO_TODOVALVULAS = [
     marca: "ERA",
     descripcion: "Inyectada CL 10 JE",
     variantes: [
-      {codigo: 'ERACUPJG63', medida: 'DN63', precio: 6.42},
-      {codigo: 'ERACUPJG75', medida: 'DN75', precio: 17.02},
-      {codigo: 'ERACUPJG90', medida: 'DN90', precio: 18.61},
-      {codigo: 'ERACUPJG110', medida: 'DN110', precio: 19.63},
-      {codigo: 'ERACUPJG125', medida: 'DN125', precio: 33.87},
-      {codigo: 'ERACUPJG160', medida: 'DN160', precio: 44.33},
-      {codigo: 'ERACUPJG200', medida: 'DN200', precio: 81.08},
-      {codigo: 'ERACUPJG225', medida: 'DN225', precio: 86.16},
-      {codigo: 'ERACUPJG250', medida: 'DN250', precio: 100.25},
-      {codigo: 'ERACUPJG315', medida: 'DN315', precio: 182.78},
-      {codigo: 'ERACUPJG355', medida: 'DN355', precio: 281.25}
+      {codigo: 'ERA CUP JG 63', medida: 'DN63', precio: 6.42},
+      {codigo: 'ERA CUP JG 75', medida: 'DN75', precio: 17.02},
+      {codigo: 'ERA CUP JG 90', medida: 'DN90', precio: 18.61},
+      {codigo: 'ERA CUPJG 110', medida: 'DN110', precio: 19.63},
+      {codigo: 'ERA CUP JG 125', medida: 'DN125', precio: 33.87},
+      {codigo: 'ERA CUP JG 160', medida: 'DN160', precio: 44.33},
+      {codigo: 'ERA CUP JG 200', medida: 'DN200', precio: 81.08},
+      {codigo: 'ERA CUP JG 225', medida: 'DN225', precio: 86.16},
+      {codigo: 'ERA CUP JG 250', medida: 'DN250', precio: 100.25},
+      {codigo: 'ERA CUP JG 315', medida: 'DN315', precio: 182.78},
+      {codigo: 'ERA CUP JG 355', medida: 'DN355', precio: 281.25}
     ]
   },
   {
@@ -4985,18 +5041,66 @@ const CATALOGO_TODOVALVULAS = [
     marca: "ERA",
     descripcion: "Inyectado CL 10 JE",
     variantes: [
-      {codigo: 'ERAABRJG63', medida: 'DN63', precio: 15.28},
-      {codigo: 'ERAABRJG75', medida: 'DN75', precio: 15.87},
-      {codigo: 'ERAABRJG90', medida: 'DN90', precio: 18.18},
-      {codigo: 'ERAABRJG110', medida: 'DN110', precio: 22.26},
-      {codigo: 'ERAABRJG160', medida: 'DN160', precio: 41.42},
-      {codigo: 'ERAABRJG200', medida: 'DN200', precio: 71.64},
-      {codigo: 'ERAABRJG250', medida: 'DN250', precio: 128.15},
-      {codigo: 'ERAABRJG315', medida: 'DN315', precio: 157.64},
-      {codigo: 'ERAABRJG355', medida: 'DN355', precio: 211.97}
+      {codigo: 'ERA ABR JG 63', medida: 'DN63', precio: 15.28},
+      {codigo: 'ERA ABR JG 75', medida: 'DN75', precio: 15.87},
+      {codigo: 'ERA ABR JG 90', medida: 'DN90', precio: 18.18},
+      {codigo: 'ERA ABR JG 110', medida: 'DN110', precio: 22.26},
+      {codigo: 'ERA ABR JG 160', medida: 'DN160', precio: 41.42},
+      {codigo: 'ERA ABR JG 200', medida: 'DN200', precio: 71.64},
+      {codigo: 'ERA ABR JG 250', medida: 'DN250', precio: 128.15},
+      {codigo: 'ERA ABR JG 315', medida: 'DN315', precio: 157.64},
+      {codigo: 'ERA ABR JG 355', medida: 'DN355', precio: 211.97}
     ]
   },
-  // ELECTROFUSIÓN PEAD
+  // ============ JUNTAMAS ============
+  {
+    articulo: "JUNTAMAS",
+    nombre: "REPARACIÓN PARA CAÑOS PVC",
+    categoria: "Accesorios PVC",
+    marca: "TODOVALVULAS",
+    variantes: [
+      {codigo: 'JUNTAMAS1212', medida: 'PVC Ø40', precio: 13.10},
+      {codigo: 'JUNTAMAS1201', medida: 'PVC Ø50', precio: 16.64},
+      {codigo: 'JUNTAMAS1202', medida: 'PVC Ø63', precio: 18.67},
+      {codigo: 'JUNTAMAS1203', medida: 'PVC Ø75', precio: 21.42},
+      {codigo: 'JUNTAMAS1204', medida: 'PVC Ø90', precio: 25.25},
+      {codigo: 'JUNTAMAS1205', medida: 'PVC Ø110', precio: 27.62},
+      {codigo: 'JUNTAMAS1206', medida: 'PVC Ø160', precio: 42.69},
+      {codigo: 'JUNTAMAS1214', medida: 'PVC Extra Larga Ø40', precio: 33.45},
+      {codigo: 'JUNTAMAS1207', medida: 'PVC Extra Larga Ø50', precio: 31.92},
+      {codigo: 'JUNTAMAS1208', medida: 'PVC Extra Larga Ø63', precio: 35.71},
+      {codigo: 'JUNTAMAS1209', medida: 'PVC Extra Larga Ø75', precio: 37.42},
+      {codigo: 'JUNTAMAS1210', medida: 'PVC Extra Larga Ø90', precio: 40.28},
+      {codigo: 'JUNTAMAS1211', medida: 'PVC Extra Larga Ø110', precio: 45.31},
+      {codigo: 'JUNTAMAS1216', medida: 'PVC Extra Larga Ø125', precio: 74.47},
+      {codigo: 'JUNTAMAS1215', medida: 'PVC Extra Larga Ø140', precio: 81.31},
+      {codigo: 'JUNTAMAS1220', medida: 'PVC Extra Larga Ø160', precio: 107.90},
+      {codigo: 'JUNTAMAS1217', medida: 'PVC Extra Larga Ø200', precio: 131.36},
+      {codigo: 'JUNTAMAS1218', medida: 'PVC Extra Larga Ø250', precio: 160.06},
+      {codigo: 'JUNTAMAS1222', medida: 'PVC Extra Larga Ø315', precio: 241.11}
+    ]
+  },
+  // ============ ELECTROFUSIÓN PEAD ============
+  {
+    articulo: "EF-BRIDA",
+    nombre: "ADAPTADOR DE BRIDA PEAD EF",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT900900502', medida: 'DN50', precio: 4.86},
+      {codigo: 'PMT900900632', medida: 'DN63', precio: 5.56},
+      {codigo: 'PMT900900752', medida: 'DN75', precio: 7.28},
+      {codigo: 'PMT900900902', medida: 'DN90', precio: 9.36},
+      {codigo: 'PMT900901102', medida: 'DN110', precio: 14.24},
+      {codigo: 'PMT900901602', medida: 'DN160', precio: 34.24},
+      {codigo: 'PMT900902002', medida: 'DN200', precio: 61.76},
+      {codigo: 'PMT900902502', medida: 'DN250', precio: 106.12},
+      {codigo: 'PMT900903152', medida: 'DN315', precio: 152.08},
+      {codigo: 'PMT900903552', medida: 'DN355', precio: 227.32},
+      {codigo: 'PMT900904002', medida: 'DN400', precio: 299.36}
+    ]
+  },
   {
     articulo: "EF-CUPLA",
     nombre: "CUPLA ELECTROFUSIÓN PEAD",
@@ -5018,6 +5122,21 @@ const CATALOGO_TODOVALVULAS = [
     ]
   },
   {
+    articulo: "EF-CODO45",
+    nombre: "CODO 45° ELECTROFUSIÓN PEAD",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT9020050502', medida: 'DN50', precio: 11.55},
+      {codigo: 'PMT9020050632', medida: 'DN63', precio: 13.81},
+      {codigo: 'PMT9020050752', medida: 'DN75', precio: 22.83},
+      {codigo: 'PMT9020050902', medida: 'DN90', precio: 28.85},
+      {codigo: 'PMT9020051102', medida: 'DN110', precio: 32.87},
+      {codigo: 'PMT9020051602', medida: 'DN160', precio: 101.85}
+    ]
+  },
+  {
     articulo: "EF-CODO90",
     nombre: "CODO 90° ELECTROFUSIÓN PEAD",
     categoria: "Electrofusión PEAD",
@@ -5030,7 +5149,9 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'PMT9020060902', medida: 'DN90', precio: 28.80},
       {codigo: 'PMT9020061102', medida: 'DN110', precio: 36.32},
       {codigo: 'PMT9020061602', medida: 'DN160', precio: 112.56},
-      {codigo: 'PMT9020062002', medida: 'DN200', precio: 199.92}
+      {codigo: 'PMT9020062002', medida: 'DN200', precio: 199.92},
+      {codigo: 'PMT9020062502', medida: 'DN250 KIT', precio: 500.64},
+      {codigo: 'PMT9020063152', medida: 'DN315 KIT', precio: 942.48}
     ]
   },
   {
@@ -5046,57 +5167,73 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'PMT9020070902', medida: 'DN90', precio: 38.80},
       {codigo: 'PMT9020071102', medida: 'DN110', precio: 41.56},
       {codigo: 'PMT9020071602', medida: 'DN160', precio: 171.88},
-      {codigo: 'PMT9020072002', medida: 'DN200', precio: 246.96}
+      {codigo: 'PMT9020072002', medida: 'DN200', precio: 246.96},
+      {codigo: 'PMT9020072502', medida: 'DN250', precio: 571.52},
+      {codigo: 'PMT9020073152', medida: 'DN315', precio: 1081.92}
     ]
   },
-  // CAUDALÍMETROS
+  {
+    articulo: "EF-RED",
+    nombre: "REDUCCIÓN ELECTROFUSIÓN PEAD",
+    categoria: "Electrofusión PEAD",
+    marca: "TODOVALVULAS",
+    descripcion: "SDR 11",
+    variantes: [
+      {codigo: 'PMT9020963502', medida: '63x50', precio: 19.68},
+      {codigo: 'PMT9020975632', medida: '75x63', precio: 22.49},
+      {codigo: 'PMT902099075', medida: '90x75', precio: 31.92},
+      {codigo: 'PMT90209110902', medida: '110x90', precio: 42.00},
+      {codigo: 'PMT902091601102', medida: '160x110', precio: 84.00}
+    ]
+  },
+  // ============ CAUDALÍMETROS ============
   {
     articulo: "TURBO-IR-M",
     nombre: "CAUDALÍMETRO TURBO-IR-M",
     categoria: "Caudalímetros",
     marca: "BERMAD",
-    descripcion: "Con registro magnético y pulso",
+    descripcion: "Con registro magnético y pulso. Bridado.",
     variantes: [
-      {codigo: 'BERTIRM50', medida: '2" (35m³/h)', precio: 446.75},
-      {codigo: 'BERTIRM80', medida: '3" (75m³/h)', precio: 483.68},
-      {codigo: 'BERTIRM100', medida: '4" (125m³/h)', precio: 537.93},
-      {codigo: 'BERTIRM150', medida: '6" (250m³/h)', precio: 848.45},
-      {codigo: 'BERTIRM200', medida: '8" (450m³/h)', precio: 938.49},
-      {codigo: 'BERTIRM250', medida: '10" (600m³/h)', precio: 1542.21},
-      {codigo: 'BERTIRM300', medida: '12" (800m³/h)', precio: 1927.76}
+      {codigo: 'BERTIRM-50', medida: '2" (35 m³/h)', precio: 446.75},
+      {codigo: 'BERTIRM-80', medida: '3" (75 m³/h)', precio: 483.68},
+      {codigo: 'BERTIRM-100', medida: '4" (125 m³/h)', precio: 537.93},
+      {codigo: 'BERTIRM-150', medida: '6" (250 m³/h)', precio: 848.45},
+      {codigo: 'BERTIRM-200', medida: '8" (450 m³/h)', precio: 938.49},
+      {codigo: 'BERTIRM-250', medida: '10" (600 m³/h)', precio: 1542.21},
+      {codigo: 'BERTIRM-300', medida: '12" (800 m³/h)', precio: 1927.76}
     ]
   },
   {
     articulo: "TURBO-BAR-M",
-    nombre: "CAUDALÍMETRO WOLTMAN",
+    nombre: "CAUDALÍMETRO TURBO-BAR-M WOLTMAN",
     categoria: "Caudalímetros",
     marca: "BERMAD",
-    descripcion: "Tipo Woltman",
+    descripcion: "Tipo Woltman. Bridado.",
     variantes: [
-      {codigo: 'WPH50', medida: '2" (40m³/h)', precio: 527.55},
-      {codigo: 'WPH80', medida: '3" (63m³/h)', precio: 672.99},
-      {codigo: 'WPH100', medida: '4" (100m³/h)', precio: 881.93},
-      {codigo: 'WPH150', medida: '6" (250m³/h)', precio: 1304.41},
-      {codigo: 'WPH200', medida: '8" (400m³/h)', precio: 1639.17},
-      {codigo: 'WPH250', medida: '10" (630m³/h)', precio: 2365.26},
-      {codigo: 'WPH300', medida: '12" (1000m³/h)', precio: 3947.63},
-      {codigo: 'WPH350', medida: '14" (1200m³/h)', precio: 5442.72}
+      {codigo: 'WPH-50', medida: '2" (40 m³/h)', precio: 527.55},
+      {codigo: 'WPH-80', medida: '3" (63 m³/h)', precio: 672.99},
+      {codigo: 'WPH-100', medida: '4" (100 m³/h)', precio: 881.93},
+      {codigo: 'WPH-150', medida: '6" (250 m³/h)', precio: 1304.41},
+      {codigo: 'WPH-200', medida: '8" (400 m³/h)', precio: 1639.17},
+      {codigo: 'WPH-250', medida: '10" (630 m³/h)', precio: 2365.26},
+      {codigo: 'WPH-300', medida: '12" (1000 m³/h)', precio: 3947.63},
+      {codigo: 'WPH-350', medida: '14" (1200 m³/h)', precio: 5442.72}
     ]
   },
-  // ACCESORIOS VARIOS
+  // ============ BULONES Y ACCESORIOS ============
   {
-    articulo: "JUNTAMAS",
-    nombre: "REPARACIÓN PARA CAÑOS PVC",
+    articulo: "BULONES",
+    nombre: "BULONES GALVANIZADOS",
     categoria: "Accesorios",
     marca: "TODOVALVULAS",
+    descripcion: "Bulón + 2 Arandelas Planas + Tuerca. Tratamiento Dacromet bajo requerimiento.",
     variantes: [
-      {codigo: 'JUNTAMAS1212', medida: 'Ø40', precio: 13.10},
-      {codigo: 'JUNTAMAS1201', medida: 'Ø50', precio: 16.64},
-      {codigo: 'JUNTAMAS1202', medida: 'Ø63', precio: 18.67},
-      {codigo: 'JUNTAMAS1203', medida: 'Ø75', precio: 21.42},
-      {codigo: 'JUNTAMAS1204', medida: 'Ø90', precio: 25.25},
-      {codigo: 'JUNTAMAS1205', medida: 'Ø110', precio: 27.62},
-      {codigo: 'JUNTAMAS1206', medida: 'Ø160', precio: 42.69}
+      {codigo: 'PEBUL58X3Z', medida: '5/8x3" (Brida 50-65)', precio: 6.69},
+      {codigo: 'PEBUL58X312Z', medida: '5/8x3 1/2" (Brida 80-100)', precio: 7.24},
+      {codigo: 'PEBUL58X4Z', medida: '5/8x4" (Brida 150)', precio: 7.83},
+      {codigo: 'PEBUL34X312Z', medida: '3/4x3 1/2" (Brida 200)', precio: 10.81},
+      {codigo: 'PEBUL34X4Z', medida: '3/4x4" (Brida 250-300)', precio: 11.66},
+      {codigo: 'PEBUL1X412Z', medida: '1x4 1/2" (Brida 400-500)', precio: 32.22}
     ]
   },
   {
@@ -5104,7 +5241,7 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "ARO DE GOMA PLANA",
     categoria: "Accesorios",
     marca: "TODOVALVULAS",
-    descripcion: "Con tela",
+    descripcion: "Aro de goma plana con tela",
     variantes: [
       {codigo: 'PEJPDN50', medida: 'DN50', precio: 5.91},
       {codigo: 'PEJPDN65', medida: 'DN65', precio: 6.52},
@@ -5115,22 +5252,30 @@ const CATALOGO_TODOVALVULAS = [
       {codigo: 'PEJPDN250', medida: 'DN250', precio: 22.60},
       {codigo: 'PEJPDN300', medida: 'DN300', precio: 27.50},
       {codigo: 'PEJPDN350', medida: 'DN350', precio: 37.81},
-      {codigo: 'PEJPDN400', medida: 'DN400', precio: 48.61}
+      {codigo: 'PEJPDN400', medida: 'DN400', precio: 48.61},
+      {codigo: 'PEJPDN450', medida: 'DN450', precio: 52.74},
+      {codigo: 'PEJPDN500', medida: 'DN500', precio: 57.93}
     ]
   },
   {
-    articulo: "BULONES",
-    nombre: "BULONES GALVANIZADOS",
+    articulo: "ADBRIDA-PVC",
+    nombre: "ADAPTADOR DE BRIDA PVC HIERRO",
     categoria: "Accesorios",
     marca: "TODOVALVULAS",
-    descripcion: "Bulón + 2 Arandelas + Tuerca",
+    descripcion: "Terminación con pintura epoxi",
     variantes: [
-      {codigo: 'PEBUL58X3Z', medida: '5/8x3" Brida50-65', precio: 6.69},
-      {codigo: 'PEBUL58X312Z', medida: '5/8x3.5" Brida80-100', precio: 7.24},
-      {codigo: 'PEBUL58X4Z', medida: '5/8x4" Brida150', precio: 7.83},
-      {codigo: 'PEBUL34X312Z', medida: '3/4x3.5" Brida200', precio: 10.81},
-      {codigo: 'PEBUL34X4Z', medida: '3/4x4" Brida250-300', precio: 11.66},
-      {codigo: 'PEBUL1X412Z', medida: '1x4.5" Brida400-500', precio: 32.22}
+      {codigo: 'ADPVC50050', medida: '50-50mm', precio: 50.30},
+      {codigo: 'ADPVC506563', medida: '50-65/63', precio: 46.59},
+      {codigo: 'ADPVC658075', medida: '65-80/75', precio: 63.53},
+      {codigo: 'ADPVC080-090', medida: '80-90mm', precio: 72.00},
+      {codigo: 'ADPVC100-110', medida: '100-110mm', precio: 102.45},
+      {codigo: 'ADPVC125125', medida: '125mm', precio: 143.99},
+      {codigo: 'ADPVC150-160', medida: '150-160mm', precio: 183.23},
+      {codigo: 'ADPVC200-200', medida: '200-200mm', precio: 249.87},
+      {codigo: 'ADPVC250-250', medida: '250mm', precio: 292.22},
+      {codigo: 'ADPVC300-315', medida: '300-315mm', precio: 343.04},
+      {codigo: 'ADPVC350355', medida: '350-355mm', precio: 465.85},
+      {codigo: 'ADPVC400-400', medida: '400-400mm', precio: 796.18}
     ]
   },
   {
@@ -5138,18 +5283,932 @@ const CATALOGO_TODOVALVULAS = [
     nombre: "HIDRANTE A BOLA",
     categoria: "Accesorios",
     marca: "TODOVALVULAS",
-    descripcion: "Con conexión a PVC. Pintura epoxi.",
+    descripcion: "Bridados y con conexión a PVC. Terminación con pintura epoxi.",
     variantes: [
-      {codigo: 'PEHIDRBOINT65PVC', medida: 'DN63 PVC', precio: 354.32},
-      {codigo: 'PEHIDRBOINT75PVC', medida: 'DN75 PVC', precio: 354.80},
+      {codigo: 'PEHIDRBOINT65PVC', medida: 'DN63 Inserto PVC', precio: 354.32},
+      {codigo: 'PEHIDRBOINT75PVC', medida: 'DN75 Inserto PVC', precio: 354.80},
       {codigo: 'PEHIDRBOINT6510', medida: 'DN65 Bridado', precio: 397.17},
       {codigo: 'PEHIDRBOINT8010', medida: 'DN80 Bridado', precio: 393.00}
+    ]
+  },
+  {
+    articulo: "BRIDAS-PEAD",
+    nombre: "BRIDA CONEXIÓN PEAD",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "Terminación con pintura epoxi",
+    variantes: [
+      {codigo: 'PEBRPEAD505010', medida: '50-50', precio: 49.24},
+      {codigo: 'PEBRPEAD5010', medida: '50-63', precio: 33.34},
+      {codigo: 'PEBRPEAD6510', medida: '60/65-63', precio: 37.38},
+      {codigo: 'PEBRPEAD8010', medida: '80-75', precio: 39.06},
+      {codigo: 'PEBRPEAD9010', medida: '80-90', precio: 33.62},
+      {codigo: 'PEBRPEAD10010', medida: '100-110', precio: 49.67},
+      {codigo: 'PEBRPEAD12510', medida: '125-125', precio: 107.17},
+      {codigo: 'PEBRPEAD15010', medida: '150-160', precio: 65.83},
+      {codigo: 'PEBRPEAD20010', medida: '200-200', precio: 111.15},
+      {codigo: 'PEBRPEAD25010', medida: '250-250', precio: 238.91},
+      {codigo: 'PEBRPEAD30010', medida: '300-315', precio: 217.67}
+    ]
+  },
+  {
+    articulo: "BRASERO",
+    nombre: "CAJA BRASERO AYSA",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "De hierro fundido",
+    variantes: [
+      {codigo: 'PEBRASEROAYSA', medida: 'Standard', precio: 103.00}
+    ]
+  },
+  {
+    articulo: "CAJA-HIDRANTE",
+    nombre: "CAJA PARA HIDRANTE",
+    categoria: "Accesorios",
+    marca: "TODOVALVULAS",
+    descripcion: "De hierro fundido",
+    variantes: [
+      {codigo: 'PECAJAHIDRALTA', medida: 'Alta', precio: 145.64}
+    ]
+  },
+  {
+    articulo: "535",
+    nombre: "ADAPTADOR RÁPIDO 3 BOLAS",
+    categoria: "Latón",
+    marca: "CODITAL",
+    descripcion: "Conectores de bolas",
+    variantes: [
+      {codigo: 'COD20053503B1500', medida: 'Manguera 15', precio: 11.89},
+      {codigo: 'COD20053503B1900', medida: 'Manguera 19', precio: 13.93}
+    ]
+  },
+  {
+    articulo: "536",
+    nombre: "ADAPTADOR RÁPIDO HEMBRA",
+    categoria: "Latón",
+    marca: "CODITAL",
+    variantes: [
+      {codigo: 'COD2005360001500', medida: '1/2"', precio: 3.57},
+      {codigo: 'COD2005360002000', medida: '3/4"', precio: 3.83}
+    ]
+  },
+  {
+    articulo: "1092",
+    nombre: "VÁLVULA ESFERA ESCUADRA CON APLIQUE",
+    categoria: "Esfera Latón",
+    marca: "CODITAL",
+    descripcion: "Ø 55",
+    variantes: [
+      {codigo: 'COD2028110921500', medida: '1/2" x 3/4"', precio: 7.90}
     ]
   }
 ];
 
+console.log('Total artículos TODOVALVULAS:', CATALOGO_TODOVALVULAS.length);
+let totalVariantes = 0;
+CATALOGO_TODOVALVULAS.forEach(art => totalVariantes += art.variantes.length);
+console.log('Total variantes:', totalVariantes);
+
+// Contar por marca
+const marcas = {};
+CATALOGO_TODOVALVULAS.forEach(art => {
+  const m = art.marca || 'SIN MARCA';
+  marcas[m] = (marcas[m] || 0) + 1;
+});
+console.log('Por marca:', marcas);
+
+
+
+
+// ============ CATÁLOGO WINTERS ============
+// 822 productos de instrumentación industrial
+const CATALOGO_WINTERS = [
+  {codigo: "PEM1397R6R11-BSPT", nombre: "Vacuómetro Winters Serie PEM Economy, dial 1,5\", -30/0\"Hg & -1/0 bar, 1/8\" BSPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 6.732},
+  {codigo: "PEM1420R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 1,5\", 0/100 psi & 0/7 bar, 1/8\" BSPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 6.732},
+  {codigo: "PEM1423R1R11", nombre: "Manómetro Winters Serie PEM Economy, dial 1,5\", 0/300 psi & 0/20 bar, 1/8\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 6.732},
+  {codigo: "PEM1408R11R1S-BSP", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/12 bar & 0/165 psi, 1/8\" BSP posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.094},
+  {codigo: "PEM199R3R1-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/2 Kg/cm2 & 0/30 psi, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 7.661999999999999},
+  {codigo: "PEM203R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/160 psi & 0/11 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 7.661999999999999},
+  {codigo: "PEM204R3R1-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/14 Kg/cm2 & 0/200 psi, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 7.661999999999999},
+  {codigo: "PEM205R1R11", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/300 psi & 0/20 bar, 1/4\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 7.661999999999999},
+  {codigo: "PEM205R3R1-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/20 Kg/cm2 & 0/300 psi, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 7.661999999999999},
+  {codigo: "PEM1411R1R11", nombre: "Manómetro Winters Serie PEM Economy, dial 2\", 0/300 psi & 0/20 bar, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.094},
+  {codigo: "PEM210R7R6-BSPT", nombre: "Vacuómetro Winters Serie PEM Economy, dial 2,5\", -760 mmHg/0 & -30/0\"Hg, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM153R1R11-BSPT", nombre: "Manovacuómetro Winters Serie PEM Economy, dial 2,5\", -30\"Hg/0/30 psi & -1/0/2 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM211R3R1S-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/0,6 Kg/cm2 & 0/9 psi, 1/4 BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco. (CODIGO ANTERIOR: PEM211GASISTA)", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM212R3R1-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/2 Kg/cm2 & 0/30 psi, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM213R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM214R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM215R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/160 psi & 0/11 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM290R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/1.000 psi & 0/70 bar, 1/4\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 10.026},
+  {codigo: "PEM1439R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" BSPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM1441R1R11-BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 2,5\", 0/200 psi & 0/14 bar, 1/4\" BSPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 8.952},
+  {codigo: "PEM295R3R1S-1/2BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/0,6 Kg/cm2 & 0/9 psi, 1/2\" BSPT inf., internos latón, clase ±3-2-3%, seco. (CODIGO ANTERIOR: PEM221GASISTA)", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM221R1R11-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/30 psi & 0/2 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM222R1R11-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM223R1R11-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM224R1R11-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/160 psi & 0/11 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM225R1R11-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM226R1R11-1/2BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/300 psi & 0/20 bar, 1/2\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM226R1R11S-1/2BSPT", nombre: "Manómetro Winters Serie PEM Economy, dial 4\",  0/600 psi & 0/40 bar, 1/2\" BSPT inferior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 24.708},
+  {codigo: "PEM222R1R11-BACK-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 30.293999999999997},
+  {codigo: "PEM223R1R11-BACK-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 30.293999999999997},
+  {codigo: "PEM224R1R11-BACK-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/160 psi & 0/11 bar, 1/2\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 30.293999999999997},
+  {codigo: "PEM225R1R11-BACK-1/2", nombre: "Manómetro Winters Serie PEM Economy, dial 4\", 0/200 psi & 0/14 bar, 1/2\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 30.293999999999997},
+  {codigo: "PEM206ZRR11-BSP", nombre: "Manómetro Winters Serie PEM-ZR Economy StabiliZR, dial 2\", 0/2 bar, 1/8\" BSP inferior, caja acero, internos latón, clase ±3-2-3%, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 9.6},
+  {codigo: "PFQ1102R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/30 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1103R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/60 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1103R1R11", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/60 psi & 0/4 bar, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1103R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/4 Kg/cm2 & 0/60 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1104R1R11", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/100 psi & 0/7 bar, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1105R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/10 Kg/cm2 & 0/150 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1107R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/20 Kg/cm2 & 0/300 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1108R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/40 Kg/cm2 & 0/600 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.46},
+  {codigo: "PFQ1111R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/140 Kg/cm2 & 0/2.000 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.874},
+  {codigo: "PFQ1113R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/300 Kg/cm2 & 0/4.300 psi, 1/8\" NPT inferior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.874},
+  {codigo: "PFQ1122R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/2 Kg/cm2 & 0/30 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 15.978000000000002},
+  {codigo: "PFQ1123R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/60 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 15.978000000000002},
+  {codigo: "PFQ1130R1R11", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/1.500 psi & 0/100 bar, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 16.62},
+  {codigo: "PFQ1130R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/100 Kg/cm2 & 0/1.500 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 16.62},
+  {codigo: "PFQ1131R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/140 Kg/cm2 & 0/2.000 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 16.62},
+  {codigo: "PFQ1132R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/250 Kg/cm2 & 0/3.600 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina (CODIGO ANTERIOR PFQ1133HIDROLAV)", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 16.62},
+  {codigo: "PFQ1133R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/300 Kg/cm2 & 0/4.200 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos latón, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 16.62},
+  {codigo: "PFQ1226R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/16 Kg/cm2 & 0/230 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 27.131999999999998},
+  {codigo: "PFQ1233R3R1S1", nombre: "Manómetro Winters Serie PFQ Quality, dial 1,5\", 0/400 Kg/cm2 & 0/5.800 psi, 1/8\" NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 2,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 28.05},
+  {codigo: "PFQ800R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 2,5\", 0/0,6 Kg/cm2 & 0/9 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina (CODIGO ANTERIOR PFQ800GASISTA)", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ800R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 2,5\", 0/1 Kg/cm2 & 0/15 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ803R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 2,5\", 0/4 Kg/cm2 & 0/60 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ809R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 2,5\", 0/70 Kg/cm2 & 0/1.000 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ900R3", nombre: "Vacuómetro Winters Serie PFQ Quality, dial 2,5\", -1/0 Kg/cm2, 1/4\" NPT posterior, caja Ac. Inox 304, internos latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ919R11R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 2,5\", 0/3.600 psi & 0/250 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 18.018},
+  {codigo: "PFQ1285R99-BSP", nombre: "Vacuómetro Winters Serie PFQ Quality, dial 4\", -76 cmHg/0, 1/2\" BSP posterior, caja Ac. Inox 304, internos latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1285R3", nombre: "Vacuómetro Winters Serie PFQ Quality, dial 4\", -1/0 kg/cm2 & -30\"Hg/0 psi, 1/2\" NPT posterior, caja Ac. Inox 304, internos latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1288R3R1", nombre: "Manovacuómetro Winters Serie PFQ Quality, dial 4\",-1/0/4 Kg/cm2 & -30\"Hg/0/60 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1290R3R1", nombre: "Manovacuómetro Winters Serie PFQ Quality, dial 4\",-1/0/10 Kg/cm2 & -30\"Hg/0/160 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1293R3R1S", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/0,6 Kg/cm2 & 0/8 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1293R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/1 Kg/cm2 & 0/14 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1526R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/30 Kg/cm2 & 0/425 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1527R3R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/40 Kg/cm2 & 0/550 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 41.178000000000004},
+  {codigo: "PFQ1271R11S-BSP", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/6 bar, 1/4\" BSP posterior, caja Ac. Inox. 304, internos de Ac. Inox. 316, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 57.833999999999996},
+  {codigo: "PFQ1282R11R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/700 bar & 0/10.000 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de Ac. Inox. 316, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 65.55},
+  {codigo: "PFQ1283R11R1", nombre: "Manómetro Winters Serie PFQ Quality, dial 4\", 0/1.000 bar & 0/15.000 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos de Ac. Inox. 316, clase 1,5%, cierre repujado, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 65.55},
+  {codigo: "PFQ1103ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/60 psi & 0/4 bar, 1/8\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 2,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.922},
+  {codigo: "PFQ1108ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/600 psi & 0/40 bar, 1/8\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 2,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 14.922},
+  {codigo: "PFQ1226ZRR1R11S", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/230 psi & 0/16 bar, 1/8\" NPT posterior, caja Ac. Inox. 304, internos de Ac. Inox., clase 2,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 32.04},
+  {codigo: "PFQ801ZRR6R11", nombre: "Vacuómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", -30\"Hg/0 & -1/0 bar 1/4\" NPT inferior, caja Ac. Inox 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ801ZRR7R6", nombre: "Vacuómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", -760 mmHg/0 & -30\"Hg/0, 1/4\" NPT inferior, caja Ac. Inox 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ798ZRR1R11", nombre: "Manovacuómetro Winters Serie PFQ Quality STABILIZR®, dial 2,5\", -30\"Hg/0/30 psi & -1/0/2 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ800ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/15 psi & 0/1 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ802ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/30 psi & 0/2 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ803ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ804ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ805ZRR1R11S", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/150 psi & 0/10 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ806ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/200 psi & 0/14 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ807ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/300 psi & 0/20 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ817ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/400 psi & 0/28 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ808ZRR1R11S", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/500 psi & 0/35 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ808ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/600 psi & 0/40 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ809ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/1.000 psi & 0/70 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ816ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/1.500 psi & 0/100 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ810ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/2.000 psi & 0/140 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ813ZRR1R11S", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/15.000 psi & 0/1.000 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.904},
+  {codigo: "PFQ898ZRR1R11", nombre: "Manovacuómetro Winters Serie PFQ Quality STABILIZR®, dial 2,5\", -30\"Hg/0/30 psi & -1/0/2 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ901ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/15 psi & 0/1 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ902ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/30 psi & 0/2 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ903ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ904ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ905ZRR1R11S", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/150 psi & 0/10 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ906ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/200 psi & 0/14 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ907ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/300 psi & 0/20 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ917ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/400 psi & 0/28 bar, 1/4\" NPT posterior, caja Ac. Inox. 304, internos de latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PFQ118ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/1 bar & 0/15 psi, 1/4\" BSPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 35.256},
+  {codigo: "PFQ119ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/2 bar & 0/30 psi, 1/4\" BSPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 35.256},
+  {codigo: "PFQ129ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/140 bar & 0/2.000 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 35.256},
+  {codigo: "PFQ178ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/40 bar & 0/600 psi, 1/4\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 35.256},
+  {codigo: "PFQ181ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/140 bar & 0/2.000 psi, 1/4\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 35.256},
+  {codigo: "PFQ190ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/700 bar & 0/10.000 psi, 1/4\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 49.644000000000005},
+  {codigo: "PFQ191ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 2,5\", 0/1.000 bar & 0/15.000 psi, 1/4\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 49.644000000000005},
+  {codigo: "PFQ1240ZRR1R11", nombre: "Manovacuómetro Winters Serie PFQ Quality STABILIZR®, dial 4\", -30\"Hg/0/200 psi & -1/0/14 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1242ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/15 psi & 0/1 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1243ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/30 psi & 0/2 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1244ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1245ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1247ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ717ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/1.000 psi & 0/70 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ720ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/3.000 psi & 0/200 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ722ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/10.000 psi & 0/700 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 57.56400000000001},
+  {codigo: "PFQ1293ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/1 bar & 0/15 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1294ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/30 psi & 0/2 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1294ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/2 bar & 0/30 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1295ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1295ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/4 bar & 0/60 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1296ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1298ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/160 psi & 0/11 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1524ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/200 psi & 0/14 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1525ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/300 psi & 0/20 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1526ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/400 psi & 0/30 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1526ZRR11R1", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/30 bar & 0/400 psi, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ1527ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/600 psi & 0/40 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ747ZRR1R11", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/1.000 psi & 0/70 bar, 1/2\" NPT posterior, caja Ac. Inox. 304, internos latón, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 48.198},
+  {codigo: "PFQ779ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/140 bar & 0/2.000 psi, 1/2\" BSPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ781ZRR11R1S-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/300 bar & 0/4.500 psi, 1/2\" BSPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1568ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/2 bar & 0/30 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1570ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/7 bar & 0/100 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1573ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/20 bar & 0/300 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1574ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/30 bar & 0/400 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1575ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/40 bar & 0/600 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 61.212},
+  {codigo: "PFQ1283ZRR11R1-BSPT", nombre: "Manómetro Winters Serie PFQ-ZR Quality STABILIZR®, dial 4\", 0/1.000 bar & 0/15.000 psi, 1/2\" BSPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, cierre repujado, amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 62.724000000000004},
+  {codigo: "15UC", nombre: "Accesorio Winters Brida en U (pestaña) para manómetros Serie PFQ de dial 1,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 2.2739999999999996},
+  {codigo: "25FF", nombre: "Accesorio Winters Brida Frontal para manómetros Series PFQ y PFP de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 3.7199999999999998},
+  {codigo: "25UC", nombre: "Accesorio Winters Brida en U (pestaña) para manómetros Serie PFQ y PFP de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 3.7199999999999998},
+  {codigo: "4UC", nombre: "Accesorio Winters Brida en U (U-Clamp) para manómetros Winters Serie PFQ de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "4UC-PR-DIN", nombre: "[solo Argentina] Brida en U (U-Clamp) para manómetros Winters serie PFP dial 4\" caja DIN", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "4FF", nombre: "Accesorio Winters Brida en frontal para manómetros Serie PFQ de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "PFP821R11S", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/0,6 bar, 1/4\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP827R3-SG-25", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/20 Kg/cm2, 1/4\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 44.892},
+  {codigo: "PFP880R1R11S", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/500 psi & 0/35 bar, 1/4\"NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP828R3-SG-25", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 2,5\", 0/40 Kg/cm2, 1/4\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 44.892},
+  {codigo: "PFP874R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 2,5\",-1/0/10 Kg/cm2 & -30\"Hg/0/160 psi,  1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP921R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/1 Kg/cm2 & 0/15 psi, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP881R3R1S", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/25 Kg/cm2 & 0/360 psi, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP881R3S-SG-25", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/25 Kg/cm2, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 44.892},
+  {codigo: "PFP928R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/40 Kg/cm2 & 0/600 psi, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP930R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/140 Kg/cm2 & 0/2.000 psi, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP851R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 2,5\", 0/400 Kg/cm2 & 0/6.000 psi, 1/4\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1,5%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 36.077999999999996},
+  {codigo: "PFP645R3R1-BSPT-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/10 Kg/cm2 & 0/150 psi, 1/4\"BSPT inf, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP650R3R1S", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/25 Kg/cm2 & 0/360 psi, 1/4\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.46},
+  {codigo: "PFP655R3R7-SG-4", nombre: "Vacuómetro Winters Serie PFP Premium, dial 4\", -1/0 Kg/cm2 & -760/0 mmHg, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP1044R3-SG-4", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4\", -760 mmHg/0/1 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP1048R3S-SG-4", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4\", -1/0/9 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1% aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP659R3S1-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/5 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP659R3-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/7 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP662R3-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/20 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP663R3S-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/30 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP663R3S1-SG-4", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/35 Kg/cm2, 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 112.914},
+  {codigo: "PFP2308R7R6", nombre: "Vacuómetro Winters Serie PFP Premium, dial 4\", -760 mmHg/0 & -30/0\"Hg, dial 4\", 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2309R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4\", -76cmHg/0/1 Kg/cm2 & -30\"Hg/0/15 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int, Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2309R3R1-SG-4", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4\", -76cmHg/0/1 Kg/cm2 & -30\"Hg/0/14 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int, Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 110.02799999999999},
+  {codigo: "PFP2313R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4\",-1/0/10 Kg/cm2 & -30\"Hg/0/160 psi, 1/2\"NPT posterior caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2316R3R1S", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/0,6 Kg/cm2 & 0/8 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2316R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/1 Kg/cm2 & 0/15 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2317R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/2 Kg/cm2 & 0/30 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2318R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/4 Kg/cm2 & 0/60 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2323R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/28 kg/cm2 & 0/400 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2323R3R1S", nombre: "Manómetro Winters Serie PFP Premium dial 4\", 0/30 Kg/cm2 & 0/400 psi, 1/2\"NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP2324R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/40 Kg/cm2 & 0/600 psi,  1/2\"NPT posterior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP1191R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/140 Kg/cm2 & 0/2.000 psi,  1/2\"NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP1192R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 4\", 0/200 Kg/cm2 & 0/3.000 psi,  1/2\"NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 95.568},
+  {codigo: "PFP752R1R11+SG-45", nombre: "Manovacuómetro Winters Serie PFP Premium, dial 4,5\", -30''HG/bar/0/30 psi & 0/2 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1% aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 158.72399999999996},
+  {codigo: "PFP762R11S+TP+TC", nombre: "Manómetro Winters Serie PFP Premium, dial 4,5\", 0/10 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1% aro bayoneta, con glicerina, PLATE + TC", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 133.386},
+  {codigo: "PFP763R1R11+SG-45", nombre: "Manómetro Winters Serie PFP Premium, dial 4,5\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 158.72399999999996},
+  {codigo: "PFP764R1R11+SG-45", nombre: "Manómetro Winters Serie PFP Premium, dial 4,5\", 0/300 psi & 0/20 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayon con glicerina, con vidrio de seguridad", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 158.72399999999996},
+  {codigo: "PFP771R1R11+SG-45", nombre: "Manómetro Winters Serie PFP Premium, dial 4,5\", 0/5.000 psi & 0/350 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, int. Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 158.72399999999996},
+  {codigo: "PFP1168R7R6-1/2", nombre: "Vacuómetro Winters Serie PFP Premium, dial 6\", -760 mmHg/0 & -30/0\"Hg, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1159R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/1 Kg/cm2 & 0/15 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1160R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/2 Kg/cm2 & 0/30 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1162R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/7 Kg/cm2 & 0/100 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1163R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/10 Kg/cm2 & 0/150 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1165R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/20 Kg/cm2 & 0/300 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1166R3R1-1/2", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/40 kg/cm2, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1167R3-SG-6-1/2+6FF", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/70Kg/cm2, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, con glicerina, con vidrio de seguridad y 6FF", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 261.588},
+  {codigo: "PFP2327R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, -1/0/1 Kg/cm2 & -30\"Hg/0/15 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2329R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, -1/0/4 Kg/cm2 & -30\"Hg/0/60 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2330R3R1", nombre: "Manovacuómetro Winters Serie PFP Premium, -1/0/7 Kg/cm2 & -30\"Hg/0/100 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2334R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/1 Kg/cm2 & 0/15 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2335R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/2 Kg/cm2 & 0/30 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2335R3R1S", nombre: "Manovacuómetro Winters Serie PFP Premium, 0/2,5 Kg/cm2 & 0/36 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1080R3", nombre: "Manómetro Winters Serie PFP Premium, 0/70 Kg/cm2, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1080R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/70 Kg/cm2 & 0/1.000 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1081R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/100 Kg/cm2 & 0/1.500 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1082R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/140 Kg/cm2 & 0/2.000 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1086R3R1", nombre: "Manómetro Winters Serie PFP Premium, 0/600 Kg/cm2 & 0/8.700 psi, dial 6\", 1/2\"NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta. con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 254.47199999999998},
+  {codigo: "PFP1169R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/100 Kg/cm2 & 0/1.500 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP1169R3-SG-6+6FF", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/100 Kg/cm2, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, con glicerina, con vidrio de Seguridad y pestaña se sujeción 6FF.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 261.588},
+  {codigo: "PFP1171R3R1", nombre: "Manómetro Winters Serie PFP Premium, dial 6\", 0/200 Kg/cm2 & 0/3.000 psi, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 192.87599999999998},
+  {codigo: "PFP2033R11+TP+TC", nombre: "Manovacuómetro Winters Serie PFP Premium dial 10\", -1/0/10 bar, 1/2\" NPT inferior caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta + TAG PLATE + TC, con glicerina", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 525.468},
+  {codigo: "PFP2031R11R1DRY-1/2", nombre: "Manómetro Winters PFP Serie Premium, dial 10\", 0/7 bar & 0/100 psi 1/2\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, seco", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 525.468},
+  {codigo: "PFP2036R11R1DRY-1/2", nombre: "Manómetro Winters PFP Serie Premium, dial 10\", 0/40 bar & 0/600 psi, 1/2\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, seco", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 525.468},
+  {codigo: "PFP823ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP824ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP825ZRR11R1", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/10 bar & 0/150 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP825ZRR1R11S", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/150 psi & 0/10 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP826ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/200 psi & 0/14 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP827ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/300 psi & 0/20 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP827ZRR1R3", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/300 psi & 0/20 kg/cm2, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP880ZRR3S-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/25 kg/cm2, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.86000000000001},
+  {codigo: "PFP880ZRR3S-T-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/25 kg/cm2, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.86000000000001},
+  {codigo: "PFP828ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/600 psi & 0/40 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP828ZRR3-T-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/40 Kg/cm2, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.86000000000001},
+  {codigo: "PFP829ZRR3R1S1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/60 kg/cm2 & 0/900 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.86000000000001},
+  {codigo: "PFP829ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1.000 psi & 0/70 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP834ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1.500 psi & 0/100 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP834ZRR11R1", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/100 bar & 0/1.500 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP834ZRR3R1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/100 Kg/cm2 & 0/1.500 psi, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.86000000000001},
+  {codigo: "PFP830ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/2.000 psi & 0/140 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP831ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/3.000 psi & 0/200 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP832ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/5.000 psi & 0/350 bar, 1/4\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PFP873ZRR1R3+25BF", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", -30\"Hg/100 psi & -1/0/7 Kg/cm2, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con brida posterior.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP874ZRR11R1", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", -1/0/10 bar & -30\"Hg/0/150 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP921ZRR11R1", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1 bar & 0/15 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP921ZRR3R1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1 Kg/cm2 & 0/15 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP922ZRR3R1S-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1,6 kg/cm2 & 0/23 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP923ZRR3R1S-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/2,5 Kg/cm2 & 0/35 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP923ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP924ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP925ZRR3R1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/10 Kg/cm2 & 0/150 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP927ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/300 psi & 0/20 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP881ZRR3R1S-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/25 Kg/cm2 & 0/350 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP928ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/600 psi & 0/40 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP929ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/1.000 psi & 0/70 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP929ZRR3R1S1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/70 Kg/cm2 & 0/1.000 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP930ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/2.000 psi & 0/140 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP930ZRR11R1", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/140 bar & 0/2.000 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP931ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/3.000 psi & 0/200 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.06999999999999},
+  {codigo: "PFP931ZRR1-SG-25", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/3.000 psi, 1/4\" NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 43.884},
+  {codigo: "PFP3796ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 2,5\", 0/10.000 psi & 0/700 bar, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1,5%, aro bayoneta, con brida frontal", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 49.116},
+  {codigo: "PFP1252ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/100 kg/cm2 & 0/1.500 psi, 1/4\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP655ZRR6R11", nombre: "Vacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -30/0\"Hg & -1/0 bar, 1/2\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP655ZRR7R6-SG-4", nombre: "Vacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -760 mmHg/0 & -30/0\"Hg, 1/2\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP655ZRR7R3-SG-4", nombre: "Vacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 760/0 mmHg & -1/0 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP1044ZRR3-SG-4", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -760mmHg/0/1 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP656ZRR1R11S", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/10 psi & 0/0,6 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP656ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/15 psi & 0/1 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP656ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1 Kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP656ZR11R1-BSPT-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1 bar & 0/15 psi, 1/2\" BSPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP656ZRR3-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1 Kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP656ZRR1R99-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 3/15 psi, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP657ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/30 psi & 0/2 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP657ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/2 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP657ZRR3-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/2 Kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP657ZRR3S1-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/2,5 Kg/cm2 & 0/40 psi, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP658ZRR3S-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/3 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP658ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP658R3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/4 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP659ZRR3S-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/6 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP659ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP660ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/160 psi & 0/11 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP661ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP662ZRR3S-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/20 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP662ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/300 psi & 0/20 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP662ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/300 psi & 0/20 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP666ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/400 psi & 0/30 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP663ZRR3S-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/30 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP663ZRR3-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/40 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP663ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/600 psi & 0/40 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP664ZRR3S-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/50 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP664ZRR3S1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/60 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP664ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/70 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP665ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1.500 psi & 0/100 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP665ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/100 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP665ZRR3-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/100 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP667ZRR3S-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/150 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP667ZRR3S1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/160 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP668ZRR3S-T-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/150 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con tope fin escala, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP668ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/3.000 psi & 0/200 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP668ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/200 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP669R3S2-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/350 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP675ZRR3-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/400 kg/cm2, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP670ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/10.000 psi & 0/700 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.87999999999998},
+  {codigo: "PFP671ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/15.000 psi & 0/1.000 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.87999999999998},
+  {codigo: "PFP2309ZRR1R11", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -30\"Hg/0/15 psi & -1/0/1 bar, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP2310ZRR3R1-SG-4", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -1/0/2 Kg/cm2 & -30\"Hg/0/30 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2311ZRR1R11", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -30\"Hg/0/60 psi & -1/0/4 bar, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 98.59799999999998},
+  {codigo: "PFP2313ZRR3R1-SG-4", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", -1/0/10Kg/cm2 & -30\"Hg/0/150 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2316ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1 Kg/cm2 & 0/15 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2317ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/2 Kg/cm2 & 0/30 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2318ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/4 Kg/cm2 & 0/60 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2319ZRR2-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/700 KPa, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2323ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/28 Kg/cm2 & 0/400 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2324ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/40 Kg/cm2 & 0/600 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP2325ZRR3-SG-4-4FF", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/70 Kg/cm2, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad, con brida frontal.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 124.00199999999998},
+  {codigo: "PFP1190ZRR1R11-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1.500 psi & 0/100 bar, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP1191ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/140 Kg/cm2 & 0/2.000 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP1192ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/200 Kg/cm2 & 3.000 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 113.05199999999999},
+  {codigo: "PFP1195ZRR3R1-SG-4", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 4\", 0/1.000 Kg/cm2 & 0/15.000 psi, 1/2\" NPT posterior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 128.33999999999997},
+  {codigo: "PFP2328ZRR1R11", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 6\", -30\"Hg/0/30 psi & -1/0/2 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 197.742},
+  {codigo: "PFP2328ZRR3R1", nombre: "Manovacuómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 6\",-1/0/2 Kg/cm2 & -30\"Hg/0/30 psi, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 197.742},
+  {codigo: "PFP2334ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 6\", 0/15 psi & 0/1 bar, 1/2\" NPT inferior, caja Ac. Inox. 304., internos Ac. Inox. 316, clase 1%, aro bayoneta.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 197.742},
+  {codigo: "PFP1171ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 6\", 0/3.000 psi & 0/200 bar, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 197.742},
+  {codigo: "PFP1176ZRR1R11", nombre: "Manómetro Winters Serie PFP-ZR Premium STABILIZR®, dial 6\", 0/6.000 psi & 0/400 bar, 1/2\"NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase 1%, aro bayoneta, con amortiguador seco.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 197.742},
+  {codigo: "25BOOT", nombre: "Accesorio Winters Protector de goma para manómetros Serie PFQ y PFP de dial 2,5\", conexión inferior", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 5.1659999999999995},
+  {codigo: "25FF", nombre: "Accesorio Winters Brida Frontal para manómetros Serie PFQ y PFP de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 3.7199999999999998},
+  {codigo: "25UC", nombre: "Accesorio Winters Brida en U (pestaña) para manómetros Serie PFQ y PFP dial 2,5\" conex. post. 1/4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 3.7199999999999998},
+  {codigo: "4BOOT", nombre: "Accesorio Winters Protector de goma para manómetro 4\" PFQ y PFP inferior", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 15.149999999999999},
+  {codigo: "4FF", nombre: "Accesorio Winters Brida frontal para manómetros Serie PFP de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "4FF-PR", nombre: "Accesorio Winters Brida frontal para manómetros Serie PFP de dial 4\" pr", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "4UC-PR", nombre: "Accesorio Winters Brida en U (U-Clamp) para manómetros Serie PFP de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "6FF", nombre: "Accesorio Winters Brida en frontal para manómetros Serie PFP dial 6\" (150mm)", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 38.076},
+  {codigo: "6FF-160MM", nombre: "[SOLO ARGENTINA] Accesorio Winters Brida frontal para manómetros Serie PFP dial 6\" (160mm)", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 38.076},
+  {codigo: "MAXI25", nombre: "Accesorio Winters Aguja ajustable indicadora de máxima presión para manómetros de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 36.15},
+  {codigo: "MAXI4", nombre: "Accesorio Winters Aguja ajustable indicadora de máxima presión para manómetros de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 55.356},
+  {codigo: "SG-25", nombre: "Accesorio Winters Vidrio de seguridad para manometros de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 8.814},
+  {codigo: "SG-4", nombre: "Accesorio Winters Vidrio de seguridad para manometros de dial 4\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 14.46},
+  {codigo: "SG-6", nombre: "Accesorio Winters Vidrio de seguridad para manometros de dial 6\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 30.642},
+  {codigo: "TAG", nombre: "Accesorio Winters Placa de identificacion (sin grabar)", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 1.4459999999999997},
+  {codigo: "PLP301R12R15S1", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/60 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP301R12R15S1-BSPT", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/60 mbar/mmH2O, 1/4\" BSPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP302R12R15", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/100 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP302R12R15-BSPT", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/100 mbar/mmH2O, 1/4\" BSPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP302R12R15S", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/160 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP304R12R15", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/250 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP304R12R99", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/250 mbar/mmH2O, 1/4\" BSPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP304R12R15-BSPT", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/250 mbar/mmH2O, 1/4\" BSPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP303R12R15S1", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/400 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP303R12R15S", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/600 mbar/mmH2O, 1/4\" NPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP340VR12R15-BSPT", nombre: "Vacuómetro Winters Serie PLP, dial 2,5\", -40/0 mbar/mmH2O, 1/4\" BSPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP346R12R99", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/400 mbar/mmH2O, 1/4\" BSPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 44.754},
+  {codigo: "PLP351R3-T", nombre: "Vacuómetro Winters Serie PLP, dial 2,5\", 0/0,06 kg/cm2, 1/4\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE, con tope fin escala.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 134.26199999999997},
+  {codigo: "PLP351R12R15S1-BSPT", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/60 mbar/mmH2O, 1/4\" BSPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 134.26199999999997},
+  {codigo: "PLP352R12R99S", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/100 mbar/mmH2O, 1/4\" BSPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 134.26199999999997},
+  {codigo: "PLP353R12R99", nombre: "Manómetro Winters Serie PLP, dial 2,5\", 0/250 mbar/mmH2O, 1/4\" BSPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 134.26199999999997},
+  {codigo: "PLP313R12R15-1/2BSPT", nombre: "Manómetro Winters Serie PLP, dial 4\", 0/250 mbar/mmH2O, 1/2\" BSPT inferior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 92.95199999999998},
+  {codigo: "PLP4232R12R99VAC", nombre: "Vacuómetro Winters Serie PLP, dial 4\", -100/0 mbar/mmH2O, 1/2\" BSPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 92.95199999999998},
+  {codigo: "PLP4232VR12R15-1/2BSPT", nombre: "Vacuómetro Winters Serie PLP, dial 4\", -100/0 mbar/mmH2O, 1/2\" BSPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 92.95199999999998},
+  {codigo: "PLP4229VR12R15-1/2BSPT", nombre: "Vacuómetro Winters Serie PLP, dial 4\", -300/0 mbar/mmH2O, 1/2\" BSPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 92.95199999999998},
+  {codigo: "PLP4232R12R99", nombre: "Manómetro Winters Serie PLP, dial 4\", 0/100 mbar/mmH2O, 1/4\" NPT posterior, Caja de acero pintada de negro, internos latón, clase ±3-2-3% ANSI/ASME Grado B.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 92.95199999999998},
+  {codigo: "PLP4201R8MANOV", nombre: "Manovacuómetro Winters Serie PLP, dial 4\", -30/0/30\" H20, 1/4\" NPT inferior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 158.358},
+  {codigo: "PLP4320VR99S-BACK-1/2", nombre: "Vacuómetro Winters Serie PLP, dial 6\", -300/0 MMCA, 1/4\" NPT posterior, caja Ac. Inox 304, internos Ac. Inox. 316, clase ±1,6% FE.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316/latón", precio: 201.96},
+  {codigo: "25BOOT-PLP", nombre: "Accesorio Winters Protector de goma para manómetro Serie PLP de dial 2,5\"", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 12.948},
+  {codigo: "PPC5061ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/15 psi & 0/1 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5061ZRR99-SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/10 mca, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5062ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/30 psi & 0/2 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5063ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/60 psi & 0/4 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5064ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/100 psi & 0/7 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5065ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/160 psi & 0/11 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5066R1R11", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, seco (sin amortiguación).", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 153.19199999999998},
+  {codigo: "PPC5066ZRR11S-SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/15 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 153.19199999999998},
+  {codigo: "PPC5069ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/600 psi & 0/40 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5070ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/1.000 psi & 0/70 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5071ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/1.500 psi & 0/100 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5072ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/2.000 psi & 0/140 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5073ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/3.000 psi & 0/200 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5074ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/5.000 psi & 0/350 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "PPC5075ZRR1R11+SG-45", nombre: "Manómetro de proceso Winters Serie PPC-ZR STABILIZR, dial 4,5\", 0/10.000 psi & 0/700 bar, 1/2\" NPT inferior, caja fenólica, clase 0,5%, amortiguador seco, con vidrio de seguridad.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 178.53},
+  {codigo: "DPG210", nombre: "Vacuómetro Digital Winters Serie DPG, dial 2,5\", -30/0\"Hg & -1/0 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG203", nombre: "Manovacuómetro Digital Winters Serie DPG, 2,5\", -15/0/15 psi & -1/0/1 bar, 1/4\" NPT inferior, caja ABS, 4 digitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG204", nombre: "Manovacuómetro Digital Winters Serie DPG, dial 2,5\", -15/0/30 psi & -1/0/2 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG207", nombre: "Manovacuómetro Digital Winters Serie DPG, dial 2,5\", -15/0/150 psi & -1/0/10 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG211", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/15 psi & 0/1 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG212", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/30 psi & 0/2 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG213", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/60 psi & 0/4 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG214", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/100 psi & 0/7 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG215", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/160 psi & 0/11 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG216", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/200 psi & 0/14 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG217", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/300 psi & 0/20 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG218", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/600 psi & 0/40 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG219", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/1.000 psi & 0/70 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG220", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/1.500 psi & 0/100 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG221", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/2.000 psi & 0/140 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG222", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/3.000 psi & 0/200 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG223", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/5.000 psi & 0/350 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG224", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/10.000 psi & 0/700 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG225", nombre: "Manómetro Digital Winters Serie DPG, dial 2,5\", 0/15.000 psi & 0/1.000 bar, 1/4\" NPT inferior, caja ABS, 4 dígitos, clase ±1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 242.988},
+  {codigo: "DPG3P05N2", nombre: "Manovacuómetro digital Winters DPG+ SERIES, Dial 3.3\", -15/0/100 PSI, 1/2\" NPT inferior, Caja ZINC, 6 digitos, Goma protectora, Clase ±0,1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1569.78},
+  {codigo: "DPG3P17N2", nombre: "Manómetro digital Winters DPG+ SERIES, Dial 3.3\", 0/600 PSI, 1/2\" NPT inferior, Caja ZINC, 6 digitos, Goma protectora, Clase ±0,1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1363.23},
+  {codigo: "DPG3P27N2", nombre: "Manómetro digital Winters DPG+ SERIES, Dial 3.3\", 0/10.000 PSI, 1/2\" NPT inferior, Caja ZINC, 6 digitos, Goma protectora, Clase ±0,1% FE", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1900.2599999999998},
+  {codigo: "G", nombre: "Manómetrica (Estandar)", categoria: "Otros", marca: "WINTERS", material: "", precio: 0.0},
+  {codigo: "PSQ15793B", nombre: "Manovacuómetro Sanitario Winters Serie PSQ, dial 2,5\", -30”Hg/0/150 psi & -1/0/10 bar, Tri-Clamp 1,5\" posterior, clase ±1,5%, Aprobación 3A", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 151.128},
+  {codigo: "PSQ15607", nombre: "Manómetro Sanitario Winters Serie PSQ, dial 4\", 0/300 psi & 0/20 bar Tri-Clamp 1,5\" inferior, clase ±1%, Aprobación 3A", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 202.62599999999998},
+  {codigo: "PSQ15608", nombre: "Manómetro Sanitario Winters Serie PSQ, dial 4\", 0/600 psi & 0/40 bar Tri-Clamp 1,5\" inferior- Aprobación 3A", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 202.62599999999998},
+  {codigo: "PSQ151025B", nombre: "Manovacuómetro Sanitario Winters Serie PSQ, dial 4\", -30”Hg/0/150 psi & -1/0/10 bar Tri-Clamp 1,5\" posterior, clase ±1%, Aprobación 3A", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 202.62599999999998},
+  {codigo: "PSQ15604B", nombre: "Manómetro Sanitario Winters Serie PSQ, dial 4\", 0/100 psi & 0/7 bar Tri-Clamp 1,5\" posterior, clase ±1%, Aprobación 3A", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 202.62599999999998},
+  {codigo: "PAM1753R3SC", nombre: "Manovacuómetro Winters Serie PAM Amoníaco, dial 2,5\", -1/0/25 Kg/cm2/°C, 1/4\"NPT posterior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1,5%, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 35.046},
+  {codigo: "PEC0200R6R7", nombre: "Vacuómetro con contactos Winters Serie PEC, Dial 4\", -30/0\"Hg & -760/0 mmHg, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0201R1R11", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/15 psi & 0/1 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT, 1%", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0201R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/1 bar & 0/15 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0202R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/2 bar & 0/30 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0203R1R11", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/60 psi & 0/4 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0203R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/4 bar & 0/60 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0204R1R11", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/100 psi & 0/7 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0204R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/7 bar & 0/100 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0205R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/10 bar & 0/160 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0205R1R11", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/160 psi & 0/11 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0207R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/20 bar & 0/300 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0208R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/28 bar & 0/400 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0210R11S", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/60 bar, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0210R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/70 bar & 0/1.000 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0211R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/100 bar & 0/1.500 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0212R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/140 bar & 0/2.000 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0214R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/350 bar & 0/5.000 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0214R11R1S", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/400 bar & 0/6.000 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "PEC0216R11R1", nombre: "Manómetro con contactos Winters Serie PEC, Dial 4\", 0/700 bar & 0/10.000 psi, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, clase ±1%, Aro bayoneta, 2 SPDT.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 379.296},
+  {codigo: "4FF", nombre: "Accesorios Winters Brida frontal para manómetros de dial 4\".", categoria: "Manómetros", marca: "WINTERS", material: "", precio: 10.95},
+  {codigo: "PSG40105R12R99", nombre: "Manómetro Winters Serie PSG SCHAEFFER, dial 4\", 0/25 mbar - 0/250 mmH2O, Ac. Inox. 316, 1/2\" NPT inferior.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 1019.3279999999999},
+  {codigo: "SG-4", nombre: "4\" VIDRIO DE SEGURIDAD PARA PREMIUM LF", categoria: "Otros", marca: "WINTERS", material: "", precio: 34.428},
+  {codigo: "PFG1730R3R99/R134-R22-R438A", nombre: "Manovacuómetro Winters Serie PFG R134/R22/R438A, dial 2,5\", -1/0/8,3 kg/cm2/Retard/°C, 1/8\" NPT inferior, caja plastica azul, internos de latón, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 11.844000000000001},
+  {codigo: "PFG1732R3R99/R134-R22-R438A", nombre: "Manómetro Winters Serie PFG R134/R22/R438A, dial 2,5\", 0/35 kg/cm2/Retard/°C, 1/8\" NPT inferior, caja plastica roja, internos de latón, seco", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 11.844000000000001},
+  {codigo: "PFG1730R3R99-R22", nombre: "Manovacuómetro Winters Serie PFG R22, 2,5\", -1/0/12,5 kg/cm2/°C, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 44.754},
+  {codigo: "PFG1730R3R99-R404", nombre: "Manovacuómetro Winters Serie PFG R404, 2,5\", -1/0/12,5 kg/cm2/°C, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 44.754},
+  {codigo: "PFG1731R3R99-R22", nombre: "Manovacuómetro Winters Serie PFG R404, 2,5\", -1/0/25 kg/cm2/°C, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 44.754},
+  {codigo: "PFG1731R3R99-R404", nombre: "Manovacuómetro Winters Serie PFG R404, 2,5\", -1/0/25 kg/cm2/°C, 1/4\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 44.754},
+  {codigo: "PFG1734R3R99/R404", nombre: "Manovacuómetro Winters Serie PFG R404, 4\", -1/0/12,5 kg/cm2/°C, 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 116.35799999999998},
+  {codigo: "PFG1735R3R99-R404", nombre: "Manovacuómetro Winters Serie PFG R404, -1/0/25Kg/cm2/°C, 4\", 1/2\" NPT inferior, caja Ac. Inox. 304, internos Ac. Inox. 316, con glicerina.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce/Níquel/Acero inox", precio: 116.35799999999998},
+  {codigo: "PFE3933R1", nombre: "Manómetro Winters Serie PFE SPRINKLER AGUA, dial 3,5\", 0/300 psi 1/4\"NPT inferior, clase ±3-2-3%, Aprobación UL y FM.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón", precio: 20.688},
+  {codigo: "PEU1396R7UCSL", nombre: "Vacuómetro Winters Serie PEU, dial 2\", -760 mmHg/0, 1/8\" NPT, posterior caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción. FREE OIL", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 13.476},
+  {codigo: "PEU1408R3R1UCSL", nombre: "Manómetro Winters Serie PEU, dial 2\", 0/10 Kg/cm2 & 0/150 psi, 1/8\" NPT, posterior caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción. FREE OIL", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 13.476},
+  {codigo: "PEU1413UCCAFE", nombre: "Manometro Winters Serie PEU dial 2\", 0/20 Kg/cm2, 1/8 NPT posterior, internos latón, clase ±3-2-3%, con grampa de sujeción., p/maq. café, p/bomba", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 13.476},
+  {codigo: "PEU1431UCR7R6", nombre: "Vacuómetro Winters Serie PEU, dial 2,5\", -760/0 mmHg & -30/0\"Hg, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "PEU1436UCR3R1", nombre: "Manómetro Winters Serie PEU, dial 2,5\", 0/1 Kg/cm2 & 0/15 psi, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "PEU1437UCR3R1", nombre: "Manómetro Winters Serie PEU, dial 2,5\", 0/2 Kg/cm2 & 0/30 psi, 1/4\" NPT posterior,caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "PEU1438UCR3R1", nombre: "Manómetro Winters Serie PEU, dial 2,5\", 0/4 Kg/cm2 & 0/60 psi, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "PEU1440UCR3R1", nombre: "Manómetro Winters Serie PEU, dial 2,5\", 0/10 Kg/cm2 & 0/150 psi, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "PEU1442UCR3R1", nombre: "Manómetro Winters Serie PEU, dial 2,5\", 0/20 Kg/cm2 & 0/300 psi, 1/4\" NPT posterior, caja acero, internos latón, clase ±3-2-3%, con grampa de sujeción.", categoria: "Manómetros", marca: "WINTERS", material: "Caja acero, internos latón", precio: 16.242},
+  {codigo: "P1S255R1R11", nombre: "Manómetro Winters Serie P1S, dial 6\", 0/200 psi & 0/14 bar, 1/4\" NPT inferior, caja acero, internos latón, clase ±1%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón", precio: 56.826},
+  {codigo: "P1S255R1R11", nombre: "Manómetro Winters Serie P1S, dial 6\", 0/200 psi & 0/14 bar, 1/2\" NPT inferior, caja acero, internos latón, clase ±1%, seco.", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón", precio: 62.748},
+  {codigo: "PFD40102", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -1/0/1\" H2O, 1/8 NPT, clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 165.23999999999998},
+  {codigo: "PFD40102-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -1/0/1\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40106-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -15/0/15\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40019-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/10\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40022", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/20\" H2O, 1/8 NPT, clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 165.23999999999998},
+  {codigo: "PFD40022-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/20\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40024-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0-30\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40026-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/50\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40029-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/100\" H2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40501-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/1 kPa, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40505-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/3 kPa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40507-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/5 kPa, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40510-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0-10 kPa, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40513-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0-25 kPa, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40514-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0-30 kPa, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40351", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -5/0/5 mmH2O, 1/8 NPT", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 330.47999999999996},
+  {codigo: "PFD40351-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -5/0/5 mmH2O, 1/8 NPT, clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 332.63399999999996},
+  {codigo: "PFD40352", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -10/0/10 mmH2O, 1/8 NPT, clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 330.47999999999996},
+  {codigo: "PFD40352-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -10/0/10 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 332.63399999999996},
+  {codigo: "PFD40301-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/10 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 332.63399999999996},
+  {codigo: "PFD40302", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/15 mmH2O 1/8\" NPT,  clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 330.47999999999996},
+  {codigo: "PFD40304-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/25 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40306", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/50 mmH2O, 1/8 NPT, clase ±2%.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 165.23999999999998},
+  {codigo: "PFD40306-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/50 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40308-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/100 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40310-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/150 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40312-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/250 mmH2O, 1/8 NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40313", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/300 mmH2O, 1/8 NPT, clase ±2%", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 165.23999999999998},
+  {codigo: "PFD40202-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", -100/0/100 Pa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 332.63399999999996},
+  {codigo: "PFD40211-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/60 Pa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 332.63399999999996},
+  {codigo: "PFD40218-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/500 Pa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40219-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/750 Pa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "PFD40220-RSP", nombre: "Manómetro diferencial magnético Winters Serie PFD WinAIR, dial 4\", 0/1.000 Pa 1/8\" NPT, clase ±2%, con aguja roja de seteo.", categoria: "Manómetros", marca: "WINTERS", material: "Aluminio/Nylon fibra vidrio", precio: 167.394},
+  {codigo: "LE130VC", nombre: "Transmisor de Presión Compacto Winters Serie LE1, -30\"Hg/0 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, Alim: 10-30VDC, membrana de acero inoxidable, sensor siliconado.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 466.806},
+  {codigo: "LE10060", nombre: "Transmisor de Presión Compacto Winters Serie LE1, -30\"Hg/0/60 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE10100", nombre: "Transmisor de Presión Compacto Winters Serie LE1, -30\"Hg/0/100 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE10150", nombre: "Transmisor de Presión Compacto Winters Serie LE1, -30\"Hg/0/150 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE115", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/15 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE125", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/25 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE160", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/60 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE1100", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/100 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE1150", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/150 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE1300", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/300 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE11000", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/1.000 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE15000", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/5.000 psi, 1/4\" NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor siliconado.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 466.806},
+  {codigo: "LE1150R11", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/10 bar, 1/4\"NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE1200R11", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/16 bar, 1/4\"NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE1300R11", nombre: "Transmisor de Presión Compacto Winters Serie LE1, 0/25 bar, 1/4\"NPT, mini DIN, 4-20mA, clase ±0,5%, 10-30VDC, sensor cerámico.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 152.85},
+  {codigo: "LE315", nombre: "Transmisor de Presión Winters Serie LE3, 0/15 psi, 1/4\"NPT, Conec ISO 4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE330", nombre: "Transmisor de Presión Winters Serie LE3, 0/30 psi, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE3100", nombre: "Transmisor de Presión Winters Serie LE3, 0/100 psi, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE3150", nombre: "Transmisor de Presión Winters Serie LE3, 0/150 psi, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE31500", nombre: "Transmisor de Presión Winters Serie LE3, 0/1.500 psi, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE330R11", nombre: "Transmisor de Presión Winters Serie LE3, 0/2 bar, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE3100R11", nombre: "Transmisor de Presión Winters Serie LE3, 0/7 bar, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LE3150R11", nombre: "Transmisor de Presión Winters Serie LE3, 0/10 bar, 1/4\"NPT, Conec ISO4400, Sal: 4-20mA, clase ±0,5%, Alim: 8-32VDC, sensor cerámico", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 193.22399999999996},
+  {codigo: "LLP0001", nombre: "Transmisor de Presión Winters Serie LLP, 0/60 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0002", nombre: "Transmisor de Presión Winters Serie LLP, 0/100 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0003", nombre: "Transmisor de Presión Winters Serie LLP, 0/160 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0004", nombre: "Transmisor de Presión Winters Serie LLP, 0/250 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0005", nombre: "Transmisor de Presión Winters Serie LLP, 0/400 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0009", nombre: "Transmisor de Presión Winters Serie LLP, 0/600 mbar, 1/4\" BSPT, DIN, Sal: 4-20mA, clase ±0,5%, Alim: 12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 253.36799999999997},
+  {codigo: "LLP0004/0-10V", nombre: "Transmisor de Presión Winters Serie LLP, 0/250 mbar, 1/4\" BSPT, DIN, Sal: 0/10V/3h, clase ±0,5%, Alim:12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 263.508},
+  {codigo: "LLP0009/0-10V", nombre: "Transmisor de Presión Winters Serie LLP, 0/600 mbar, 1/4\" BSPT, DIN, Sal: 0/10V/3h, clase ±0,5%, Alim:12-28VDC, Diafragma de Ac. Inox.", categoria: "Transmisores", marca: "WINTERS", material: "", precio: 263.508},
+  {codigo: "LXP07HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/145 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "LXP09HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/500 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "LXP10HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/1,000 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "LXP11HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/2,500 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "LXP13HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/6,000 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "LXP15HXN4", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/10,000 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/4\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1404.54},
+  {codigo: "LXP08HXN2", nombre: "Transmisor de presión antiexplosivo Winters Serie LXP, Housing de acero inoxidable y partes húmedas de acero inoxidable 316 con aprobación NACE, -14.5/0/250 PSI, 4/20 mA + HART, 0.2%, 6' CABLE, 1/2\"NPT", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1280.61},
+  {codigo: "G", nombre: "Gauge (standard)", categoria: "Otros", marca: "WINTERS", material: "", precio: 0.0},
+  {codigo: "G", nombre: "Gauge", categoria: "Otros", marca: "WINTERS", material: "", precio: 0.0},
+  {codigo: "LY16P13HX", nombre: "Transmisor de presión Winters Serie LY16 WinSMART, -14,5/0/6,000 psi, 4/20 mA+HART, clase 0,2%, soldadura de Ac. Inox. 316L, conexión a proceso 1/2\" NPT, Ac. Inox. 316, conexión eléctrica 1/2\" NPT A prueba de llamas, display LCD.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1614.564},
+  {codigo: "LY16P16HX", nombre: "Transmisor de presión Winters Serie LY16 WinSMART, -14,5/0/14,500 psi, 4/20 mA+HART, clase 0,2%, soldadura de Ac. Inox. 316L, conexión a proceso 1/2\" NPT, Ac. Inox. 316, conexión eléctrica 1/2\" NPT A prueba de llamas, display LCD.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1614.564},
+  {codigo: "LY162M", nombre: "SOPORTE DE MONTAJE DE TUBERÍA para Winters Serie LY16", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 51.833999999999996},
+  {codigo: "G", nombre: "Relativa (estándar)", categoria: "Otros", marca: "WINTERS", material: "", precio: 0.0},
+  {codigo: "LY36D20HX", nombre: "Transmisor de presión diferencial Winters Serie LY36 WinSMART, -160/0/160\"H20, 4/20mA+HART, 0,75%, O-Ring PTFE, conexión a proceso 1/4\" NPT Ac. Inox. 316, conexión eléctrica 1/2\" NPT, a prueba de llamas, con display LCD.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2391.63},
+  {codigo: "LY36D50HX", nombre: "Transmisor de presión diferencial Winters Serie LY36 WinSMART, -72,5/0/145 psi, 4/20mA+HART, 0,75%, O-Ring PTFE, conexión a proceso 1/4\" NPT Ac. Inox. 316, conexión eléctrica 1/2\" NPT, a prueba de llamas, con display LCD.", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2391.63},
+  {codigo: "LY36B1", nombre: "Accesorios Winters - Soporte de montaje de tubo (vertical) para transmisor de presión diferencial Serie LY36 WinSMART", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 69.072},
+  {codigo: "LY36B2", nombre: "Accesorios Winters - Soporte de montaje de placa para transmisor de presión diferencial Serie LY36 WinSMART", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 69.072},
+  {codigo: "LY16HXP07G7C2N2F66", nombre: "Transmisor de Presión WinSMART LY16. -14,5/0/150 psi. 4-20 mA + HART. 0.075%. Fla pr ½NPTHxM 316 SS", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1873.6019999999999},
+  {codigo: "LY16HXP10G7C2N2F66", nombre: "Transmisor de Presión WinSMART LY16. -14.5/0/1.000 psi. 4-20 mA+HART. 0.075% Fl pr ½NPTH ½NPTM 304 SS", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1873.6019999999999},
+  {codigo: "LY16HXP11G7C2N2F66", nombre: "Transmisor de Presión WinSMART LY16. -14.5/0/2500 psi. 4-20 mA+HART. 0.075% Fl p", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1873.6019999999999},
+  {codigo: "LY16HIP07G1C2N2W66", nombre: "Trans. Presión WinSMART LY16, -14,5/150 psi, I.S. 4-20 mA+HART, 0.1%, Fl Pr 1/2\"NPTH, 1/2\"NPTM 316SS", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1830.534},
+  {codigo: "LY16HIP09G1C2N2W66", nombre: "Trans. Presión WinSMART LY16, -14,5/500 psi, I.S. 4-20 mA+HART, 0.1%, Fl Pr 1/2\"NPTH, 1/2\"NPTM 316SS", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 1830.534},
+  {codigo: "LY361XD60D2C2F4F66", nombre: "Transmisor de Pres. Dif. WinSMART LY36. -72.5/0/435 psi. 4-20 mA. 0.075%. Fl pr ½NPTH.  ½NPTH. 316SS", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2219.01},
+  {codigo: "LY36HXD20D2C2F1F66", nombre: "Transmisor de Pres. Dif. WinSMART LY36. -160/0/160 in H2O. 4-20 mA+HART 0.075% ¼NPTF 316 ½NPTF Fl pr", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2391.63},
+  {codigo: "LY36HXD30D2C2F1F66", nombre: "Transmisor de Pres. Dif. WinSMART LY36. -1.000/0/1.000 inH2O. 4-20 mA+HART. 0.075%. Fl pr ½NPTH ¼NPTH", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2391.63},
+  {codigo: "LY36HXD60D2C2F1F66", nombre: "Transmisor de Pres. Dif. WinSMART LY36. -72.5/0/435 psi. 4-20 mA+HART. 0.075%. ¼NPTF ½NPTF Fl pr", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 2391.63},
+  {codigo: "WPS0200", nombre: "Presostato Winters Serie WPS, 20/200 PA SPDT, Diámetro exterior 5/16”, Diámetro interior del tubo ¼”.", categoria: "Presostatos", marca: "WINTERS", material: "Aluminio/Acero inox", precio: 42.690000000000005},
+  {codigo: "WPS0300", nombre: "Presostato Winters Serie WPS, 30/300 PA SPDT, Diámetro exterior 5/16”, Diámetro interior del tubo ¼”.", categoria: "Presostatos", marca: "WINTERS", material: "Aluminio/Acero inox", precio: 42.690000000000005},
+  {codigo: "WPS1000", nombre: "Presostato Winters Serie WPS, 200/1.000 PA SPDT, Diámetro exterior 5/16”, Diámetro interior del tubo ¼”.", categoria: "Presostatos", marca: "WINTERS", material: "Aluminio/Acero inox", precio: 42.690000000000005},
+  {codigo: "WPS2500", nombre: "Presostato Winters Serie WPS, 500/2.500 PA SPDT, Diámetro exterior 5/16”, Diámetro interior del tubo ¼”.", categoria: "Presostatos", marca: "WINTERS", material: "Aluminio/Acero inox", precio: 42.690000000000005},
+  {codigo: "WPS4000", nombre: "Presostato Winters Serie WPS, 1.000/4.000 PA SPDT, Diámetro exterior 5/16”, Diámetro interior del tubo ¼”.", categoria: "Presostatos", marca: "WINTERS", material: "Aluminio/Acero inox", precio: 42.690000000000005},
+  {codigo: "1WPS002T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 0,2/2,5 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS005T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 0,8/5 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS012T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 1/12 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS050T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 5/50 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS100T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 10/100 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS200T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 20/200 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPS400T4N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 50/400 bar, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPSL134N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 7/70 psi, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "1WPSL174N", nombre: "Presostato compacto Winters Serie 1WPS, Rango ajustable: 30/300 psi, SPDT, 1/4\" NPT, DIN, Material: Ac. Inox. 304", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 123.93},
+  {codigo: "9WPSH07N4", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 150/1.000 psi (10,3/69 bar), SPDT Banda muerta fija, 1/4\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 910.89},
+  {codigo: "9WPSH09N4", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 700/5.000 psi (48,2/345 bar), SPDT Banda muerta fija, 1/4\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 910.89},
+  {codigo: "9WPSV01N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., -1/30\" HG (-1/0 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 780.762},
+  {codigo: "9WPSL03N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 5/150 psi (0,3/10,3 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 780.762},
+  {codigo: "9WPSL05N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 50/500 psi (3,4/34,5 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 780.762},
+  {codigo: "9WPSH08N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 400/3.000 psi (27,6/207 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 910.89},
+  {codigo: "9WPSH09N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 700/5.000 psi (48,2/345 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 910.89},
+  {codigo: "9WPSH12N2", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 5.000/10.000 psi (344,8/689,6 bar), SPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 910.89},
+  {codigo: "9WPSL032CCVN2S", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 5/150 psi (0,3/10,3 bar), DPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 1028.6219999999998},
+  {codigo: "9WPSL052CCVN2S", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 50/500 psi (3,4/34,5 bar), DPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 1028.6219999999998},
+  {codigo: "9WPSH082CCVN2S", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 400/3.000 psi (27,6/207 bar), DPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 1158.75},
+  {codigo: "9WPSH092CCVN2S", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 700/5.000 psi (48,2/345 bar), DPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 1158.75},
+  {codigo: "9WPSH122CCVN2S", nombre: "Presostato compacto a prueba de explosiones Winters Serie 9WPS, todo Ac. Inox., 5.000/10.000 psi (344,8/689,6 bar), DPDT Banda muerta fija, 1/2\" NPTH, NEMA 4X, Aprobación CSA para zonas peligrosas.", categoria: "Presostatos", marca: "WINTERS", material: "Acero inox", precio: 1158.75},
+  {codigo: "LY49G05BAR12P12222NB3LO", nombre: "Presostato con salida 4…20 mA Winters Serie LY49; 0…5 bar, 4-20mA 3 hilos, contactos: PNP unidireccional, NPN unidireccional, conexión eléctrica M12, caja y conex. a proceso 316L, 1/4 NPT, cable por metro", categoria: "Presostatos", marca: "WINTERS", material: "", precio: 1199.9219999999998},
+  {codigo: "D12PTFE1412", nombre: "Sello de diafragma Winters Serie D12, PTFE/AISI316, Sup AISI316, diafragma PTFE, Inf PTFE 1/4 NPTH x 1/2 BSPTM, 260°C", categoria: "Otros", marca: "WINTERS", material: "", precio: 551.6279999999999},
+  {codigo: "D12PTFE1212", nombre: "Sello de diafragma Winters Serie D12, PTFE/AISI316, Sup AISI316, diafragma PTFE, Inf PTFE 1/2 NPTH x 1/2 BSPTM, 260°C", categoria: "Otros", marca: "WINTERS", material: "", precio: 551.6279999999999},
+  {codigo: "D12PTFE1212-NPT", nombre: "Sello de diafragma Winters Serie D12, cuerpo 316 Ac. Inox., partes humedas PTFE, 1/2\"NPTHx1/2\"NPTM, 16 a 126°C / -11 a 145 psi", categoria: "Otros", marca: "WINTERS", material: "", precio: 551.6279999999999},
+  {codigo: "D12PTFE1412-NPT", nombre: "Sello de diafragma Winters Serie D12, cuerpo 316 Ac. Inox., partes humedas PTFE, 1/4\"NPTHx1/2\"NPTM, 16 a 126°C / -11 a 145 psi", categoria: "Otros", marca: "WINTERS", material: "", precio: 551.6279999999999},
+  {codigo: "D12PTFE1414-NPT", nombre: "Sello de diafragma Winters Serie D12, cuerpo 316 Ac. Inox., partes humedas PTFE, 1/4\"NPTHx1/4\"NPTM, 16 a 126°C / -11 a 145 psi", categoria: "Otros", marca: "WINTERS", material: "", precio: 551.6279999999999},
+  {codigo: "D15992", nombre: "Sello de diafragma Winters Serie D15, 1/4\"NPTF x 3/4\"NPTM, Ac. Inox. 316 - presión de operación máxima: 400 bar", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 75.94200000000001},
+  {codigo: "D15-1/2X1", nombre: "Sello de diafragma Winters Serie D15, 1/2\" F X 1\" M para presiones bajas - presión de operación máxima: 400 bar", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 142.29},
+  {codigo: "D20980", nombre: "Sello de diafragma Winters Serie D20, Tri-Clamp 1,5\", Conexión a manómetro 1/4\" NPT Hembra", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 75.53399999999999},
+  {codigo: "D20980-1/2", nombre: "Sello de diafragma Winters Serie D20, Tri-Clamp 1,5\", Conexión a manómetro 1/2\" NPT Hembra", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 75.53399999999999},
+  {codigo: "D20976", nombre: "Sello de diafragma Winters Serie D20, Tri-Clamp 2\", Conexión a manómetro 1/4\" NPT Hembra", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 75.53399999999999},
+  {codigo: "D20976-1/2", nombre: "Sello de diafragma Winters Serie D20, Tri-Clamp 2\", Conexión a manómetro 1/2\" NPT Hembra", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 75.53399999999999},
+  {codigo: "D26DDLL", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria DIN11851 DN25 hembra 1/2NPT, cuerpo en Ac. Inox AISI316 y membrana en AC. INOX. 316L, membrana soldada, union roscada.", categoria: "Otros", marca: "WINTERS", material: "", precio: 166.278},
+  {codigo: "DIN11851-DN32H", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria DIN11851 DN32 hembra 1/2NPT, cuerpo en Ac. Inox AISI316 y membrana en AC. INOX. 316L, membrana soldada, union roscada.", categoria: "Otros", marca: "WINTERS", material: "", precio: 187.962},
+  {codigo: "D26DELL", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria DIN11851 DN40 hembra 1/2NPT, cuerpo en Ac. Inox AISI316 y membrana en AC. INOX. 316L, membrana soldada, union roscada.", categoria: "Otros", marca: "WINTERS", material: "", precio: 202.422},
+  {codigo: "DIN11851-DN50H", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria DIN11851 DN50 hembra 1/2NPT, cuerpo en Ac. Inox AISI316 y membrana en AC. INOX. 316L, membrana soldada, union roscada-", categoria: "Otros", marca: "WINTERS", material: "", precio: 267.486},
+  {codigo: "SMS-HEMBRA-15", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria SMS 1,5'' Hembra a 1/2\"NPT, Cuerpo en AISI316 y Mebrana Soldada en AISI316L con Tuerca.", categoria: "Otros", marca: "WINTERS", material: "", precio: 209.65200000000002},
+  {codigo: "SMS-HEMBRA-2", nombre: "Sello de diafragma Winters Serie D26, conexión sanitaria SMS 2'' Hembra a 1/2\"NPT, Cuerpo en AISI316 y Mebrana Soldada en AISI316L con Tuerca.", categoria: "Otros", marca: "WINTERS", material: "", precio: 260.256},
+  {codigo: "DIN11851-DN25M", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria DIN11851 DN25 Macho, 1/2NPT, Cuerpo en AISI316 y Membrana Soldada en AISI316L", categoria: "Otros", marca: "WINTERS", material: "", precio: 130.128},
+  {codigo: "DIN11851-DN32M", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria DIN11851 DN32 Macho, Cuerpo en AISI316 y Membrana Soldada en AISI316L", categoria: "Otros", marca: "WINTERS", material: "", precio: 159.04799999999997},
+  {codigo: "DIN11851-DN40M", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria DIN11851 DN40 Macho, Cuerpo en AISI316 y Membrana Soldada en AISI316L", categoria: "Otros", marca: "WINTERS", material: "", precio: 173.502},
+  {codigo: "DIN11851-DN50M", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria DIN11851 DN50 Macho, Cuerpo en AISI316 y Membrana Soldada en AISI316L", categoria: "Otros", marca: "WINTERS", material: "", precio: 195.19199999999998},
+  {codigo: "SMS-MACHO-15", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria SMS 1,5'' Macho a 1/2\"NPT, Cuerpo en AISI316 y Mebrana Soldada en AISI316", categoria: "Otros", marca: "WINTERS", material: "", precio: 159.04799999999997},
+  {codigo: "SMS-MACHO-2", nombre: "Sello de diafragma Winters Serie D27, conexión sanitaria SMS 2'' Macho a 1/2\"NPT, Cuerpo en AISI316 y Mebrana Soldada en AISI316L", categoria: "Otros", marca: "WINTERS", material: "", precio: 180.73199999999997},
+  {codigo: "D30976", nombre: "Sello de diafragma Winters Serie D30, Ac. Inox. 316., conex. 1/4\"NPTH X 1/4\"NPTM 1.000-6.000psi", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 99.62999999999998},
+  {codigo: "D362NLSD", nombre: "Sello de diafragma Winters Serie D36, cuerpo Ac. Inox. 316, diafragma Ac. Inox. 316L, 1/2\"NPTHx1/2\"NPTM, pres. operativa: 16 a 400 bar", categoria: "Otros", marca: "WINTERS", material: "", precio: 237.88199999999998},
+  {codigo: "D40975", nombre: "Sello de diafragma Winters Serie D40, Ac. Inox. 316, conex. 1/4\" NPTH X 1/4\" NPTM 15-1.000psi", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 123.66},
+  {codigo: "D40976", nombre: "Sello de diafragma Winters Serie D40, Ac. Inox. 316, conex. 1/4\" NPTH X 1/2\" NPTM 15-1.000psi", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 123.66},
+  {codigo: "D40977", nombre: "Sello de diafragma Winters Serie D40, Ac. Inox. 316, conex. 1/2\" NPTH X 1/2\" NPTM 15-1.000psi", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 123.66},
+  {codigo: "D49", nombre: "Sello para homogeneizador Winters Serie D49, AISI 316 AC. INOX., c/brida de 2 agujeros  de AISI 304SS", categoria: "Otros", marca: "WINTERS", material: "", precio: 684.3059999999999},
+  {codigo: "D70952+D70956", nombre: "Sello de diafragma bridado Winters Serie D70, Ac. Inox. 316, 1/2 NPT H-H, pres. max. 2.500psi", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 206.07},
+  {codigo: "D70952+D70956-TFE", nombre: "Sello de diafragma bridado Winters Serie D70, Ac. Inox. 316, membrana y parte inferior recubierta con teflón, 1/2 NPT H-H, pres. max. 2.500psi.", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 412.068},
+  {codigo: "D74857-D74952", nombre: "Sello diafragma D74, material 316 SS, 1/2\"NPTHx1/2\"NPTM, presión operativa: -1 a 2 bar, con flushing (ENSAMBLADO)", categoria: "Sellos Diafragma", marca: "WINTERS", material: "Acero inox", precio: 365.484},
+  {codigo: "TAG140AG4", nombre: "Termómetro de columna Winters Serie TAG, caja aluminio anodizado 4,5\", -40/40°C, 1/2\"NPT, conexión angular 90°.", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 49.944},
+  {codigo: "TAG130AG4", nombre: "Termómetro de columna Winters Serie TAG, caja aluminio anodizado 4,5\",-40/40°C, 1/2\"NPT vertical", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 48.888},
+  {codigo: "TAG131AG4", nombre: "Termómetro de columna Winters Serie TAG, caja aluminio anodizado 4,5\",-5/80°C, 1/2\"NPT vertical", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 48.888},
+  {codigo: "TBM10050B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 1\", vástago 5\", terminación en punta (no roscada), caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 7.164},
+  {codigo: "TBM10050B28", nombre: "Termómetro bimetálico Winters Serie TBM, 0/50°C, dial 1\", vástago 5\", terminación en punta (no roscada), caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 7.164},
+  {codigo: "TBM10050B31", nombre: "Termómetro bimetálico Winters Serie TBM, -20/120°C, dial 1\", vástago 5\", terminación en punta (no roscada), caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 7.164},
+  {codigo: "TBM10050B32", nombre: "Termómetro bimetálico Winters Serie TBM, 0/150°C, dial 1\", vástago 5\", terminación en punta (no roscada), caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 7.164},
+  {codigo: "TBM10050B34", nombre: "Termómetro bimetálico Winters Serie TBM, 0/300°C, dial 1\", vástago 5\", terminación en punta (no roscada), caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 7.164},
+  {codigo: "TBM20025B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 2\", vástago 2,5\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20025B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 2\", vástago 2,5\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20025B32", nombre: "Termómetro bimetálico Winters Serie TBM, 0/150°C, dial 2\", vástago 2,5\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20025B33", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 2\", vástago 2,5\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20025B34", nombre: "Termómetro bimetálico Winters Serie TBM, 0/300°C, dial 2\", vástago 2,5\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B28", nombre: "Termómetro bimetálico Winters Serie TBM, 0/50°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B32", nombre: "Termómetro bimetálico Winters Serie TBM, 0/150°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B33", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B34", nombre: "Termómetro bimetálico Winters Serie TBM, 0/300°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B35", nombre: "Termómetro bimetálico Winters Serie TBM, 0/450°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM20040B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 2\", vástago 4\", 1/4\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 19.278000000000002},
+  {codigo: "TBM30015B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 3\", vástago 38MM, 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30025B32", nombre: "Termómetro bimetálico Winters Serie TBM, 0/150°C, dial 3\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30025B33", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 3\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30025B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 3\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30040B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 3\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30040B33-WH", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 3\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304, fondo blanco.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30040B35", nombre: "Termómetro bimetálico Winters Serie TBM, 0/450°C, dial 3\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30040B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 3\", vástago 4\", 1/2 npt posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30040B9", nombre: "Termómetro bimetálico Winters Serie TBM, 10/150°C & 50/300°F, dial 3\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30060B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/-50°C, dial 3\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM30060B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 3\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 20.381999999999998},
+  {codigo: "TBM40015B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 4\", vástago 1,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40025B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 4\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40025B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40025B34", nombre: "Termómetro bimetálico Winters Serie TBM, 0/300°C, dial 4\", vástago 2,5\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40040B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 4\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40040B29", nombre: "Termómetro bimetálico Winters Serie TBM, -50/100°C, dial 4\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40040B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40040B31", nombre: "Termómetro bimetálico Winters Serie TBM, -20/120°C, dial 4\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40040B34", nombre: "Termómetro bimetálico Winters Serie TBM, 0/300°C, dial 4\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40060B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 4\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40060B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40060B32S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/120°C, dial 4\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40060B33", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 4\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40060B36S", nombre: "Termómetro bimetálico Winters Serie TBM, 0/600°C, dial 4\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 25.134},
+  {codigo: "TBM40090B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 9\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 26.58},
+  {codigo: "TBM40260B35S", nombre: "Termómetro bimetálico Winters Serie TBM, dial 4\", 0/400°C,  vástago 26\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 38.556000000000004},
+  {codigo: "TBM40260B36S", nombre: "Termómetro bimetálico Winters Serie TBM, dial 4\", 0/600°C,  vástago 26\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 38.556000000000004},
+  {codigo: "TBM41040B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 4\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 49.572},
+  {codigo: "TBM41040B32", nombre: "Termómetro bimetálico Winters Serie TBM, 0/150°C, dial 4\", vástago 4\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 49.572},
+  {codigo: "TBM41040B33", nombre: "Termómetro bimetálico Winters Serie TBM, 0/200°C, dial 4\", vástago 4\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 49.572},
+  {codigo: "TBM41100B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 10\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 53.226000000000006},
+  {codigo: "TBM41100B48", nombre: "Termómetro bimetálico Winters Serie TBM, 0/120°C, dial 4\", vástago 10\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 53.226000000000006},
+  {codigo: "TBM41100B50", nombre: "Termómetro bimetálico Winters Serie TBM, 0/250°C, dial 4\", vástago 10\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 53.226000000000006},
+  {codigo: "TBM41150B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 15\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 53.226000000000006},
+  {codigo: "TBM41120B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/+50°C, dial 4\", vástago 12\", 1/2\" NPT inferior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 53.226000000000006},
+  {codigo: "TBM42040B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 4\", vástago 4\", 1/2\" NPT ángulo variable, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 60.18000000000001},
+  {codigo: "TBM42060B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 4\", vástago 6\", 1/2\" NPT ángulo variable, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 60.18000000000001},
+  {codigo: "TBM42090B28", nombre: "Termómetro bimetálico Winters Serie TBM, 0/50°C, dial 4\", vástago 9\", 1/2\" NPT ángulo variable, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 62.034},
+  {codigo: "TBM42240B28", nombre: "Termómetro bimetálico Winters Serie TBM, 0/50°C, dial 4\", vástago 24\", 1/2\" NPT ángulo variable, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 69.54},
+  {codigo: "TBM50040B28", nombre: "Termómetro bimetálico Winters Serie TBM, 0/50°C, dial 5\", vástago 4\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 30.983999999999998},
+  {codigo: "TBM50060B27", nombre: "Termómetro bimetálico Winters Serie TBM, -50/50°C, dial 5\", vástago 6\", 1/2\" NPT posterior, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 30.983999999999998},
+  {codigo: "TBM52125B30", nombre: "Termómetro bimetálico Winters Serie TBM, 0/100°C, dial 5\", vástago 12,5\", 1/2\" NPT ángulo variable, caja y vastago Ac. Inox. 304.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 70.986},
+  {codigo: "TBT160ARG", nombre: "Termómetro bimetálico Winters Serie TBT, dial 90mm, 0/120°C, caja acero, 1/2\"BSPT posterior, vástago 50mm de latón.", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 19.626},
+  {codigo: "TCT166", nombre: "Termómetro de contacto con abrazadera Winters Serie TCT, dial 2,5\" -40/40°C, caja de acero, para caños 1/2\" a 4\"", categoria: "Termómetros", marca: "WINTERS", material: "Espiral bimetálico", precio: 10.122},
+  {codigo: "TCT167", nombre: "Termómetro de contacto con abrazadera Winters Serie TCT, dial 2,5\" 0/120°C, caja de acero, para caños 1/2\" a 4\"", categoria: "Termómetros", marca: "WINTERS", material: "Espiral bimetálico", precio: 10.122},
+  {codigo: "TCT168", nombre: "Termómetro de contacto con abrazadera Winters Serie TCT, dial 2,5\" 30°F a 390°F & 0°C a 200°C, caja de acero, para caños 1/2\" a 4\"", categoria: "Termómetros", marca: "WINTERS", material: "Espiral bimetálico", precio: 10.122},
+  {codigo: "THS32025C", nombre: "Termómetro solar Digital Winters Serie THS, dial 3\", -50/160°C, vástago 2,5\", 1/2\" NPT ángulo variable.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 122.07599999999998},
+  {codigo: "THS32040C", nombre: "Termómetro solar Digital Winters Serie THS, dial 3\", -50/160°C, vástago 4\", 1/2\" NPT ángulo variable.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox", precio: 128.268},
+  {codigo: "TMT7410", nombre: "Term de contacto magnético Winters Serie TMT, dial 2\", -15/260°C caja de acero, con imán de contacto", categoria: "Termómetros", marca: "WINTERS", material: "Espiral bimetálico", precio: 16.392},
+  {codigo: "TRR11403052-0/50C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/50°C, carcasa, mallado, capilar 1,5m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 309.828},
+  {codigo: "TRR11403052-0/300C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/300° C, carcasa, mallado, capilar 1,5m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 361.46399999999994},
+  {codigo: "TRR11403102-0/50C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/50°C, carcasa, mallado, capilar 3m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 309.828},
+  {codigo: "TRR11403102-0/100C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/100°C, carcasa, mallado, capilar 3m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 309.828},
+  {codigo: "TRR11403102-0/500C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/500°C, carcasa, mallado, capilar 3m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 361.46399999999994},
+  {codigo: "TRR12403052-0/50C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 4\", 0/50°C, capilar 1,5m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 309.828},
+  {codigo: "TRR11603102-0/500C", nombre: "Termómetro de lectura remota para gas o vapor Winters Serie TRR, dial 6\", 0/500° C,capilar 1,5m, bulbo 0,5\"x6\" de Ac. Inox. 316, conexión 1/2\"BSPT inferior, con pestaña posterior.", categoria: "Termómetros", marca: "WINTERS", material: "Acero inox/latón", precio: 413.09999999999997},
+  {codigo: "TD50MM-0/120C", nombre: "Termómetro Winters Serie TD50MM, dial 2\", 0/120°C, caja plastica, capilar cobre 1,5m, inferior, bulbo 30mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 12.948},
+  {codigo: "TD50MM-0/350C", nombre: "Termómetro Winters Serie TD50MM, dial 2\", 0/350°C, caja plastica, capilar cobre 1,5m, inferior, bulbo 30mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 14.046},
+  {codigo: "TSW174ARG", nombre: "Termómetro para agua caliente Winters Serie TSW, dial 2,5\" 0/120°C, 1/2\" BSPT, vástago 50mm de latón.", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 15.702},
+  {codigo: "TTD409", nombre: "Bi-Indicador de Presión y Temperatura Winters Serie TTD Tridicator, dial 3\", 0/100 PSI & 20/160C, conx. inf. 1/2\" NPT latón, vástago 2,75\".", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 32.214},
+  {codigo: "TTD408", nombre: "Bi-Indicador de Presión y Temperatura Winters Serie TTD Tridicator, dial 3\", 0/100psi/kpa & 20/160ºC/F, 1/2\" NPT posterior, vástago 2,5\".", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 28.434},
+  {codigo: "TY52150H-S", nombre: "Transmisor de temperatura Winters Serie TY52 WinSMART, -50/400°C (-58/752°F), 4/20 mA+HART, clase 0,5%, Largo de inserción 150mm (6\"), conexión a proceso 1/2\" NPT Ac. Inox. 316, conexión eléctrica 1/2\" NPT, a prueba de llamas, con display LCD., diám. Del vastago 12mm", categoria: "RTDs y Termocuplas", marca: "WINTERS", material: "Acero inox", precio: 1485.0120000000002},
+  {codigo: "P", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 1/2\" NPTM para termometro vástago 2,5\"(63mm), inserción 35mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 25.758},
+  {codigo: "TBR25-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 3/4\" NPTM para termometro vástago 2,5\"(63mm), inserción 35mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 24.497999999999998},
+  {codigo: "TBR3550-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 1/2\" NPTM para termometro vástago 4\" (100 mm), inserción 63 mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 35.274},
+  {codigo: "TBR35-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 3/4\" NPTM para termometro vástago 4\" (100 mm), inserción 63 mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 33.384},
+  {codigo: "TBR6-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 3/4\" NPTM para termometro vástago 6\" (150 mm), inserción 115 mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 48.01200000000001},
+  {codigo: "TBR9-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 3/4\" NPTM para termometro vástago 9\" (225 mm), inserción 190 mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 67.332},
+  {codigo: "TBR12-2", nombre: "Termopozo roscado Winters Serie TBR, Ac. Inox. 316, 1/2\" NPTH x 3/4\" NPTM para termometro vástago 12\" (300 mm), inserción 267 mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 92.172},
+  {codigo: "TSN15SANI2", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 1,5\", 1/2\" NPT H para termometro vastago 2,5\" (63mm), inserción 40mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 144.588},
+  {codigo: "TSN15SANI4", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 1,5\", 1/2\" NPT H para termometro vastago 4\"(100mm), inserción 75mm", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 209.65200000000002},
+  {codigo: "TSN15SANI6", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 1,5\", 1/2\"NPT H para termometro vastago 6\"(150mm), inserción 125mm", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 325.32},
+  {codigo: "TSN15SANI9", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 1,5\", 1/2\"NPT H para termometro vastago 9\"(225mm), inserción 200mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 484.36199999999997},
+  {codigo: "TSN2SANI4", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 2\", 1/2\" NPT H para termometro vastago 4\"(100mm), inserción 75mm", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 231.33599999999998},
+  {codigo: "TSN2SANI6", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 2\", 1/2\"NPT H para termometro vastago 6\"(150mm), inserción 125mm", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 339.78},
+  {codigo: "TSN2SANI9", nombre: "Termopozo Sanitario Winters Serie TSN, Ac. Inox 316, Tri-clamp 2\", 1/2\"NPT H para termometro vastago 9\"(225mm), inserción 200mm.", categoria: "Termómetros", marca: "WINTERS", material: "", precio: 621.72},
+  {codigo: "SMV500", nombre: "Mini válvula esférica de latón Winters Serie SMV, 1/4\"NPT HxM, esfera ac. inox, gasket teflón, max. Pres 400 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Latón", precio: 8.748},
+  {codigo: "SMV500-1/2", nombre: "Mini válvula esférica de latón Winters Serie SMV, 1/2\"NPT HxM, esfera ac. inox, gasket teflón, max. Pres 400 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Latón", precio: 32.406},
+  {codigo: "SMV532-S", nombre: "Mini válvula esférica latón Winters Serie SMV, 1/4\"BSPTH x 1/4''BSPM, esfera inox, gasket teflón, max. Pres 400 psi", categoria: "Válvulas", marca: "WINTERS", material: "Latón", precio: 11.706000000000001},
+  {codigo: "SMV533", nombre: "Mini válvula esférica de latón mariposa Winters Serie SMV, 1/4\"NPT HxH, esfera inox, gasket teflón, max. Pres 400 psi", categoria: "Válvulas", marca: "WINTERS", material: "Latón", precio: 9.78},
+  {codigo: "NVA8001", nombre: "Válvula aguja Winters Serie NVA, angular, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 103.692},
+  {codigo: "NVA9001", nombre: "Válvula aguja Winters Serie NVA, angular, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 107.136},
+  {codigo: "88-040-020", nombre: "Válvula Aguja Winters Serie NVA6999 NACE, angular, cuerpo de acero carbono, asiento duro, 1/2 NPT x 1/2 NPT MxH, 10.000 psi", categoria: "Válvulas", marca: "WINTERS", material: "", precio: 116.568},
+  {codigo: "P1000081049", nombre: "Válvula aguja Winters Serie NVA, NACE, angular, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "", precio: 116.568},
+  {codigo: "NVA5020", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1/4 NPT x 1/4 NPT HxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 42.348},
+  {codigo: "NVA5001", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1/2 NPT x 1/2 NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 45.647999999999996},
+  {codigo: "NVA5025", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 NPT HxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 73.188},
+  {codigo: "NVA5005", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 73.188},
+  {codigo: "NVA5003", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1\" NPT x 1\" NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 70.164},
+  {codigo: "NVA6020", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1/4 NPT x 1/4 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 42.348},
+  {codigo: "NVA6024", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 3/8 NPT x 3/8 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 58.385999999999996},
+  {codigo: "NVA6021", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1/2 NPT x 1/2 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 52.674},
+  {codigo: "NVA6001", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1/2 NPT x 1/2 NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 52.674},
+  {codigo: "NVA6025", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 77.18399999999998},
+  {codigo: "NVA6005", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 77.18399999999998},
+  {codigo: "NVA6023", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1\" NPT x 1\" NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 73.602},
+  {codigo: "NVA6003", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. al carbono, 1\" NPT x 1\" NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 73.602},
+  {codigo: "NVA2020", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1/4 NPT x 1/4 NPT HxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 70.368},
+  {codigo: "NVA2000", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1/4 NPT x 1/4 NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 70.368},
+  {codigo: "NVA2021", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT HxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 80.27999999999999},
+  {codigo: "NVA2001", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 80.27999999999999},
+  {codigo: "NVA2025", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 3/4 NPT x 3/4 NPT HxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 126.822},
+  {codigo: "NVA2003", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1\" NPT x 1\" NPT MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 138.32399999999998},
+  {codigo: "NVA3024", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 3/8 NPT x 3/8 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 111.81599999999999},
+  {codigo: "NVA3021", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1/2 NPT x 1/2 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 100.728},
+  {codigo: "NVA3025", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 3/4 NPT x 3/4 NPT HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 130.614},
+  {codigo: "NVA3003", nombre: "Válvula aguja Winters Serie NVA, recto, asiento duro, Ac. Inox., 1\" NPT x 1\" NPT MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 141.768},
+  {codigo: "BBV3001", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 1 manija, asiento blando, Ac. Inox., 1/2 NPT x 1/2 MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 107.33999999999999},
+  {codigo: "BBV4201", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento blando, Ac. al carbono, 1/2 NPT x 1/2 MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 118.69799999999998},
+  {codigo: "BBV6220", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. al carbono, 1/4 NPT x 1/4 HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 118.69799999999998},
+  {codigo: "BBV6221", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. al carbono, 1/2 NPT x 1/2 HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 118.69799999999998},
+  {codigo: "BBV6201", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. al carbono, 1/2 NPT x 1/2 MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 118.69799999999998},
+  {codigo: "BBV6261", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 244.422},
+  {codigo: "BBV6271", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. al carbono, 3/4 NPT x 3/4 MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 244.422},
+  {codigo: "t", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento blando, Ac. Inox., 1/2 NPT x 1/2 MxH, 6.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "", precio: 165.65399999999997},
+  {codigo: "BBV3200", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. Inox., 1/4 NPT x 1/4 MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 165.65399999999997},
+  {codigo: "BBV3221", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. Inox., 1/2 NPT x 1/2 HxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 165.65399999999997},
+  {codigo: "BBV3201", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, asiento duro, Ac. Inox., 1/2 NPT x 1/2 MxH, 10.000 psi.", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 165.65399999999997},
+  {codigo: "BBV3201-P", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, cuerpo y aguja 316SS, Empaq. PTFE, 10.000psi, 1/2\"NPT MxH", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 226.65599999999998},
+  {codigo: "BBV3201-P-3O", nombre: "Válvula de bloqueo y purga Winters Serie BBV, 2 manijas, cuerpo y aguja 316SS, Empaq. PTFE, 10.000psi, 1/2\"NPT M, 2 conexiones 1/2\" NPTH y 1 purga 1/4\" NPTH", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 240.97799999999998},
+  {codigo: "MVA3ASH2D", nombre: "Manifold Winters Serie MVA, 3 manijas, angular, asiento duro, Ac. Inox. 316, 1/2\" X 1/2\" H X H montaje directo, PTFE, 10.000 psi", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 617.958},
+  {codigo: "MVA5ASH2D", nombre: "Manifold Winters Serie MVA, 5 manijas, angular, asiento duro, Ac. Inox. 316, 1/2\" X 1/2\" H X H, montaje directo, PTFE, 10.000 psi", categoria: "Válvulas", marca: "WINTERS", material: "Acero inox/Acero carbono", precio: 903.168},
+  {codigo: "SSN515", nombre: "Amortiguador fijo Winters Serie SSN, Latón, 1/4\" NPT HxM, para agua.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox/Latón", precio: 15.702},
+  {codigo: "SSN512", nombre: "Amortiguador fijo Winters Serie SSN, Latón, 1/2\" NPT HxM, para agua.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox/Latón", precio: 25.751999999999995},
+  {codigo: "SSN518", nombre: "Amortiguador fijo Winters Serie SSN, Ac. Inox., 1/4\" NPT HxM, para agua.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox/Latón", precio: 20.592},
+  {codigo: "SSN529", nombre: "Amortiguador fijo Winters Serie SSN, Ac. Inox., 1/2\" NPT HxM, para agua.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox/Latón", precio: 31.331999999999997},
+  {codigo: "SAS540", nombre: "Amortiguador ajustable Winters Serie SAS, Latón, 1/4\" NPT HxM", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 38.97},
+  {codigo: "SAS541", nombre: "Amortiguador ajustable Winters Serie SAS, Latón, 1/2\" NPT HxM", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 38.97},
+  {codigo: "SAS542", nombre: "Amortiguador ajustable Winters Serie SAS, Ac. Inox. 316, 1/4\" NPT HxM", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 63.19799999999999},
+  {codigo: "SAS543", nombre: "Amortiguador ajustable Winters Serie SAS, Ac. Inox. 316, 1/2\" NPT HxM", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 63.19799999999999},
+  {codigo: "SCT-400", nombre: "Torre de enfriamiento Winters Serie SCT, Ac. Inox., 1/4\"M X 1/4\"H, Max temp: 300°C", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 65.358},
+  {codigo: "SCT-500", nombre: "Torre de enfriamiento Winters Serie SCT, Ac. Inox., 1/2\"M X 1/2\"H, Max temp: 300°C", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 81.696},
+  {codigo: "SCT-600", nombre: "Torre de enfriamiento Winters Serie SCT, Ac. Inox., 1/4\"M X 1/4\"H, Max temp: 500°C", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 125.71799999999999},
+  {codigo: "SCT-700", nombre: "Torre de enfriamiento Winters Serie SCT, Ac. Inox., 1/2\"M X 1/2\"H, Max temp: 500°C", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 125.71799999999999},
+  {codigo: "SOP32050", nombre: "Protector de sobrepresión Winters Serie SOP, tipo bellows, Ac. Inox. 316, 2.9/14.5 psi/bar, 1/2\" NPT MxH.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 231.33599999999998},
+  {codigo: "SOP159050", nombre: "Protector de sobrepresión Winters Serie SOP, tipo bellows, Ac. Inox. 316, 14.5/58 psi/bar, 1/2\" NPT MxH.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 231.33599999999998},
+  {codigo: "SOP9023050", nombre: "Protector de sobrepresión Winters Serie SOP, tipo bellows, Ac. Inox. 316, 58/145 psi/bar, 1/2\" NPT MxH.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 231.33599999999998},
+  {codigo: "SOP14039550", nombre: "Protector de sobrepresión Winters Serie SOP, tipo pistón, Ac. Inox. 316, 140/395 psi/bar, 1/2\" NPT MxH.", categoria: "Accesorios", marca: "WINTERS", material: "Acero inox", precio: 274.716},
+  {codigo: "SSP525", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de acero al carbón, 1/4\" NPT M x 1/4\" NPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 8.886},
+  {codigo: "SSP525-BSPT", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de acero al carbón, 1/4\" BSPT M x 1/4\" BSPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 8.886},
+  {codigo: "SSP535", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de ac. inox. 304, 1/4\" NPT M x 1/4\" NPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 17.352},
+  {codigo: "SSP535-BSPT", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de ac. inox. 304, 1/4\" BSPT M x 1/4\" BSPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 17.352},
+  {codigo: "SSP555", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de acero al carbón, 1/2\" NPT M x 1/2\" NPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 10.782000000000002},
+  {codigo: "SSP555-BSPT", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de acero al carbón, 1/2\" BSPT M x 1/2\" BSPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 10.782000000000002},
+  {codigo: "SSP585", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de ac. inox. 304, 1/2\" NPT M x 1/2\" NPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 52.56},
+  {codigo: "SSP557", nombre: "Sifón Winters Serie SSP, tubería schedule 40 de ac. inox. 316, 1/2\" NPT M x 1/2\" NPT M.", categoria: "Accesorios", marca: "WINTERS", material: "Acero carbono/Latón", precio: 69.288},
+  {codigo: "CAP1", nombre: "Capilar Winters AISI Ac. Inox. 316, Longitud: 1 metro, 1/2\" NPT H, 1/2\" NPT M.", categoria: "Otros", marca: "WINTERS", material: "", precio: 115.66799999999999},
+  {codigo: "CAP1.5", nombre: "Capilar Winters AISI Ac. Inox. 316, Longitud: 1,5 metros, 1/2\" NPT H, 1/2\" NPT M.", categoria: "Otros", marca: "WINTERS", material: "", precio: 126.51599999999999},
+  {codigo: "CAP3", nombre: "Capilar Winters AISI Ac. Inox. 316, Longitud: 3 metros, 1/2\" NPT H, 1/2\" NPT M.", categoria: "Otros", marca: "WINTERS", material: "", precio: 156.636},
+  {codigo: "103S08", nombre: "Cupla roscada ½ NPT en acero inoxidable AISI316", categoria: "Otros", marca: "WINTERS", material: "", precio: 29.442},
+  {codigo: "110B0604", nombre: "Adaptador de Latón de 1/4 NPT-H X 3/8\" NPT-M", categoria: "Otros", marca: "WINTERS", material: "", precio: 5.79},
+  {codigo: "110B0804", nombre: "Buje de reducción roscado de bronce 1/4\"NPT Hembra x 1/2\"NPT Macho - Presión de Trabajo: 70 Kg/cm2", categoria: "Otros", marca: "WINTERS", material: "", precio: 8.34},
+  {codigo: "110B1208", nombre: "Adaptador de bronce 1/2\" NPTH x 3/4\" NPTM", categoria: "Otros", marca: "WINTERS", material: "", precio: 15.924000000000001},
+  {codigo: "110S0604", nombre: "Adaptador de acero inoxidable de 3/8” NPTM x 1/4” NPTH", categoria: "Otros", marca: "WINTERS", material: "", precio: 15.618},
+  {codigo: "110S0804", nombre: "Buje de reducción roscado acero inox 316 1/4\"NPT Hembra x 1/2\"NPT Macho - Presión: 200 kg/cm2", categoria: "Otros", marca: "WINTERS", material: "", precio: 15.75},
+  {codigo: "110S1208", nombre: "Adaptador roscado de Inox 1/2'' NPTH x 3/4'' NPTM", categoria: "Otros", marca: "WINTERS", material: "", precio: 28.56},
+  {codigo: "120B0204", nombre: "Adaptador de bronce 1/4\"NPTH x 1/8\"NPTM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 8.627999999999998},
+  {codigo: "120B0204BN", nombre: "Adaptador de bronce 1/4\"NPTH x 1/8\"BSPM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 9.648000000000001},
+  {codigo: "120B0404", nombre: "Adaptador roscado de bronce 1/4\" NPT-H x 1/4\" NPT-M", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 10.092},
+  {codigo: "120B0408", nombre: "Adaptador roscado de Bronce 1/2'' NPTH x 1/4'' NPTM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 17.868},
+  {codigo: "120B0408BN", nombre: "Adaptador roscado de Bronce 1/2'' NPTH x 1/4'' BSPM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 17.868},
+  {codigo: "120B0608", nombre: "Adaptador roscado de bronce 1/2\" NPTH x 3/8\"NPTM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 17.868},
+  {codigo: "120B0808", nombre: "Adaptador roscado de bronce 1/2\" NPTH x 1/2\"BSPM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 19.83},
+  {codigo: "120BM0204", nombre: "ADAPTADOR DE BRONCE 1/4NPTMx1/8NPTH", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 3.6959999999999997},
+  {codigo: "120S0204", nombre: "Adaptador de 1/4 NPTH X 1/8\" NPTM acero inoxidable", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 14.052000000000001},
+  {codigo: "120S0208", nombre: "Adaptador roscado de acero inox 316 1/2\"NPTH x 1/8\"NPTM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 32.616},
+  {codigo: "120S0402", nombre: "Adaptador acero inox 1/8\"NPTH x 1/4\"NPTM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 10.458000000000002},
+  {codigo: "120S0404NB", nombre: "Adaptador acero inox de 1/4\" BSPT-H x 1/4\"NPT-M", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 25.272},
+  {codigo: "120S0404BN", nombre: "Adaptador acero inox de 1/4\" NPT-H x 1/4\"BSP-M", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 25.272},
+  {codigo: "120S0408BN", nombre: "Adaptador Roscado de Acero Inox 316 1/2'' NPTH x 1/4'' BSPM", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 26.568},
+  {codigo: "120S0608", nombre: "Adaptador de acero inoxidable de 3/8” NPTM x 1/2” NPTH", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 23.526},
+  {codigo: "120S0608BN", nombre: "Adaptador de acero inoxidable de 3/8” BSPM x 1/2” NPTH", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 32.141999999999996},
+  {codigo: "120S0808", nombre: "Adaptador roscado de acero inoxidable 1/2\" NPT-H x 1/2\" NPT-M", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 42.858000000000004},
+  {codigo: "120S0808BN", nombre: "Adaptador M-H roscado acero inox. 316 p/alta presión (10.000psi) 1/2\"BSPMx1/2\"NPTH", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 38.663999999999994},
+  {codigo: "120S0808NB", nombre: "Adaptador M-H roscado acero inox. 316 1/2\" NPT-M x 1/2\" BSP-H", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 42.342000000000006},
+  {codigo: "120S0808BB", nombre: "Adaptador 1/2 BSPT-H a 1/2 BSP-M en acero inoxidable", categoria: "Accesorios", marca: "WINTERS", material: "Varios", precio: 42.342000000000006},
+  {codigo: "122S08BN", nombre: "Adaptador Macho-Macho rosc Inox 316 p/alta presión (10.000psi) 1/2\"BSPMx1/2\"NPTM", categoria: "Otros", marca: "WINTERS", material: "", precio: 30.887999999999998},
+  {codigo: "ADN-2-2-316", nombre: "Adaptador de Rosca 1/4''NPT Hembra a 1/4'' BSP Macho. AISI316. Pres.Max: 315Bar (4.570 psi)", categoria: "Otros", marca: "WINTERS", material: "", precio: 21.599999999999998},
+  {codigo: "AB12BSP12NPT", nombre: "Adaptador de bronce 1/2\"BSPH x 1/2\"NPTM", categoria: "Otros", marca: "WINTERS", material: "", precio: 21.599999999999998},
+  {codigo: "AB14BSP14NPT", nombre: "ADAPTADOR 1/4 BSP BF X 1/4\"NPT BM", categoria: "Otros", marca: "WINTERS", material: "", precio: 21.599999999999998},
+  {codigo: "AS12NPT34NPT", nombre: "ADAPTADOR 1/2 NPT SF X 3/4\" NPT SM", categoria: "Otros", marca: "WINTERS", material: "", precio: 21.599999999999998},
+  {codigo: "AS14NPT14BSP", nombre: "ADAPTADOR 1/4 NPT SF X 1/4\" BSP SM", categoria: "Otros", marca: "WINTERS", material: "", precio: 21.599999999999998},
+  {codigo: "PPC5064ZRR1R11+SG-45+D12", nombre: "Ensamble Winters Manómetro Serie PPC-ZR, dial 4,5\" 0/100 psi/ (0/7 bar), clase 0,5%, con vidrio de seguridad + Sello Serie D12, diafragma PTFE, inferior PTFE 1/2\" NPT M.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 774.9119999999999},
+  {codigo: "PFP659ZRR3R1-SG4+DIN11851DN32H", nombre: "Ensamble Winters Manómetro Serie PFP-ZR, dial 4\", clase 1%, 0/7 Kg/cm2 & 0/100 psi, con vidrio de seguridad + Sello Serie DIN11851 DN32H.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 345.62999999999994},
+  {codigo: "PFP663R3R1+D20980-1/2", nombre: "Ensamble Winters Manómetro Serie PFP, dial 4\", 0/40 Kg/cm2 & 0/600 psi + Sello Serie D20 Tri-Clamp 1,5\".", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 218.742},
+  {codigo: "PFP758R11S+D12PTFE1212-NPT", nombre: "Ensamble Winters Manómetro Serie PFP, dial 4,5\", 0/1 bar, + Sello Serie D12, cuerpo Ac. Inox. 316, partes humedas PTFE, 1/2\"NPTHx1/2\"NPTM.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 729.7679999999999},
+  {codigo: "PFP758R11S1+D12PTFE1212-NPT", nombre: "Ensamble Winters Manómetro Serie PFP, dial 4,5\", 0/1,5 bar + Sello Serie D12, cuerpo Ac. Inox. 316, partes humedas PTFE, 1/2\"NPTHx1/2\"NPTM.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 729.7679999999999},
+  {codigo: "PFP762R11S+D12PTFE1212-NPT", nombre: "Ensamble Winters Manómetro Serie PFP, dial 4,5\", 0/10 bar + Sello Serie D12, cuerpo Ac. Inox. 316, partes humedas PTFE, 1/2\"NPTHx1/2\"NPTM.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 729.7679999999999},
+  {codigo: "PFP826R3R1+D20976", nombre: "Ensamble Winters Manómetro Serie PFP, dial 2,5\", 0/14 Kg/cm2 & 0/200 psi, + Sello Serie D20 Tri-Clamp 2\".", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 156.35999999999999},
+  {codigo: "PPC5064ZRR1R11SG45+D12PTFENPT", nombre: "Ensamble Winters Manómetro Serie PPC-ZR, dial 4,5\", 0/100 psi & 0/7 bar, clase 0,5%, caja fenolica, con vidrio de seguridad + Sello Serie D12, 1/2\" NPT M, SS/PTFE.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 749.574},
+  {codigo: "PPC5065ZRR1R11SG45+D12PTFENPT", nombre: "Ensamble Winters Manómetro Serie PPC-ZR, dial 4,5\", 0/160 psi & 0/11 bar, clase 0,5%, caja fenolica, con vidrio de seguridad + Sello Serie D12, 1/2\" NPT M, SS/PTFE.", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316L", precio: 749.574},
+  {codigo: "PFP670ZRR3R1+D49", nombre: "Ensamble Winters Manómetro Serie PFP-ZR, dial 4\", 0/600 kg/cm2 & 0/8.700 psi, clase 1%, aro bayoneta, total inox. + Sello Serie D49 homogeneizador.", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 148.05599999999998},
+  {codigo: "PFP658ZRR1R11+D81WIR1SSBSF2N", nombre: "Ensamble Manometro PFP-ZR 4\", 0/60 psi/bar, 1/2\" NPT inf + D81 Wafer 1\", AC. INOX. & BUNA-N, WINCONNECT", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox 316L", precio: 587.67},
+  {codigo: "PFQ811ZRR3R1", nombre: "Manómetro Winters Serie PFQ-ZR STABILIZR 2,5\", 0-200 Kg/cm2/psi, 1/4\"NPT inf, 304SS, laton, Amortiguador Seco", categoria: "Manómetros", marca: "WINTERS", material: "Latón/Acero inox 316", precio: 17.214},
+  {codigo: "PEW158B010R11S", nombre: "MANOMETRO 0-10BAR 1.5\"", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW158B315R11SBSP", nombre: "MANOMETRO 0-315 BAR-1.5\"", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW204B001VR11R99", nombre: "Vac -76cmHg/Bar-0 FREE OIL 50mm 1/4\"BSP inf, caja pint rojo, sock niquelado", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW204B003R11C", nombre: "Manometro PEW,  0-3 Bar, FREE OIL, 50mm, 1/8\"BSP inf, caja crom, socket niquelado", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW204B010R11S", nombre: "Manómetro  0-10 Bar FREE OIL 50mm 1/4\"BSP inf, caja chapa negra", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW204B15LPM", nombre: "MANOMETRO 0-15LTS/MIN (0-10KG/CM2), 50mm, 1/4\"NPT inf", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW204B250R3", nombre: "MANOMETRO 0-250KG/CM2, 50mm, 1/4\"NPT inf", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW208B315R11C", nombre: "Man  0-315 Bar FREE OIL 50mm 1/8\"BSP inf, caja crom, socket niquelado", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PEW254B600R12C", nombre: "VACUOMETRO -600 MBAR/0 FREE OIL", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 7.128},
+  {codigo: "PPD-A-C-0-0-O-D-G (0-1,6 BAR)", nombre: "Diferencial PPD 4,5\", 0-1,6bar, Cuerpo Alum, caja ABS, 1/4\"NPTH Post, 2 SPST, 60W 3A 240V, NA/NC", categoria: "Manómetros", marca: "WINTERS", material: "Acero inox", precio: 1192.32},
+  {codigo: "PRL039", nombre: "Manómetro Winters Serie PRL 1.5\". 0/5.000 psi/kpa 1/8\" NPT posterior", categoria: "Manómetros", marca: "WINTERS", material: "Bronce fosforado/latón/Acero inox", precio: 38.879999999999995},
+  {codigo: "TTD408R11S", nombre: "Bi-Indicador de Presión y Temperatura Winters Serie TTD Tridicator, dial 3\", 0/100ºC & 0/10 bar , 1/2\" NPT posterior, vástago 2,5\", customizado", categoria: "Termómetros", marca: "WINTERS", material: "Latón", precio: 27.474},
+  {codigo: "LST15200", nombre: "Transmisor de presión Winters LST 0/200psi. Tri-Clamp 1.5\" SS316. DIN. 4-20mA. Ex: 0.5%. 10-30VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 576.858},
+  {codigo: "LVC-1-1-4-4N-G1700", nombre: "Transmisor de Presión Winters Serie LVC, 0/700 bar, 1/4\" NPT, DIN43650, Sal: 4-20 mA / 2 hilos, clase ±0,5%, Alim: 12-30VDC, IP65", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 320.406},
+  {codigo: "LVC-1-1-4-4N-GX000", nombre: "Transmisor de Presión Winters Serie LVC, 0/1.000 bar, 1/4\" NPT, DIN43650, Sal: 4-20 mA / 2 hilos, clase ±0,5%, Alim: 12-30VDC, IP65", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 320.406},
+  {codigo: "LTF0060-S", nombre: "Transmisor de Presión Winters Serie LTF, 0/60 psi, membrana rasante, G 1/2\", ISO4400, Sa: 4-20mA, clase ±0,5%, Alim: 8-32VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LTF0145-S", nombre: "Transmisor de Presión Winters Serie LTF, 0/150 psi, membrana rasante, G 1/2\", ISO4400, Sa: 4-20mA, clase ±0,5%, Alim: 8-32VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LTF1500-S", nombre: "Transmisor de Presión Winters Serie LTF, 0/1.500 psi, membrana rasante, G 1/2\", ISO4400, Sa: 4-20mA, clase ±0,5%, Alim: 8-32VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LTF1500R11-M10", nombre: "Transm. presion Winters LTF. 0/100 bar. mem rasante. G 1/2\". M12x1. 4-20mA. 0.5%. Alim: 8-32VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LTF3600", nombre: "Transm. presion Winters LTF. 0/3600 psi. mem rasante. 1/2\"NPT. Con DIN. 4-20mA. 0.5%. Alim: 10-30VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LTF3600-S", nombre: "Transmisor de Presión Winters Serie LTF, 0/3.600 psi, membrana rasante, G 1/2\", ISO4400, Sa: 4-20mA, clase ±0,5%, Alim: 8-32VDC", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 712.602},
+  {codigo: "LM7015-012", nombre: "Transmisor de Presión Sumergible Winters Serie LM7, 0/15 psi, Señal Salida: 2 cables: 4-20 mA, clase ±0,25%, cable PUR 12 m", categoria: "Transmisores", marca: "WINTERS", material: "Acero inox", precio: 637.8299999999999},
+  {codigo: "BR6-2100", nombre: "TERMOPOZO 1/2 NPTF X 1\"NPTM 316", categoria: "Termopozos", marca: "WINTERS", material: "Acero inox 316", precio: 55.68000000000001},
+  {codigo: "36-TW-081", nombre: "Termopozo Winters TWF160012316 Conex Instr 1/2''NPTH. Conex Proc. 1''. Vast 12'' (304.8mm) + TAG", categoria: "Termopozos", marca: "WINTERS", material: "", precio: 608.3639999999999}
+];
+
 // ============ CATÁLOGO COMBINADO ============
-const CATALOGO_COMPLETO = [...CATALOGO_GENEBRE, ...CATALOGO_TODOVALVULAS];
+const CATALOGO_COMPLETO = [...CATALOGO_GENEBRE, ...CATALOGO_TODOVALVULAS, ...CATALOGO_WINTERS];
 
 
 // ========================================
@@ -5200,7 +6259,11 @@ function decodificarCodigo(codigo) {
  */
 function buscarPorArticulo(articulo) {
   articulo = articulo.replace(/\s/g, '').toUpperCase();
-  return CATALOGO_COMPLETO.filter(p => p.articulo === articulo || p.articulo.toUpperCase().includes(articulo));
+  return CATALOGO_COMPLETO.filter(p => {
+    if (p.articulo && (p.articulo === articulo || p.articulo.toUpperCase().includes(articulo))) return true;
+    if (p.codigo && (p.codigo.toUpperCase() === articulo || p.codigo.toUpperCase().includes(articulo))) return true;
+    return false;
+  });
 }
 
 /**
@@ -5214,8 +6277,8 @@ function buscarPorKeywords(texto) {
   
   if (keywords.length === 0) return [];
   
-  return CATALOGO_COMPLETO.filter(producto => {
-    const searchText = `${producto.nombre} ${producto.categoria} ${producto.material || ''} ${producto.tipo || ''} ${producto.descripcion || ''} ${producto.marca || 'GENEBRE'}`
+  return CATALOGO_GENEBRE.filter(producto => {
+    const searchText = `${producto.nombre} ${producto.categoria} ${producto.material || ''} ${producto.tipo || ''} ${producto.descripcion || ''}`
       .toLowerCase()
       .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     
@@ -5332,26 +6395,34 @@ function formatearResultados(resultados) {
   if (resultados.tipo === 'codigo_exacto') {
     const p = resultados.productos[0];
     const marca = p.marca || 'GENEBRE';
-    respuesta += `*${marca} - Art. ${p.articulo}* - ${p.nombre}\n`;
-    respuesta += `Medida: ${p.medida}\n`;
-    respuesta += `Material: ${p.material}\n`;
+    respuesta += `*${marca} - ${p.articulo || p.codigo}* - ${p.nombre}\n`;
+    if (p.medida) respuesta += `Medida: ${p.medida}\n`;
+    if (p.material) respuesta += `Material: ${p.material}\n`;
     respuesta += `Precio lista: USD ${p.precio.toFixed(2)}\n`;
-    respuesta += `Código: ${p.codigoCompleto}`;
+    if (p.codigoCompleto) respuesta += `Código: ${p.codigoCompleto}`;
   } else {
     for (const producto of resultados.productos.slice(0, 5)) {
       const marca = producto.marca || 'GENEBRE';
-      respuesta += `*${marca} - Art. ${producto.articulo}* - ${producto.nombre}\n`;
-      if (producto.material) respuesta += `${producto.material}\n`;
       
-      // Mostrar hasta 6 variantes
-      const variantes = producto.variantes.slice(0, 6);
-      const precios = variantes.map(v => `${v.medida}: USD ${v.precio.toFixed(2)}`).join(' | ');
-      respuesta += `${precios}`;
-      
-      if (producto.variantes.length > 6) {
-        respuesta += ` (+${producto.variantes.length - 6} medidas más)`;
+      // Productos WINTERS (sin variantes)
+      if (producto.codigo && !producto.variantes) {
+        respuesta += `*${marca} - ${producto.codigo}*\n`;
+        respuesta += `${producto.nombre}\n`;
+        if (producto.material) respuesta += `Material: ${producto.material}\n`;
+        respuesta += `Precio: USD ${producto.precio.toFixed(2)}\n\n`;
+      } 
+      // Productos GENEBRE/TODOVALVULAS (con variantes)
+      else if (producto.variantes && producto.variantes.length > 0) {
+        respuesta += `*${marca} - Art. ${producto.articulo}* - ${producto.nombre}\n`;
+        if (producto.material) respuesta += `${producto.material}\n`;
+        const variantes = producto.variantes.slice(0, 6);
+        const precios = variantes.map(v => `${v.medida}: USD ${v.precio.toFixed(2)}`).join(' | ');
+        respuesta += `${precios}`;
+        if (producto.variantes.length > 6) {
+          respuesta += ` (+${producto.variantes.length - 6} medidas más)`;
+        }
+        respuesta += '\n\n';
       }
-      respuesta += '\n\n';
     }
     
     if (resultados.productos.length > 5) {
@@ -5382,10 +6453,10 @@ MARCAS QUE DISTRIBUIMOS:
 - BERMAD: Válvulas de aire, caudalímetros
 - VALLOY: Válvulas de aire agua servida
 - ERA: Accesorios PVC (tees, cuplas, adaptadores brida)
+- WINTERS: Manómetros, vacuómetros, termómetros, presostatos, transmisores de presión (822 productos)
 - CEPEX: Válvulas PVC/PP para industria química
 - KITO: Válvulas mariposa industriales
 - AERRE: Actuadores neumáticos
-- WINTERS: Manómetros y termómetros
 - CENI: Válvulas esfera industriales
 - DANFOSS: Presostatos
 
@@ -5562,11 +6633,7 @@ app.post('/webhook', async (req, res) => {
             }
             
             const texto = msg.text?.body || '';
-            
-            // Si no hay texto, ignorar
-            if (!texto.trim()) {
-              continue;
-            }
+            if (!texto.trim()) continue;
             
             console.log(`Mensaje de ${numero}: ${texto}`);
             
@@ -5609,8 +6676,8 @@ app.get('/', (req, res) => {
     conversaciones: conversaciones.size,
     catalogo_genebre: CATALOGO_GENEBRE.length,
     catalogo_todovalvulas: CATALOGO_TODOVALVULAS.length,
-    total_articulos: CATALOGO_COMPLETO.length,
-    variantes_totales: CATALOGO_COMPLETO.reduce((acc, p) => acc + p.variantes.length, 0)
+    catalogo_winters: CATALOGO_WINTERS.length,
+    total_productos: CATALOGO_COMPLETO.length
   };
   res.json(stats);
 });
@@ -5643,6 +6710,6 @@ app.listen(PORT, () => {
   console.log(`Bot VAL ARG corriendo en puerto ${PORT}`);
   console.log(`Catálogo GENEBRE: ${CATALOGO_GENEBRE.length} artículos`);
   console.log(`Catálogo TODOVALVULAS: ${CATALOGO_TODOVALVULAS.length} artículos`);
-  console.log(`Total artículos: ${CATALOGO_GENEBRE.length + CATALOGO_TODOVALVULAS.length}`);
-  console.log(`Total variantes: ${CATALOGO_GENEBRE.reduce((acc, p) => acc + p.variantes.length, 0) + CATALOGO_TODOVALVULAS.reduce((acc, p) => acc + p.variantes.length, 0)}`);
+  console.log(`Catálogo WINTERS: ${CATALOGO_WINTERS.length} productos`);
+  console.log(`Total productos: ${CATALOGO_COMPLETO.length}`);
 });
